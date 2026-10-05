@@ -6,7 +6,8 @@
     "dev": "next dev",
     "icons": "node scripts/make-icons.mjs",
     "validate": "tsx scripts/validate.ts",
-    "build": "tsx scripts/validate.ts && next build",
+    "build:next": "tsx scripts/validate.ts && next build",
+    "build": "opennextjs-cloudflare build",
     "start": "next start",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
