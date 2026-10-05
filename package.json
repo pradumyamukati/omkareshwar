@@ -6,7 +6,7 @@
     "dev": "next dev",
     "icons": "node scripts/make-icons.mjs",
     "validate": "tsx scripts/validate.ts",
-    "build": "node scripts/make-icons.mjs && tsx scripts/validate.ts && next build",
+    "build": "tsx scripts/validate.ts && next build",
     "start": "next start"
   },
   "dependencies": {
