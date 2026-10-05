@@ -32,7 +32,9 @@ const nextConfig: NextConfig = {
     root: path.join(process.cwd()),
   },
   async rewrites() {
-    return [{ source: "/sitemap-:id(\\d+).xml", destination: "/sitemap/:id" }];
+    return {
+      beforeFiles: [{ source: "/sitemap-:id(\\d+).xml", destination: "/sitemap/:id" }],
+    };
   },
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
