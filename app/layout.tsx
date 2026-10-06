@@ -1,16 +1,31 @@
-import type { Metadata } from "next";
-import { Fraunces, Outfit, Noto_Sans_Devanagari } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Poppins, Source_Sans_3, Noto_Sans_Devanagari } from "next/font/google";
 import { headers } from "next/headers";
 import Script from "next/script";
 import { Footer, Header } from "@/components/SiteChrome";
 import { JsonLd } from "@/components/JsonLd";
 import { siteJsonLd } from "@/lib/seo";
+import { absoluteUrl } from "@/lib/paths";
 import { site } from "@/lib/site";
 import "./globals.css";
 
-const display = Fraunces({ subsets: ["latin"], variable: "--font-display" });
-const body = Outfit({ subsets: ["latin"], variable: "--font-body" });
-const hindi = Noto_Sans_Devanagari({ subsets: ["devanagari"], variable: "--font-hindi" });
+const display = Poppins({
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+  variable: "--font-display",
+});
+const body = Source_Sans_3({
+  subsets: ["latin"],
+  weight: ["400", "600"],
+  variable: "--font-body",
+});
+const hindi = Noto_Sans_Devanagari({ subsets: ["devanagari"], weight: ["400", "600", "700"], variable: "--font-hindi" });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#ffffff",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -50,9 +65,11 @@ function Analytics() {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const path = (await headers()).get("x-pathname") || "/";
   const lang = path === "/hi" || path.startsWith("/hi/") ? "hi" : "en";
+  const ampHref = `${absoluteUrl(path)}?amp=1`;
   return (
     <html lang={lang} className={`${display.variable} ${body.variable} ${hindi.variable}`}>
       <body style={{ fontFamily: "var(--font-body), var(--font-hindi), sans-serif" }}>
+        <link rel="amphtml" href={ampHref} />
         <JsonLd data={siteJsonLd()} />
         <Header />
         <main>{children}</main>
