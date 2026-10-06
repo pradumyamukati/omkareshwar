@@ -7,8 +7,8 @@ export const site = {
     hi: "शोध पर आधारित ओंकारेश्वर यात्रा और तीर्थ गाइड",
   },
   description: {
-    en: "Independent guide to Omkareshwar Jyotirlinga: temple timings, live darshan, Mamleshwar, the Narmada, routes and where to stay. Not the official temple website.",
-    hi: "ओंकारेश्वर ज्योतिर्लिंग की स्वतंत्र गाइड: मंदिर समय, लाइव दर्शन, ममलेश्वर, नर्मदा, मार्ग और ठहरना। यह मंदिर की आधिकारिक वेबसाइट नहीं है।",
+    en: "Shri Omkareshwar Jyotirlinga on the Narmada: temple timings, live darshan, Mamleshwar and how to reach. An independent guide, not the official temple website.",
+    hi: "नर्मदा पर श्री ओंकारेश्वर ज्योतिर्लिंग: मंदिर का समय, लाइव दर्शन, ममलेश्वर और पहुँचने का रास्ता। यह स्वतंत्र गाइड है, मंदिर की आधिकारिक वेबसाइट नहीं।",
   },
 };
 

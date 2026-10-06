@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 };
 
 function Analytics() {
-  const id = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "";
+  const id = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-JZTKS2G7PS";
   if (!/^G-[A-Z0-9]+$/i.test(id)) return null;
   return (
     <>

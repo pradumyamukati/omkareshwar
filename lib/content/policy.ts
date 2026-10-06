@@ -371,11 +371,11 @@ export const policyPages: PageDef[] = [
     en: {
       title: "Privacy – Omkareshwar.co",
       description:
-        "Omkareshwar.co does not run a booking form and does not ask for Aadhaar. Optional analytics load only if you configure them.",
+        "Omkareshwar.co does not run a booking form and does not ask for Aadhaar. Google Analytics loads on public pages to count visits.",
       h1: "Privacy",
       kicker: "What this site collects",
       answer:
-        "This guide does not ask for your name, phone number or identity document. There is no booking form and no donation form. Pages are public. If an analytics measurement ID is later added in the site configuration, that tool will load. Until then, the site does not embed Google Analytics.",
+        "This guide does not ask for your name, phone number or identity document. There is no booking form and no donation form. Pages are public. Google Analytics loads in the browser to count visits. It does not receive a booking, a donation, or an identity document from this site.",
       blocks: [
         { type: "h2", text: "Outbound visits" },
         {
@@ -402,11 +402,11 @@ export const policyPages: PageDef[] = [
     hi: {
       title: "गोपनीयता – Omkareshwar.co",
       description:
-        "Omkareshwar.co बुकिंग फॉर्म नहीं चलाती और आधार नहीं माँगती। वैकल्पिक एनालिटिक्स तभी लोड होते हैं जब आप उन्हें कॉन्फ़िगर करें।",
+        "Omkareshwar.co बुकिंग फॉर्म नहीं चलाती और आधार नहीं माँगती। सार्वजनिक पृष्ठों पर विज़िट गिनने के लिए गूगल एनालिटिक्स लोड होता है।",
       h1: "गोपनीयता",
       kicker: "यह साइट क्या रखती है",
       answer:
-        "यह गाइड आपका नाम, फोन नंबर या पहचान पत्र नहीं माँगती। कोई बुकिंग फॉर्म नहीं और कोई दान फॉर्म नहीं। पृष्ठ सार्वजनिक हैं। यदि बाद में साइट कॉन्फ़िगरेशन में एनालिटिक्स माप-आईडी जोड़ी जाए, वह उपकरण लोड होगा। तब तक साइट गूगल एनालिटिक्स नहीं जोड़ती।",
+        "यह गाइड आपका नाम, फोन नंबर या पहचान पत्र नहीं माँगती। कोई बुकिंग फॉर्म नहीं और कोई दान फॉर्म नहीं। पृष्ठ सार्वजनिक हैं। विज़िट गिनने के लिए ब्राउज़र में गूगल एनालिटिक्स लोड होता है। इस साइट से उसे बुकिंग, दान या पहचान पत्र नहीं मिलता।",
       blocks: [
         { type: "h2", text: "बाहर की यात्रा" },
         {

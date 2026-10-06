@@ -75,8 +75,8 @@ export function HomePage({ lang }: { lang: Lang }) {
         <div className="hero-copy">
           <p className="hero-kicker">{t("Fourth Jyotirlinga · Narmada", "चौथा ज्योतिर्लिंग · नर्मदा")}</p>
           <p className="hero-om">ॐ {hi ? "ओंकारेश्वर" : "OMKARESHWAR"}</p>
-          <h1>{t("Omkareshwar Jyotirlinga", "ओंकारेश्वर ज्योतिर्लिंग")}</h1>
-          <p className="hero-line">{t("Sacred land of Lord Shiva", "भगवान शिव की पवित्र भूमि")}</p>
+          <h1>{t("Shri Omkareshwar Jyotirlinga", "श्री ओंकारेश्वर ज्योतिर्लिंग")}</h1>
+          <p className="hero-line">{t("Temple, Darshan and Narmada Guide", "मंदिर, दर्शन और नर्मदा गाइड")}</p>
           <p>
             {t(
               "A research-backed guide to the Jyotirlinga on Mandhata island in the Narmada. Temple hours, live darshan, the road from Indore, and the difference between the trust’s services and a private hotel room.",
