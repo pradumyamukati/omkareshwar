@@ -7,13 +7,16 @@ import type { Lang } from "@/lib/types";
 const token = /\[\[([^|\]]+)\|([^\]]+)\]\]|\{\{([a-zA-Z0-9]+)\|([^}]+)\}\}/g;
 
 function emphasize(text: string, keyPrefix: string): ReactNode[] {
-  return text.split(/(\*\*[^*]+\*\*)/g).flatMap((part, index) => {
-    if (!part) return [];
+  const nodes: ReactNode[] = [];
+  text.split(/(\*\*[^*]+\*\*)/g).forEach((part, index) => {
+    if (!part) return;
     if (part.startsWith("**") && part.endsWith("**") && part.length > 4) {
-      return [<strong key={`${keyPrefix}-${index}`}>{part.slice(2, -2)}</strong>];
+      nodes.push(<strong key={`${keyPrefix}-${index}`}>{part.slice(2, -2)}</strong>);
+      return;
     }
-    return [part];
+    nodes.push(part);
   });
+  return nodes;
 }
 
 export function RichText({ text, lang }: { text: string; lang: Lang }) {
