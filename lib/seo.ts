@@ -6,7 +6,10 @@ import { editorialDesk, site } from "./site";
 import type { Lang, PageDef } from "./types";
 
 export function stripTokens(text: string) {
-  return text.replace(/\[\[[^|]+\|([^\]]+)\]\]/g, "$1").replace(/\{\{[^|]+\|([^}]+)\}\}/g, "$1");
+  return text
+    .replace(/\[\[[^|]+\|([^\]]+)\]\]/g, "$1")
+    .replace(/\{\{[^|]+\|([^}]+)\}\}/g, "$1")
+    .replace(/\*\*([^*]+)\*\*/g, "$1");
 }
 
 export function pageMetadata(page: PageDef, lang: Lang): Metadata {
@@ -53,8 +56,8 @@ export function pageMetadata(page: PageDef, lang: Lang): Metadata {
 export function homeMetadata(lang: Lang): Metadata {
   const title =
     lang === "en"
-      ? "Omkareshwar – Jyotirlinga, Temple, Darshan & Travel Guide"
-      : "ओंकारेश्वर – ज्योतिर्लिंग, मंदिर, दर्शन और यात्रा गाइड";
+      ? "Shri Omkareshwar Jyotirlinga, Temple, Darshan & Travel Guide"
+      : "श्री ओंकारेश्वर ज्योतिर्लिंग, मंदिर, दर्शन और यात्रा गाइड";
   const description = site.description[lang];
   return {
     title: { absolute: title },

@@ -8,7 +8,7 @@ import { JsonLd } from "./JsonLd";
 import { Photo } from "./Photo";
 import { ExternalLink, RichText } from "./RichText";
 
-function Blocks({ blocks, lang }: { blocks: Block[]; lang: Lang }) {
+export function Blocks({ blocks, lang }: { blocks: Block[]; lang: Lang }) {
   return (
     <>
       {blocks.map((block, index) => {

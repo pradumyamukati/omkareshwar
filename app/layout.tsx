@@ -29,7 +29,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { absolute: "Omkareshwar – Jyotirlinga, Temple, Darshan & Travel Guide" },
+  title: { absolute: "Shri Omkareshwar Jyotirlinga, Temple, Darshan & Travel Guide" },
   description: site.description.en,
   applicationName: site.name,
   icons: {

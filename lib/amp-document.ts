@@ -50,24 +50,36 @@ function ampHref(pathname: string) {
   return `${absoluteUrl(pathname)}?amp=1`;
 }
 
+function inline(text: string) {
+  return text
+    .split(/(\*\*[^*]+\*\*)/g)
+    .map((part) => {
+      if (part.startsWith("**") && part.endsWith("**") && part.length > 4) {
+        return `<strong>${esc(part.slice(2, -2))}</strong>`;
+      }
+      return esc(part);
+    })
+    .join("");
+}
+
 function rich(text: string, lang: Lang) {
   const pattern = /\[\[([^|\]]+)\|([^\]]+)\]\]|\{\{([a-zA-Z0-9]+)\|([^}]+)\}\}/g;
   let html = "";
   let last = 0;
   let match: RegExpExecArray | null;
   while ((match = pattern.exec(text))) {
-    html += esc(text.slice(last, match.index));
+    html += inline(text.slice(last, match.index));
     if (match[1] && match[2]) {
-      html += `<a href="${esc(ampHref(pathFor(lang, match[1])))}">${esc(match[2])}</a>`;
+      html += `<a href="${esc(ampHref(pathFor(lang, match[1])))}">${inline(match[2])}</a>`;
     } else if (match[3] && match[4]) {
       const href = officialSources[match[3] as OfficialKey];
       html += href
-        ? `<a href="${esc(href)}" target="_blank" rel="nofollow noopener noreferrer">${esc(match[4])}</a>`
-        : esc(match[4]);
+        ? `<a href="${esc(href)}" target="_blank" rel="nofollow noopener noreferrer">${inline(match[4])}</a>`
+        : inline(match[4]);
     }
     last = match.index + match[0].length;
   }
-  return html + esc(text.slice(last));
+  return html + inline(text.slice(last));
 }
 
 function parsePath(pathname: string): { lang: Lang; slug: string } | null {
@@ -191,7 +203,7 @@ ${footer(options.lang)}
 
 function homeBody(lang: Lang) {
   const hi = lang === "hi";
-  const title = hi ? "ओंकारेश्वर – ज्योतिर्लिंग, मंदिर, दर्शन और यात्रा गाइड" : "Omkareshwar – Jyotirlinga, Temple, Darshan & Travel Guide";
+  const title = hi ? "श्री ओंकारेश्वर ज्योतिर्लिंग, मंदिर, दर्शन और यात्रा गाइड" : "Shri Omkareshwar Jyotirlinga, Temple, Darshan & Travel Guide";
   const h1 = hi ? "श्री ओंकारेश्वर ज्योतिर्लिंग" : "Shri Omkareshwar Jyotirlinga";
   const line = hi ? "मंदिर, दर्शन और नर्मदा गाइड" : "Temple, Darshan and Narmada Guide";
   const lead = hi

@@ -1,11 +1,13 @@
 import Link from "next/link";
+import { getPage } from "@/lib/content";
 import { liveSessions, place, schedule } from "@/lib/facts";
 import { officialSources } from "@/lib/official";
 import { pathFor } from "@/lib/paths";
 import { homeJsonLd } from "@/lib/seo";
 import { site } from "@/lib/site";
 import type { Lang } from "@/lib/types";
-import { ExternalLink } from "./RichText";
+import { Blocks } from "./Article";
+import { ExternalLink, RichText } from "./RichText";
 import { JsonLd } from "./JsonLd";
 import { Photo } from "./Photo";
 import { TripPlanner } from "./TripPlanner";
@@ -17,10 +19,6 @@ const faqs = {
     ["What are Omkareshwar Temple timings?", "The daily darshan page lists aarti at 4:30 AM, darshan from 5:00 AM, a bhog closure at 12:20 PM, and shayan darshan at 10:00–10:30 PM. Recheck that page; the live page prints a shorter evening."],
     ["How can I watch Omkareshwar Live Darshan?", "The homepage plays the temple trust’s YouTube live stream, the same channel their official live page embeds. This site does not run the camera and does not show a live or offline badge."],
     ["What is the story of Omkareshwar Jyotirlinga?", "The trust calls it the fourth Jyotirlinga and names the Skanda, Shiva and Vayu Puranas. The island is traditionally compared with the syllable Om. That is religious tradition."],
-    ["How to reach Omkareshwar by train?", "The trust names Sanawad at 12 km and Khandwa Junction at 72 km. They are different stations."],
-    ["What are the places to visit?", "The Jyotirlinga, Mamleshwar, the sangam and the parikrama. State tourism also names Siddhanath, Gauri Somnath and Ekatma Dham."],
-    ["What is Omkareshwar Parikrama?", "A walk of about 7 km around Mandhata, with Narmada water, as the trust describes it."],
-    ["Where can I stay in Omkareshwar?", "The trust’s own stay is Shri Ji Vishramalaya. Private hotels are separate. This site books neither."],
   ],
   hi: [
     ["ओंकारेश्वर कहाँ है?", "नर्मदा के मांधाता द्वीप पर, जिला खंडवा, मध्य प्रदेश, पिन 450554।"],
@@ -28,16 +26,13 @@ const faqs = {
     ["ओंकारेश्वर मंदिर का समय क्या है?", "दैनिक दर्शन पृष्ठ आरती सुबह 4:30, दर्शन सुबह 5:00 से, भोग-बंद दोपहर 12:20, और शयन दर्शन रात 10:00–10:30 लिखता है। उस पृष्ठ को फिर देखें; लाइव पृष्ठ पर शाम छोटी है।"],
     ["ओंकारेश्वर लाइव दर्शन कैसे देखें?", "मुखपृष्ठ पर मंदिर ट्रस्ट की यूट्यूब लाइव धारा चलती है, वही चैनल जिसे उनकी आधिकारिक लाइव पृष्ठ जोड़ता है। यह साइट कैमरा नहीं चलाती और लाइव या बंद का चिह्न नहीं दिखाती।"],
     ["ओंकारेश्वर ज्योतिर्लिंग की कथा क्या है?", "ट्रस्ट इसे चौथा ज्योतिर्लिंग कहता है और स्कंद, शिव तथा वायु पुराण का नाम लेता है। द्वीप परंपरा से ॐ जैसा है। यह धार्मिक परंपरा है।"],
-    ["रेल से ओंकारेश्वर कैसे पहुँचें?", "ट्रस्ट सनावद 12 किलोमीटर और खंडवा जंक्शन 72 किलोमीटर बताता है। दोनों अलग स्टेशन हैं।"],
-    ["घूमने के स्थान कौन से हैं?", "ज्योतिर्लिंग, ममलेश्वर, संगम और परिक्रमा। राज्य पर्यटन सिद्धनाथ, गौरी सोमनाथ और एकात्म धाम भी लिखता है।"],
-    ["ओंकारेश्वर परिक्रमा क्या है?", "मांधाता के चारों ओर लगभग 7 किलोमीटर की चाल, नर्मदा जल के साथ, जैसा ट्रस्ट बताता है।"],
-    ["ओंकारेश्वर में ठहरें कहाँ?", "ट्रस्ट का अपना ठहरना श्री जी विश्रामालय है। निजी होटल अलग हैं। यह साइट दोनों नहीं बुक करती।"],
   ],
 } as const;
 
 export function HomePage({ lang }: { lang: Lang }) {
   const hi = lang === "hi";
   const t = (en: string, hindi: string) => (hi ? hindi : en);
+  const guide = getPage("omkareshwar-complete-guide")?.[lang];
   const plans = hi
     ? [
         { city: "indore", days: "1", party: "general", title: "इंदौर से एक दिन", text: "77–80 किलोमीटर की सड़क। एक खुला दर्शन-खंड लें। दोपहर 12:20 का भोग बचें। परिक्रमा न जोड़ें। सुबह 4:30 की आरती के लिए यहीं सोना होगा।" },
@@ -407,6 +402,17 @@ export function HomePage({ lang }: { lang: Lang }) {
           <Link href={pathFor(lang, "latest-omkareshwar-news")}>{t("Verified notes", "जाँचे गए नोट")}</Link>
         </p>
       </section>
+
+      {guide ? (
+        <section>
+          <p className="kicker">{guide.kicker}</p>
+          <h2>{guide.h1}</h2>
+          <p className="answer">
+            <RichText text={guide.answer} lang={lang} />
+          </p>
+          <Blocks blocks={guide.blocks} lang={lang} />
+        </section>
+      ) : null}
 
       <section className="faq">
         <h2>{t("Questions", "प्रश्न")}</h2>
