@@ -10,7 +10,7 @@ export const yatraPages: PageDef[] = [
     updated,
     verified: updated,
     sources: ["timetable", "howToReach", "faq", "mpTourism"],
-    related: ["omkareshwar-one-day-trip", "omkareshwar-two-day-trip", "omkareshwar-from-indore", "omkareshwar-distance"],
+    related: ["omkareshwar-complete-guide", "omkareshwar-one-day-trip", "omkareshwar-two-day-trip", "omkareshwar-from-indore"],
     en: {
       title: "Omkareshwar Trip – One Night or Two, by the Temple Clock",
       description:

@@ -1,4 +1,5 @@
 import { culturePages } from "./culture";
+import { guidePages } from "./guide";
 import { placePages } from "./places";
 import { policyPages } from "./policy";
 import { routePages } from "./routes";
@@ -18,6 +19,7 @@ export const pages: PageDef[] = [
   ...stayPages,
   ...culturePages,
   ...yatraPages,
+  ...guidePages,
   ...policyPages,
 ];
 

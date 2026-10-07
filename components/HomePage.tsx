@@ -356,6 +356,8 @@ export function HomePage({ lang }: { lang: Lang }) {
         </p>
         <TripPlanner lang={lang} plans={plans} />
         <p>
+          <Link href={pathFor(lang, "omkareshwar-complete-guide")}>{t("Complete travel guide", "पूरी यात्रा गाइड")}</Link>
+          {" · "}
           <Link href={pathFor(lang, "omkareshwar-trip")}>{t("Read the full trip pages", "पूरे यात्रा पृष्ठ पढ़ें")}</Link>
         </p>
       </section>

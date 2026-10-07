@@ -36,6 +36,7 @@ export const footerGroups = [
       ["omkareshwar-from-indore", "From Indore", "इंदौर से"],
       ["omkareshwar-from-ujjain", "From Ujjain", "उज्जैन से"],
       ["omkareshwar-distance", "Distances", "दूरी"],
+      ["omkareshwar-complete-guide", "Complete guide", "पूरी गाइड"],
       ["omkareshwar-trip", "Trip planner", "यात्रा योजना"],
     ],
   },
