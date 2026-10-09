@@ -656,6 +656,9 @@ caption { text-align: left; font-size: 0.9rem; color: var(--muted); padding-bott
 }
 .ride-form h2 { margin: 0; color: #e65100; }
 .ride-route { margin: 0; font-weight: 600; }
+.ride-line { margin: 0; font-weight: 600; }
+.ride-line a { color: #128c7e; }
+.ride-only { font-weight: 700; }
 .ride-form label { display: grid; gap: 0.25rem; font-size: 0.92rem; font-weight: 600; min-width: 0; }
 .ride-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; }
 .ride-form input, .ride-form select, .ride-form textarea {

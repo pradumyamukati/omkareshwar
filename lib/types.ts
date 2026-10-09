@@ -11,7 +11,7 @@ export type Block =
   | { type: "facts"; items: { label: string; value: string }[] }
   | { type: "table"; caption?: string; headers: string[]; rows: string[][] }
   | { type: "note"; text: string }
-  | { type: "ride" }
+  | { type: "ride"; direction?: "to-mortakka" | "to-omkareshwar" }
   | { type: "stays" };
 
 export type Copy = {

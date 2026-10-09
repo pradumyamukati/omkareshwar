@@ -26,6 +26,8 @@ const copy = {
     notes: "Special instructions",
     notesPh: "Train number, hotel name, or anything the driver should know",
     send: "Send booking on WhatsApp",
+    inquiry: "Inquiry",
+    whatsappOnly: "WhatsApp only",
     note: "Booking confirmation will be sent to you on WhatsApp.",
     alert: "Please fill all required fields.",
     ertiga: "Ertiga",
@@ -56,6 +58,8 @@ const copy = {
     notes: "विशेष निर्देश",
     notesPh: "ट्रेन नंबर, होटल का नाम, या ड्राइवर के लिए कोई बात",
     send: "व्हाट्सऐप पर बुकिंग भेजें",
+    inquiry: "पूछताछ",
+    whatsappOnly: "केवल व्हाट्सऐप",
     note: "बुकिंग की पुष्टि व्हाट्सऐप पर भेजी जाएगी।",
     alert: "कृपया सभी जरूरी खाने भरें।",
     ertiga: "एर्टिगा",
@@ -70,9 +74,9 @@ const copy = {
   },
 } as const;
 
-export function MortakkaBooking({ lang }: { lang: Lang }) {
+export function MortakkaBooking({ lang, direction: initial = "to-mortakka" }: { lang: Lang; direction?: Direction }) {
   const t = copy[lang];
-  const [direction, setDirection] = useState<Direction>("to-mortakka");
+  const [direction, setDirection] = useState<Direction>(initial);
   const toMortakka = direction === "to-mortakka";
   const pickups = useMemo(
     () =>
@@ -154,6 +158,14 @@ export function MortakkaBooking({ lang }: { lang: Lang }) {
     >
       <h2>{t.heading}</h2>
       <p className="ride-route">{toMortakka ? t.routeTo : t.routeFrom}</p>
+      <p className="ride-line">
+        {t.inquiry}:{" "}
+        <a href={`https://wa.me/${bookingLine}`} target="_blank" rel="nofollow noopener noreferrer">
+          +91 96853 92846
+        </a>
+        {" · "}
+        <span className="ride-only">{t.whatsappOnly}</span>
+      </p>
       <label>
         {t.direction}
         <select name="direction" value={direction} onChange={(event) => setDirection(event.target.value as Direction)}>

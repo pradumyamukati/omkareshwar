@@ -120,7 +120,8 @@ function blocks(items: Block[], lang: Lang) {
       }
       if (block.type === "note") return `<p class="note">${rich(block.text, lang)}</p>`;
       if (block.type === "ride") {
-        return `<p><a href="${esc(absoluteUrl(pathFor(lang, "omkareshwar-to-mortakka")))}">${lang === "en" ? "Open the booking form" : "बुकिंग फॉर्म खोलें"}</a></p>`;
+        const slug = block.direction === "to-omkareshwar" ? "mortakka-to-omkareshwar" : "omkareshwar-to-mortakka";
+        return `<p><a href="${esc(absoluteUrl(pathFor(lang, slug)))}">${lang === "en" ? "Open the booking form" : "बुकिंग फॉर्म खोलें"}</a></p>`;
       }
       if (block.type === "stays") {
         return `<ul>${hotelPicks
@@ -215,7 +216,7 @@ ${footer(options.lang)}
 
 function homeBody(lang: Lang) {
   const hi = lang === "hi";
-  const title = hi ? "श्री ओंकारेश्वर ज्योतिर्लिंग, मंदिर, दर्शन और यात्रा गाइड" : "Shri Omkareshwar Jyotirlinga, Temple, Darshan & Travel Guide";
+  const title = hi ? "श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर मांधाता मध्य प्रदेश" : "Shri Omkareshwar Jyotirlinga Temple Mandhata Madhya Pradesh";
   const h1 = hi ? "श्री ओंकारेश्वर ज्योतिर्लिंग" : "Shri Omkareshwar Jyotirlinga";
   const line = hi ? "मंदिर, दर्शन और नर्मदा गाइड" : "Temple, Darshan and Narmada Guide";
   const lead = hi

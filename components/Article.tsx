@@ -49,7 +49,7 @@ export function Blocks({ blocks, lang }: { blocks: Block[]; lang: Lang }) {
             </dl>
           );
         }
-        if (block.type === "ride") return <MortakkaBooking key={index} lang={lang} />;
+        if (block.type === "ride") return <MortakkaBooking key={index} lang={lang} direction={block.direction} />;
         if (block.type === "stays") return <HotelPicks key={index} lang={lang} />;
         if (block.type === "table") {
           return (

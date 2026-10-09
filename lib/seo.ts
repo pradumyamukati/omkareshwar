@@ -56,8 +56,8 @@ export function pageMetadata(page: PageDef, lang: Lang): Metadata {
 export function homeMetadata(lang: Lang): Metadata {
   const title =
     lang === "en"
-      ? "Shri Omkareshwar Jyotirlinga, Temple, Darshan & Travel Guide"
-      : "श्री ओंकारेश्वर ज्योतिर्लिंग, मंदिर, दर्शन और यात्रा गाइड";
+      ? "Shri Omkareshwar Jyotirlinga Temple Mandhata Madhya Pradesh"
+      : "श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर मांधाता मध्य प्रदेश";
   const description = site.description[lang];
   return {
     title: { absolute: title },
@@ -211,7 +211,10 @@ export function homeJsonLd(lang: Lang) {
         "@type": "WebPage",
         "@id": `${url}#webpage`,
         url,
-        name: lang === "en" ? "Omkareshwar" : "ओंकारेश्वर",
+        name:
+          lang === "en"
+            ? "Shri Omkareshwar Jyotirlinga Temple Mandhata Madhya Pradesh"
+            : "श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर मांधाता मध्य प्रदेश",
         description: site.description[lang],
         inLanguage: lang === "hi" ? "hi-IN" : "en-IN",
         isPartOf: { "@id": `${site.url}/#website` },
