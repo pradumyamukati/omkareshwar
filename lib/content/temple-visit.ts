@@ -297,7 +297,7 @@ export const templeVisitPages: PageDef[] = [
           type: "ol",
           items: [
             "Open https://shriomkareshwar.org/",
-            "In the booking menu, open Shighra Darshan and press Book Now.",
+            "In the booking menu, open Shighra Darshan and continue to the booking form.",
             "Choose the darshan date and a two-hour time slot.",
             "Enter the name and Aadhaar number of each devotee. Aadhaar details cannot be changed after submission, so check them before you send the form.",
             "Pay the fee. The ticket is ₹300 per person.",
@@ -396,7 +396,7 @@ export const templeVisitPages: PageDef[] = [
           type: "ol",
           items: [
             "https://shriomkareshwar.org/ खोलें।",
-            "बुकिंग मेनू में शीघ्र दर्शन खोलें और Book Now दबाएँ।",
+            "बुकिंग मेनू में शीघ्र दर्शन खोलें और बुकिंग फॉर्म पर जाएँ।",
             "दर्शन की तारीख और दो घंटे का समय चुनें।",
             "हर श्रद्धालु का नाम और आधार नंबर भरें। जमा करने के बाद आधार नहीं बदलता, इसलिए भेजने से पहले जाँच लें।",
             "शुल्क भरें। टिकट ₹300 प्रति व्यक्ति है।",
