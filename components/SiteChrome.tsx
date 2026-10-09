@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { footerGroups, nav } from "@/lib/nav";
 import { pathFor } from "@/lib/paths";
 import { officialSources, templeSiteText } from "@/lib/official";
@@ -22,6 +22,9 @@ function usePageLang() {
 }
 
 export function Header() {
+  const menuRef = useRef<HTMLDetailsElement>(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const path = usePathname();
   const { lang, slug } = usePageLang();
   const home = pathFor(lang, "");
   const menu = [
@@ -29,6 +32,33 @@ export function Header() {
     ...nav,
     { href: "#live-darshan", en: "Live Darshan", hi: "लाइव दर्शन" },
   ];
+
+  function closeMenu() {
+    setMenuOpen(false);
+  }
+
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [path]);
+
+  useEffect(() => {
+    function onPointerDown(event: PointerEvent) {
+      const root = menuRef.current;
+      if (!root?.open) return;
+      if (event.target instanceof Node && root.contains(event.target)) return;
+      setMenuOpen(false);
+    }
+    function onKey(event: KeyboardEvent) {
+      if (event.key === "Escape") setMenuOpen(false);
+    }
+    document.addEventListener("pointerdown", onPointerDown);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("pointerdown", onPointerDown);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, []);
+
   return (
     <header className="site-header">
       <a className="skip" href="#content">
@@ -36,17 +66,26 @@ export function Header() {
       </a>
       <div className="header-top">
         <div className="header-social">
-          <details className="mobile-menu">
+          <details
+            className="mobile-menu"
+            ref={menuRef}
+            open={menuOpen}
+            onToggle={(event) => setMenuOpen(event.currentTarget.open)}
+          >
             <summary aria-label={lang === "en" ? "Menu" : "मेनू"}>
               <span className="hamburger" />
             </summary>
             <nav aria-label={lang === "en" ? "Mobile" : "मोबाइल"}>
               {menu.map((item) => (
-                <Link key={item.en} href={item.href === "#live-darshan" ? `${home}#live-darshan` : pathFor(lang, item.href)}>
+                <Link
+                  key={item.en}
+                  href={item.href === "#live-darshan" ? `${home}#live-darshan` : pathFor(lang, item.href)}
+                  onClick={closeMenu}
+                >
                   {item[lang]}
                 </Link>
               ))}
-              <Link href={pathFor(lang, "latest-omkareshwar-news")}>
+              <Link href={pathFor(lang, "latest-omkareshwar-news")} onClick={closeMenu}>
                 {lang === "en" ? "Latest updates" : "ताज़ा अपडेट"}
               </Link>
             </nav>
