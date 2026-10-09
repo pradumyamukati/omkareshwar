@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { officialSources, type OfficialKey } from "@/lib/official";
+import { isTempleSiteUrl, officialSources, templeSiteText, type OfficialKey } from "@/lib/official";
 import { pathFor } from "@/lib/paths";
 import type { Lang } from "@/lib/types";
 
@@ -35,11 +35,15 @@ export function RichText({ text, lang }: { text: string; lang: Lang }) {
     } else if (match[3] && match[4]) {
       const key = match[3] as OfficialKey;
       const href = officialSources[key];
-      nodes.push(
-        <a key={`${match.index}-ex`} href={href} target="_blank" rel="nofollow noopener noreferrer">
-          {emphasize(match[4], `${match.index}-ex`)}
-        </a>,
-      );
+      if (isTempleSiteUrl(href)) {
+        nodes.push(templeSiteText);
+      } else {
+        nodes.push(
+          <a key={`${match.index}-ex`} href={href} target="_blank" rel="nofollow noopener noreferrer">
+            {emphasize(match[4], `${match.index}-ex`)}
+          </a>,
+        );
+      }
     }
     last = match.index + match[0].length;
   }

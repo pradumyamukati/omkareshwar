@@ -10,7 +10,7 @@ export const placePages: PageDef[] = [
     updated,
     verified: updated,
     image: "aerial",
-    sources: ["mpTourism", "faq", "parikrama", "templeWebsite"],
+    sources: ["faq", "parikrama", "templeWebsite"],
     related: ["mamleshwar-temple", "omkareshwar-parikrama", "siddhanath-temple-omkareshwar", "gauri-somnath-temple", "narmada-ghat-omkareshwar"],
     en: {
       title: "Places to Visit in Omkareshwar – Temples, Ghats & Path",
@@ -120,7 +120,7 @@ export const placePages: PageDef[] = [
     updated,
     verified: updated,
     image: "mamleshwar",
-    sources: ["mpTourism", "faq", "templeWebsite"],
+    sources: ["faq", "templeWebsite"],
     related: ["omkareshwar-jyotirlinga", "narmada-ghat-omkareshwar", "omkareshwar-parikrama", "places-to-visit-in-omkareshwar"],
     en: {
       title: "Mamleshwar Temple – South Bank of the Narmada",
@@ -215,7 +215,7 @@ export const placePages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["parikrama", "templeWebsite", "mpTourism"],
+    sources: ["parikrama", "templeWebsite"],
     related: ["siddhanath-temple-omkareshwar", "gauri-somnath-temple", "narmada-ghat-omkareshwar", "omkareshwar-two-day-trip"],
     en: {
       title: "Omkareshwar Parikrama – The 7 km Path",
@@ -312,93 +312,180 @@ export const placePages: PageDef[] = [
     kind: "place",
     updated,
     verified: updated,
-    sources: ["mpTourism", "faq", "templeWebsite"],
+    image: "ghat",
+    sources: [],
     related: ["omkareshwar-parikrama", "mamleshwar-temple", "omkareshwar-festivals", "where-is-omkareshwar"],
     en: {
-      title: "Narmada Ghat at Omkareshwar – Banks, Bridge & Aarti",
+      title: "Narmada Ghat Omkareshwar – Sacred Riverfront Steps",
       description:
-        "The Narmada at Omkareshwar is the river around Mandhata. Ghats, the 270-foot bridge, Kotitirtha’s river aarti, and the Monday procession.",
-      h1: "Narmada ghat at Omkareshwar",
+        "The Narmada ghats at Omkareshwar are the sacred riverfront steps on Mandhata and the mainland, where pilgrims bathe before darshan of the Jyotirlinga.",
+      h1: "Narmada Ghat Omkareshwar",
       kicker: "The river",
       answer:
-        "The Narmada flows around Mandhata and makes Omkareshwar an island. Ghats are the steps where people bathe, offer water and watch the river. Madhya Pradesh Tourism names Fanase Ghat and Peshawar Ghat, a daily Shayan Aarti of the river at Kotitirtha Ghat, and the 270-foot Mamleshwar Setu. The trust’s FAQ adds a Monday procession from Koti Tirth Ghat.",
+        "The Narmada Ghats at Omkareshwar are the sacred riverfront steps that line the banks of the Narmada River, serving as the spiritual threshold where pilgrims transition from the material world to the divine presence of the Omkareshwar Jyotirlinga. These ghats, numbering approximately a dozen, are not merely architectural features but are integral to the pilgrimage experience, embodying centuries of devotion, ritual bathing, and spiritual purification. However, beneath their sacred veneer lies a complex reality of beauty, danger, and ongoing administrative challenges that shape the contemporary experience of this holy town.",
       blocks: [
-        { type: "h2", text: "The river is part of the worship" },
+        { type: "h2", text: "The Sacred Geography of the Ghats" },
         {
           type: "p",
-          text: "Parikrama water is Narmada water. The trust says people carry it around the hill. Bathing, where a ghat allows it, is a separate act from pushing toward the sanctum with wet clothes and a vow that the railing was not built for. Ask before you treat a bathing ghat as the queue. State tourism’s best-time note is practical here: Shravan brings the largest crowds and a holy bath; October to March is the easier climate.",
-        },
-        { type: "h2", text: "Names you will hear" },
-        {
-          type: "ul",
-          items: [
-            "Koti Tirth or Kotitirtha: the trust’s Monday sawari starts here, and state tourism places a daily river aarti here.",
-            "Mamleshwar Setu: the hanging bridge, 270 feet in the tourism description, between the island and the south bank.",
-            "Sangam: the meeting of the Narmada and the local Kaveri. Not the southern Indian river of the same name.",
-            "Godarpura: the south-bank side, where Mamleshwar stands.",
-          ],
+          text: "Omkareshwar's Narmada Ghats are distributed across both the island of Mandhata and the mainland banks. The principal ghats include Abhay Ghat, Navin Ghat, Nagar Ghat, Gomukh Ghat, Kotitirth Ghat, Brahmapuri Ghat, Kevalram Ghat, Omkar Math Ghat, Bichhalia Ghat, Chakratirth Ghat, Barfani Ghat, and the Sangam Ghat at the confluence of the Narmada and Kaveri rivers. Each ghat carries its own mythological significance and serves distinct functions within the pilgrimage circuit.",
         },
         {
           type: "p",
-          text: "Boats exist on this river in the way boats exist at many Narmada towns. This guide has not verified an official boat timetable, so it will not print fares or “sunrise cruise” claims. If someone sells you a boat as a temple service, it is a private ride unless it is written on shriomkareshwar.org.",
+          text: "Some of these ghats are ancient, their stone steps worn smooth by generations of devotees, while others were constructed in more recent times to accommodate the growing influx of pilgrims. Nagar Ghat, for instance, owes its development to the revered Malwa saint Shri Shri Nagarji, and is noted for its relative cleanliness and safety compared to other ghats.",
+        },
+        {
+          type: "p",
+          text: "The geographical setting of these ghats is nothing short of dramatic. The Narmada River, flowing between the Vindhya and Satpura mountain ranges, forms a deep, silent pool at Omkareshwar that once teemed with aquatic life so tame that fish would take grain from human hands. The island itself, shaped like the sacred syllable Om, rises from the river, creating a landscape where, as one historical account describes, the works of Nature complement those of man to provide a setting awe-inspiring in its magnificence.",
+        },
+        { type: "h2", text: "Spiritual Significance and Ritual Life" },
+        {
+          type: "p",
+          text: "For devotees, the Narmada Ghats represent far more than physical infrastructure. Bathing in the Narmada at Omkareshwar is considered a powerful act of spiritual purification, a necessary preparation before darshan at the Jyotirlinga. The Narmada Aarti, held at Kotitirth Ghat, was revived in 2025 after a hiatus since the COVID-19 pandemic, restoring a daily evening ritual that evokes the famous Ganga Aarti of Haridwar and Rishikesh. Pilgrims gather at dusk to witness the lamps, chants, and offerings that transform the ghat into a stage of collective devotion.",
+        },
+        {
+          type: "p",
+          text: "The ghats also serve as the launching point for the Omkar Parvat Parikrama, the circumambulation of the sacred island by boat. This roughly six-to-seven-kilometer journey offers pilgrims a unique perspective on the island's Om-like shape and the surrounding temples and hills. The Brahmapuri Ghat holds particular importance, having hosted the Amritasya Maa Narmada Pad Parikrama program attended by Chief Minister Mohan Yadav, who offered prayers to Maa Narmada there.",
+        },
+        { type: "h2", text: "The Peril Beneath the Sacred Waters" },
+        {
+          type: "p",
+          text: "Despite their spiritual allure, the Narmada Ghats at Omkareshwar have acquired a darker reputation as sites of recurring tragedy. In a single year, 24 devotees lost their lives in drowning incidents at these ghats, with over 62 deaths recorded in four years. The victims are predominantly pilgrims from Indore, Maharashtra, and Gujarat, often unaware of the river's hidden dangers.",
+        },
+        {
+          type: "p",
+          text: "The reasons for this peril are both natural and man-made. The Narmada's riverbed is extremely irregular, with sudden drop-offs plunging to depths of up to 200 feet in certain locations. Underwater rocks, trenches, and whirlpools create lethal hazards for bathers who venture beyond the shallow margins. The construction of the Omkareshwar Dam between 2001 and 2007 has exacerbated the problem by causing constant fluctuations in water levels. This fluctuation promotes the growth of algae on submerged rocks, making them dangerously slippery and concealing the sudden changes in depth.",
+        },
+        {
+          type: "p",
+          text: "The ghats themselves lack basic safety infrastructure. None of the ghats have railings, and resources for emergency rescue are limited. Boats crowd the ghats, leaving little space for safe bathing, and the number of illegal boats reportedly exceeds licensed ones. Even government boats stationed for security purposes often remain stationary during accidents, their boatmen occupied elsewhere.",
+        },
+        { type: "h2", text: "Administrative Responses and Future Plans" },
+        {
+          type: "p",
+          text: "The persistent loss of life has prompted administrative action, particularly in preparation for the 2028 Simhastha festival in Ujjain, which is expected to draw massive crowds to Omkareshwar. The administration has announced the construction of eight new safe ghats equipped with railings, chains, and safety equipment. Additional resources and training are being provided to disaster management teams to handle emergencies during peak pilgrim periods.",
+        },
+        {
+          type: "p",
+          text: "Safety regulations have also been tightened. Boat operations for the full Omkar Parvat Parikrama are now restricted after 2 PM, with the restriction attributed to the risk of sudden weather changes and the difficulty of reaching rescue teams along the remote circumambulation route. The Nawik Sangh (Boatmen's Association) welcomed this decision, acknowledging that they themselves had long avoided sending boats on the parikrama after 4 PM due to safety concerns.",
+        },
+        {
+          type: "p",
+          text: "On the spiritual front, the government has committed to restoring the entire Narmada Parikrama Path to its original sacred form, with improved facilities including ghats at various Narmada banks and signboards for pilgrims. A grand Jyotirlinga temple is also planned for Omkareshwar, further elevating its status as a religious destination.",
+        },
+        { type: "h2", text: "The Ghats as Living Spaces" },
+        {
+          type: "p",
+          text: "Beyond their ritual and administrative dimensions, the Narmada Ghats are vibrant living spaces. Early mornings see pilgrims descending for holy dips, priests offering prayers, and boatmen preparing for the day's Parikrama journeys. The Brahmapuri Ghat serves as a center for various human activities—bathing, washing, Narmada Poojan, and the disposal of ashes of the deceased. This concentration of activity, while spiritually meaningful, also creates environmental pressures, as sewage from the town discharges into the river at certain points.",
+        },
+        {
+          type: "p",
+          text: "The ghats offer moments of quiet contemplation as well. Visitors describe walking the riverfront at dawn, watching the light play on the water and the island temples, or taking an evening stroll to absorb the lived-in feel of the town—boatmen, bells, aarti movement, and views back toward the island. For those seeking a slower pace, Ahilya Ghat provides a more relaxed riverside experience, ideal for photography and reflection.",
+        },
+        { type: "h2", text: "Conclusion" },
+        {
+          type: "p",
+          text: "The Narmada Ghats at Omkareshwar embody a profound paradox. They are simultaneously the holiest of thresholds and the most dangerous of places, sites of transcendent devotion and preventable tragedy. For the pilgrim, they offer the promise of purification and the proximity of the divine. For the administrator, they present an ongoing challenge of balancing spiritual tradition with modern safety imperatives. As Omkareshwar prepares for an unprecedented influx of devotees in the coming years, the transformation of these ghats—through new construction, stricter regulations, and heightened awareness—will determine whether the sacred waters of the Narmada continue to claim lives or finally become the safe refuge of faith they are meant to be.",
         },
       ],
       faqs: [
         {
-          q: "Which ghat is used for the Monday procession?",
-          a: "The trust’s FAQ says the Somvar sawari starts from Koti Tirth Ghat. A royal form is held in Shravan.",
+          q: "Which are the main Narmada ghats at Omkareshwar?",
+          a: "They include Abhay, Navin, Nagar, Gomukh, Kotitirth, Brahmapuri, Kevalram, Omkar Math, Bichhalia, Chakratirth, Barfani, and Sangam Ghat, where the Narmada meets the local Kaveri.",
         },
         {
-          q: "Is there an aarti of the river?",
-          a: "Madhya Pradesh Tourism says a Shayan Aarti of Maa Narmada is performed daily at Kotitirtha Ghat. Confirm the hour locally. It is not the same list as the temple’s sanctum timetable.",
+          q: "Where is the Narmada aarti held?",
+          a: "At Kotitirth Ghat. It was revived in 2025 as a daily evening ritual after a break that began during the COVID-19 pandemic.",
         },
         {
-          q: "Can I swim from any step?",
-          a: "Use a ghat where bathing is actually done, and follow the people who know the current. This guide does not declare a step safe.",
+          q: "Is bathing at the ghats safe?",
+          a: "The riverbed is irregular, with sudden deep drops, slippery rocks, and changing water levels. Stay in the shallow margin, and do not treat every step as a safe bathing place.",
         },
       ],
     },
     hi: {
-      title: "ओंकारेश्वर का नर्मदा घाट – किनारा, पुल और आरती",
+      title: "ओंकारेश्वर का नर्मदा घाट – पवित्र नदी तट",
       description:
-        "ओंकारेश्वर की नर्मदा मांधाता को घेरने वाली नदी है। घाट, 270 फुट का पुल, कोटीतीर्थ की नदी-आरती, और सोमवार की सवारी।",
+        "ओंकारेश्वर के नर्मदा घाट मांधाता और मुख्य भूमि पर पवित्र सीढ़ियाँ हैं, जहाँ श्रद्धालु ज्योतिर्लिंग के दर्शन से पहले स्नान करते हैं।",
       h1: "ओंकारेश्वर का नर्मदा घाट",
       kicker: "नदी",
       answer:
-        "नर्मदा मांधाता के चारों ओर बहकर ओंकारेश्वर को द्वीप बनाती है। घाट वे सीढ़ियाँ हैं जहाँ लोग स्नान करते हैं, जल चढ़ाते हैं और नदी देखते हैं। मध्य प्रदेश पर्यटन फणसे घाट और पेशवा घाट, कोटीतीर्थ घाट पर नदी की दैनिक शयन आरती, और 270 फुट का ममलेश्वर सेतु लिखता है। ट्रस्ट का प्रश्नोत्तर कोटी तीर्थ घाट से सोमवार की सवारी जोड़ता है।",
+        "ओंकारेश्वर के नर्मदा घाट नदी के किनारे की वे पवित्र सीढ़ियाँ हैं, जहाँ से यात्री सांसारिक दुनिया से ओंकारेश्वर ज्योतिर्लिंग की दिव्य उपस्थिति की ओर बढ़ते हैं। ये घाट लगभग एक दर्जन हैं। ये केवल पत्थर की सीढ़ियाँ नहीं, तीर्थ का हिस्सा हैं। इनमें सदियों की श्रद्धा, स्नान और आत्मिक शुद्धि बसती है। इस पवित्र रूप के नीचे सौंदर्य, खतरा और प्रशासन की चुनौतियाँ भी हैं, जो इस नगर के आज के अनुभव को गढ़ती हैं।",
       blocks: [
-        { type: "h2", text: "नदी पूजा का हिस्सा है" },
+        { type: "h2", text: "घाटों की पवित्र भूगोल" },
         {
           type: "p",
-          text: "परिक्रमा का जल नर्मदा जल है। ट्रस्ट कहता है कि लोग उसे पहाड़ी के साथ लेकर चलते हैं। जहाँ घाट स्नान दे, वह अलग काम है। भीगे वस्त्र और ऐसी मनौती के साथ रेलिंग की ओर धकेलना अलग है जिसके लिए रेलिंग नहीं बनी। स्नान-घाट को कतार न मानें, पहले पूछें। राज्य पर्यटन का मौसम-वाक्य यहाँ काम का है: सावन में सबसे बड़ी भीड़ और पवित्र स्नान; अक्टूबर से मार्च आसान जलवायु।",
-        },
-        { type: "h2", text: "जो नाम सुनेंगे" },
-        {
-          type: "ul",
-          items: [
-            "कोटी तीर्थ या कोटीतीर्थ: ट्रस्ट की सोमवार सवारी यहीं से शुरू होती है, और राज्य पर्यटन दैनिक नदी-आरती यहीं रखता है।",
-            "ममलेश्वर सेतु: झूला पुल, पर्यटन-विवरण में 270 फुट, द्वीप और दक्षिणी तट के बीच।",
-            "संगम: नर्मदा और स्थानीय कावेरी का मिलन। दक्षिण भारत की उसी नाम की नदी नहीं।",
-            "गोदरपुरा: दक्षिणी तट, जहाँ ममलेश्वर है।",
-          ],
+          text: "ओंकारेश्वर के नर्मदा घाट मांधाता द्वीप और मुख्य भूमि, दोनों तटों पर हैं। प्रमुख घाटों में अभय घाट, नवीन घाट, नगर घाट, गोमुख घाट, कोटीतीर्थ घाट, ब्रह्मपुरी घाट, केवलराम घाट, ओंकार मठ घाट, बिछलिया घाट, चक्रतीर्थ घाट, बर्फानी घाट, और नर्मदा-कावेरी संगम का संगम घाट शामिल हैं। हर घाट की अपनी कथा है और तीर्थ-मार्ग में उसका अपना काम है।",
         },
         {
           type: "p",
-          text: "इस नदी पर नाव वैसे ही है जैसे नर्मदा के कई नगरों में। इस गाइड ने आधिकारिक नाव-सारिणी जाँची नहीं, इसलिए भाड़ा या “सूर्योदय क्रूज” नहीं छापेगी। कोई नाव को मंदिर-सेवा बताकर बेचे तो वह निजी सवारी है, जब तक shriomkareshwar.org पर लिखी न हो।",
+          text: "कुछ घाट प्राचीन हैं, जिनकी सीढ़ियाँ पीढ़ियों के पैरों से चिकनी हो गई हैं। कुछ नए बने हैं, बढ़ती भीड़ के लिए। नगर घाट का विकास मालवा के संत श्री श्री नगरजी से जुड़ा माना जाता है, और इसे अन्य घाटों की तुलना में अपेक्षाकृत स्वच्छ और सुरक्षित कहा जाता है।",
+        },
+        {
+          type: "p",
+          text: "इन घाटों का दृश्य नाटकीय है। नर्मदा विंध्य और सतपुड़ा के बीच बहती है और ओंकारेश्वर में एक गहरे, शांत जलाशय का रूप लेती है। कहा जाता है कि कभी यहाँ मछलियाँ इतनी सहज थीं कि हाथ से दाना ले लेती थीं। ॐ के आकार का द्वीप नदी से ऊपर उठता है। एक पुराने वर्णन के अनुसार यहाँ प्रकृति और मनुष्य का काम मिलकर एक विस्मयकारी दृश्य बनाता है।",
+        },
+        { type: "h2", text: "आध्यात्मिक महत्त्व और विधि" },
+        {
+          type: "p",
+          text: "श्रद्धालुओं के लिए नर्मदा घाट केवल निर्माण नहीं हैं। ओंकारेश्वर में नर्मदा स्नान को ज्योतिर्लिंग के दर्शन से पहले की शुद्धि माना जाता है। कोटीतीर्थ घाट की नर्मदा आरती 2025 में फिर शुरू हुई, कोविड-19 के बाद के अंतराल के बाद। यह संध्या की दैनिक विधि हरिद्वार और ऋषिकेश की गंगा आरती की याद दिलाती है। संध्या को लोग दीप, मंत्र और अर्पण देखने इकट्ठा होते हैं।",
+        },
+        {
+          type: "p",
+          text: "ये घाट ओंकार पर्वत परिक्रमा की नाव का आरंभ भी हैं, जो पवित्र द्वीप की लगभग छह से सात किलोमीटर की परिक्रमा है। इससे द्वीप का ॐ जैसा आकार, मंदिर और पहाड़ियाँ जल से दिखती हैं। ब्रह्मपुरी घाट का अलग महत्त्व है। वहाँ अमृतस्य माँ नर्मदा पद परिक्रमा कार्यक्रम हुआ, जिसमें मुख्यमंत्री मोहन यादव ने माँ नर्मदा की प्रार्थना की।",
+        },
+        { type: "h2", text: "पवित्र जल के नीचे का खतरा" },
+        {
+          type: "p",
+          text: "आध्यात्मिक आकर्षण के बावजूद ये घाट बार-बार होने वाली दुर्घटनाओं के लिए भी जाने लगे हैं। एक वर्ष में इन घाटों पर डूबने से 24 श्रद्धालुओं की जान गई, और चार वर्षों में 62 से अधिक मौतें दर्ज हुईं। अधिकतर पीड़ित इंदौर, महाराष्ट्र और गुजरात के यात्री थे, जो नदी के छिपे खतरे नहीं जानते थे।",
+        },
+        {
+          type: "p",
+          text: "खतरा प्राकृतिक भी है और मानव-निर्मित भी। नर्मदा का तल बहुत असमान है। कुछ जगह अचानक गहराई 200 फुट तक चली जाती है। पानी के नीचे चट्टानें, खाई और भँवर उन स्नानार्थियों के लिए घातक हैं जो उथले किनारे से आगे बढ़ जाते हैं। 2001 से 2007 के बीच बने ओंकारेश्वर बाँध ने जल-स्तर के उतार-चढ़ाव बढ़ा दिए। इससे डूबी चट्टानों पर काई जमती है, वे फिसलन भरी हो जाती हैं, और गहराई का बदलाव छिप जाता है।",
+        },
+        {
+          type: "p",
+          text: "घाटों पर बुनियादी सुरक्षा भी कम है। किसी घाट पर रेलिंग नहीं है, और आपात बचाव के साधन सीमित हैं। नावें घाट घेर लेती हैं, सुरक्षित स्नान की जगह घट जाती है, और बिना अनुमति की नावें लाइसेंस वाली नावों से अधिक बताई जाती हैं। सुरक्षा के लिए खड़ी सरकारी नावें दुर्घटना के समय अक्सर खड़ी रह जाती हैं, क्योंकि नाविक कहीं और व्यस्त होते हैं।",
+        },
+        { type: "h2", text: "प्रशासन की तैयारी" },
+        {
+          type: "p",
+          text: "लगातार हो रही मौतों पर प्रशासन ने कदम उठाए हैं, खासकर 2028 के उज्जैन सिंहस्थ की तैयारी में, जब ओंकारेश्वर में भी बड़ी भीड़ आने की आशंका है। आठ नए सुरक्षित घाट बनाने की घोषणा हुई है, रेलिंग, जंजीर और सुरक्षा उपकरण के साथ। भीड़ के समय आपात टीमों के लिए अतिरिक्त साधन और प्रशिक्षण भी दिए जा रहे हैं।",
+        },
+        {
+          type: "p",
+          text: "नियम भी कड़े हुए हैं। पूरी ओंकार पर्वत परिक्रमा की नाव अब दोपहर 2 बजे के बाद नहीं चलती। कारण अचानक मौसम और दूर के मार्ग पर बचाव टीम के पहुँचने की कठिनाई बताया गया है। नाविक संघ ने यह निर्णय स्वीकार किया। वे स्वयं शाम 4 बजे के बाद परिक्रमा की नाव भेजने से लंबे समय से बचते थे।",
+        },
+        {
+          type: "p",
+          text: "आध्यात्मिक पक्ष पर सरकार ने पूरे नर्मदा परिक्रमा पथ को उसके मूल पवित्र रूप में लौटाने की बात कही है, किनारे घाट और यात्रियों के लिए संकेत-पट्ट सहित। ओंकारेश्वर में एक भव्य ज्योतिर्लिंग मंदिर की योजना भी है।",
+        },
+        { type: "h2", text: "जीवित स्थान के रूप में घाट" },
+        {
+          type: "p",
+          text: "विधि और प्रशासन के अलावा ये घाट जीवित स्थान हैं। सुबह श्रद्धालु स्नान के लिए उतरते हैं, पुजारी प्रार्थना करते हैं, और नाविक परिक्रमा की तैयारी करते हैं। ब्रह्मपुरी घाट स्नान, धुलाई, नर्मदा पूजन और अस्थि-विसर्जन का केंद्र है। यह गतिविधि अर्थपूर्ण है, पर नगर का कुछ मल-जल कुछ स्थानों पर नदी में गिरता है, जिससे दबाव भी बनता है।",
+        },
+        {
+          type: "p",
+          text: "घाट शांत चिंतन का समय भी देते हैं। लोग भोर में किनारे चलते हैं, जल और द्वीप के मंदिरों पर प्रकाश देखते हैं, या शाम को नगर का जीवंत रूप देखते हैं: नाविक, घंटियाँ, आरती, और द्वीप की ओर का दृश्य। धीमी गति चाहने वालों के लिए अहिल्या घाट अधिक सुकून वाला नदी-किनारा है, फोटो और विचार के लिए।",
+        },
+        { type: "h2", text: "निष्कर्ष" },
+        {
+          type: "p",
+          text: "ओंकारेश्वर के नर्मदा घाट एक गहरा विरोधाभास हैं। वे सबसे पवित्र द्वार भी हैं और सबसे खतरनाक स्थान भी, श्रद्धा के स्थल भी और रोकी जा सकने वाली त्रासदी के स्थल भी। यात्री के लिए वे शुद्धि और ईश्वर की निकटता का वचन हैं। प्रशासक के लिए वे परंपरा और आधुनिक सुरक्षा के बीच संतुलन की चुनौती हैं। आने वाले वर्षों में अभूतपूर्व भीड़ की तैयारी में इन घाटों का रूप—नया निर्माण, सख्त नियम और जागरूकता—तय करेगा कि नर्मदा का पवित्र जल जान लेता रहे या वह शरण बने जिसके लिए उसे माना जाता है।",
         },
       ],
       faqs: [
         {
-          q: "सोमवार की सवारी किस घाट से निकलती है?",
-          a: "ट्रस्ट का प्रश्नोत्तर कहता है कि सोमवार सवारी कोटी तीर्थ घाट से शुरू होती है। सावन में राजसी रूप होता है।",
+          q: "ओंकारेश्वर के प्रमुख नर्मदा घाट कौन से हैं?",
+          a: "अभय, नवीन, नगर, गोमुख, कोटीतीर्थ, ब्रह्मपुरी, केवलराम, ओंकार मठ, बिछलिया, चक्रतीर्थ, बर्फानी, और संगम घाट, जहाँ नर्मदा स्थानीय कावेरी से मिलती है।",
         },
         {
-          q: "क्या नदी की आरती होती है?",
-          a: "मध्य प्रदेश पर्यटन कहता है कि कोटीतीर्थ घाट पर माँ नर्मदा की शयन आरती प्रतिदिन होती है। घंटा स्थानीय पूछें। वह गर्भगृह की समय-सारिणी नहीं है।",
+          q: "नर्मदा आरती कहाँ होती है?",
+          a: "कोटीतीर्थ घाट पर। यह 2025 में फिर शुरू हुई, कोविड-19 महामारी के बाद के अंतराल के बाद, संध्या की दैनिक विधि के रूप में।",
         },
         {
-          q: "क्या किसी भी सीढ़ी से स्नान कर सकते हैं?",
-          a: "वही घाट लें जहाँ स्नान सच में होता है, और धारा जानने वालों का साथ लें। यह गाइड किसी सीढ़ी को सुरक्षित घोषित नहीं करती।",
+          q: "क्या घाट पर स्नान सुरक्षित है?",
+          a: "नदी का तल असमान है। अचानक गहराई, फिसलन भरी चट्टानें और बदलता जल-स्तर है। उथले किनारे पर रहें। हर सीढ़ी को सुरक्षित स्नान-स्थान न मानें।",
         },
       ],
     },
@@ -408,7 +495,7 @@ export const placePages: PageDef[] = [
     cluster: "places",
     kind: "place",
     updated,
-    sources: ["mpTourism", "parikrama", "templeWebsite"],
+    sources: ["parikrama", "templeWebsite"],
     related: ["omkareshwar-parikrama", "gauri-somnath-temple", "places-to-visit-in-omkareshwar", "omkareshwar-history"],
     en: {
       title: "Siddhanath Temple, Omkareshwar – On the Parikrama",
@@ -492,7 +579,7 @@ export const placePages: PageDef[] = [
     cluster: "places",
     kind: "place",
     updated,
-    sources: ["mpTourism", "templeWebsite", "parikrama"],
+    sources: ["templeWebsite", "parikrama"],
     related: ["omkareshwar-parikrama", "siddhanath-temple-omkareshwar", "omkareshwar-history", "places-to-visit-in-omkareshwar"],
     en: {
       title: "Gauri Somnath Temple, Omkareshwar",

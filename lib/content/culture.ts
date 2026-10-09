@@ -8,7 +8,7 @@ export const culturePages: PageDef[] = [
     cluster: "yatra",
     kind: "guide",
     updated,
-    sources: ["mpTourism", "templeWebsite"],
+    sources: ["templeWebsite"],
     related: ["omkareshwar-jyotirlinga-story", "gauri-somnath-temple", "siddhanath-temple-omkareshwar", "omkareshwar-shivling"],
     en: {
       title: "Omkareshwar History – Island, Temples & What Is Known",
@@ -104,7 +104,7 @@ export const culturePages: PageDef[] = [
     cluster: "temple",
     kind: "guide",
     updated,
-    sources: ["templeWebsite", "mpTourism"],
+    sources: ["templeWebsite"],
     related: ["omkareshwar-jyotirlinga", "omkareshwar-shivling", "mamleshwar-temple", "omkareshwar-history"],
     en: {
       title: "Story of Omkareshwar Jyotirlinga – Tradition, Not a Chronicle",
@@ -290,7 +290,7 @@ export const culturePages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["faq", "timetable", "mpTourism", "news"],
+    sources: ["faq", "timetable", "news"],
     related: ["omkareshwar-mahashivratri", "omkareshwar-temple-timings", "narmada-ghat-omkareshwar", "omkareshwar-darshan"],
     en: {
       title: "Omkareshwar Festivals – Shravan, Mondays & the Crowd",
@@ -389,7 +389,7 @@ export const culturePages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["timetable", "faq", "shighraInfo", "mpTourism"],
+    sources: ["timetable", "faq", "shighraInfo"],
     related: ["omkareshwar-festivals", "omkareshwar-temple-timings", "omkareshwar-vip-darshan", "hotels-near-omkareshwar-temple"],
     en: {
       title: "Omkareshwar Mahashivratri – Night, Queue & a Room",

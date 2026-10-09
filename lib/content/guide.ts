@@ -10,7 +10,7 @@ export const guidePages: PageDef[] = [
     updated,
     verified: updated,
     image: "aerial",
-    sources: ["templeWebsite", "timetable", "liveDarshan", "parikrama", "howToReach", "faq", "mpTourism"],
+    sources: ["templeWebsite", "timetable", "liveDarshan", "parikrama", "howToReach", "faq"],
     related: [
       "omkareshwar-trip",
       "omkareshwar-darshan",

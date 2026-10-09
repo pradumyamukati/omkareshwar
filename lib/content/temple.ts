@@ -10,7 +10,7 @@ export const templePages: PageDef[] = [
     updated,
     verified: updated,
     image: "temple",
-    sources: ["templeWebsite", "mpTourism", "faq"],
+    sources: ["templeWebsite", "faq"],
     related: ["omkareshwar-temple", "mamleshwar-temple", "omkareshwar-jyotirlinga-story", "omkareshwar-darshan"],
     en: {
       title: "Omkareshwar Jyotirlinga – Temple, Darshan & Guide",
@@ -146,7 +146,7 @@ export const templePages: PageDef[] = [
     updated,
     verified: updated,
     image: "temple",
-    sources: ["templeWebsite", "mpTourism", "rules", "faq", "abhishekBooking"],
+    sources: ["templeWebsite", "rules", "faq", "abhishekBooking"],
     related: ["omkareshwar-darshan", "omkareshwar-temple-timings", "omkareshwar-vip-darshan", "narmada-ghat-omkareshwar"],
     en: {
       title: "Omkareshwar Temple – Mandhata Shrine & Visit",

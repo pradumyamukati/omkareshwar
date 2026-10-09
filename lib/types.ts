@@ -10,7 +10,9 @@ export type Block =
   | { type: "ol"; items: string[] }
   | { type: "facts"; items: { label: string; value: string }[] }
   | { type: "table"; caption?: string; headers: string[]; rows: string[][] }
-  | { type: "note"; text: string };
+  | { type: "note"; text: string }
+  | { type: "ride" }
+  | { type: "stays" };
 
 export type Copy = {
   title: string;
@@ -36,7 +38,7 @@ export type PageDef = {
   verified?: string;
   sources: OfficialKey[];
   related: string[];
-  image?: "temple" | "aerial" | "mamleshwar";
+  image?: "temple" | "aerial" | "mamleshwar" | "ghat";
   en: Copy;
   hi: Copy;
 };

@@ -38,7 +38,7 @@ export const policyPages: PageDef[] = [
       faqs: [
         {
           q: "Is Omkareshwar.co the temple’s website?",
-          a: "No. The temple trust’s website is shriomkareshwar.org. The link is in the footer and on the sources page.",
+          a: "No. The temple trust’s website is https://shriomkareshwar.org/. That address is printed as text in the footer and on the sources page. This site does not link to it.",
         },
         {
           q: "Who writes the pages?",
@@ -74,7 +74,7 @@ export const policyPages: PageDef[] = [
       faqs: [
         {
           q: "क्या Omkareshwar.co मंदिर की वेबसाइट है?",
-          a: "नहीं। मंदिर ट्रस्ट की वेबसाइट shriomkareshwar.org है। कड़ी पादलेख और स्रोत पृष्ठ पर है।",
+          a: "नहीं। मंदिर ट्रस्ट की वेबसाइट https://shriomkareshwar.org/ है। वह पता पादलेख और स्रोत पृष्ठ पर लिखा है। यह साइट उस पर कड़ी नहीं देती।",
         },
         {
           q: "पृष्ठ कौन लिखता है?",
@@ -88,7 +88,7 @@ export const policyPages: PageDef[] = [
     cluster: "trust",
     kind: "policy",
     updated,
-    sources: ["templeWebsite", "timetable", "mpTourism"],
+    sources: ["templeWebsite", "timetable"],
     related: ["about", "sources", "latest-omkareshwar-news", "disclaimer"],
     en: {
       title: "Editorial Policy – How Omkareshwar.co Checks Facts",
@@ -193,17 +193,16 @@ export const policyPages: PageDef[] = [
       "schedules",
       "shighraInfo",
       "news",
-      "mpTourism",
-    ],
+      ],
     related: ["editorial-policy", "about", "latest-omkareshwar-news", "disclaimer"],
     en: {
       title: "Sources – Official Temple and Government Pages",
       description:
-        "The official Shri Omkareshwar Mandir Trust pages and the Madhya Pradesh Tourism page this guide actually uses. Every link leaves this site.",
+        "The official Shri Omkareshwar Mandir Trust address this guide actually uses.",
       h1: "Sources",
       kicker: "Where the facts come from",
       answer:
-        "Omkareshwar.co relies on the Shri Omkareshwar Mandir Trust website and the Madhya Pradesh Tourism page for Omkareshwar. Photographs are credited to their authors. Links below are external. They are not endorsements of every line on those sites, and they are not operated by us.",
+        "Omkareshwar.co relies on the Shri Omkareshwar Mandir Trust website for Omkareshwar. Photographs are credited to their authors. The temple address below is text, not a link. It is not operated by us.",
       blocks: [
         {
           type: "p",
@@ -212,20 +211,7 @@ export const policyPages: PageDef[] = [
         {
           type: "ul",
           items: [
-            "{{templeWebsite|Temple trust homepage}}",
-            "{{timetable|Daily darshan timings}}",
-            "{{schedules|Day schedule}}",
-            "{{liveDarshan|Live darshan}}",
-            "{{darshanBooking|Shighra booking}}",
-            "{{shighraInfo|Shighra information}}",
-            "{{abhishekBooking|Abhishek}}",
-            "{{howToReach|How to reach}}",
-            "{{parikrama|Parikrama}}",
-            "{{vishramalaya|Shri Ji Vishramalaya}}",
-            "{{faq|Trust FAQ}}",
-            "{{rules|Rules}}",
-            "{{news|Trust news}}",
-            "{{mpTourism|Madhya Pradesh Tourism — Omkareshwar}}",
+            "https://shriomkareshwar.org/",
           ],
         },
       ],
@@ -236,18 +222,18 @@ export const policyPages: PageDef[] = [
         },
         {
           q: "Are these links followed by search engines?",
-          a: "No. Outbound links from this guide use nofollow. The official site does not need our endorsement to be official.",
+          a: "The temple address on this page is plain text, so there is no link for a search engine to follow.",
         },
       ],
     },
     hi: {
       title: "स्रोत – आधिकारिक मंदिर और सरकारी पृष्ठ",
       description:
-        "श्री ओंकारेश्वर मंदिर ट्रस्ट के वे पृष्ठ और मध्य प्रदेश पर्यटन का पृष्ठ जिनका यह गाइड सच में उपयोग करती है। हर कड़ी इस साइट से बाहर जाती है।",
+        "श्री ओंकारेश्वर मंदिर ट्रस्ट का पता, जिसका यह गाइड सच में उपयोग करती है।",
       h1: "स्रोत",
       kicker: "तथ्य कहाँ से आते हैं",
       answer:
-        "Omkareshwar.co श्री ओंकारेश्वर मंदिर ट्रस्ट की वेबसाइट और मध्य प्रदेश पर्यटन के ओंकारेश्वर पृष्ठ पर निर्भर है। तस्वीरों का श्रेय उनके लेखकों को है। नीचे की कड़ियाँ बाहरी हैं। वे उन साइटों की हर पंक्ति का समर्थन नहीं, और हमारे द्वारा चलाई नहीं जातीं।",
+        "Omkareshwar.co श्री ओंकारेश्वर मंदिर ट्रस्ट की वेबसाइट पर निर्भर है। तस्वीरों का श्रेय उनके लेखकों को है। नीचे मंदिर का पता लिखा है, कड़ी नहीं। वह हमारे द्वारा चलाई नहीं जाती।",
       blocks: [
         {
           type: "p",
@@ -256,20 +242,7 @@ export const policyPages: PageDef[] = [
         {
           type: "ul",
           items: [
-            "{{templeWebsite|मंदिर ट्रस्ट का मुखपृष्ठ}}",
-            "{{timetable|दैनिक दर्शन का समय}}",
-            "{{schedules|दिनचर्या}}",
-            "{{liveDarshan|लाइव दर्शन}}",
-            "{{darshanBooking|शीघ्र बुकिंग}}",
-            "{{shighraInfo|शीघ्र जानकारी}}",
-            "{{abhishekBooking|अभिषेक}}",
-            "{{howToReach|कैसे पहुँचें}}",
-            "{{parikrama|परिक्रमा}}",
-            "{{vishramalaya|श्री जी विश्रामालय}}",
-            "{{faq|ट्रस्ट का प्रश्नोत्तर}}",
-            "{{rules|नियम}}",
-            "{{news|ट्रस्ट के समाचार}}",
-            "{{mpTourism|मध्य प्रदेश पर्यटन — ओंकारेश्वर}}",
+            "https://shriomkareshwar.org/",
           ],
         },
       ],
@@ -280,7 +253,7 @@ export const policyPages: PageDef[] = [
         },
         {
           q: "क्या खोज इंजन इन कड़ियों को फॉलो करते हैं?",
-          a: "नहीं। इस गाइड की बाहर जाने वाली कड़ियाँ nofollow हैं। आधिकारिक साइट को आधिकारिक होने के लिए हमारे समर्थन की जरूरत नहीं।",
+          a: "इस पृष्ठ पर मंदिर का पता सादा पाठ है, इसलिए खोज इंजन के फॉलो करने की कोई कड़ी नहीं है।",
         },
       ],
     },
@@ -506,7 +479,7 @@ export const policyPages: PageDef[] = [
     cluster: "trust",
     kind: "policy",
     updated,
-    sources: ["templeWebsite", "mpTourism"],
+    sources: ["templeWebsite"],
     related: ["about", "editorial-policy", "terms", "sources"],
     en: {
       title: "Disclaimer – Not the Official Omkareshwar Temple",
@@ -531,7 +504,7 @@ export const policyPages: PageDef[] = [
       faqs: [
         {
           q: "Where is the official website?",
-          a: "https://shriomkareshwar.org/ — linked in the footer. The link is nofollow because it leaves this site.",
+          a: "https://shriomkareshwar.org/ is printed in the footer as text. This site does not link to it.",
         },
         {
           q: "Can I pay Omkareshwar.co for VIP darshan?",
@@ -562,7 +535,7 @@ export const policyPages: PageDef[] = [
       faqs: [
         {
           q: "आधिकारिक वेबसाइट कहाँ है?",
-          a: "https://shriomkareshwar.org/ — पादलेख में कड़ी है। कड़ी nofollow है क्योंकि वह इस साइट से बाहर जाती है।",
+          a: "https://shriomkareshwar.org/ पादलेख में लिखा है। यह साइट उस पर कड़ी नहीं देती।",
         },
         {
           q: "क्या वीआईपी दर्शन के लिए Omkareshwar.co को भुगतान कर सकते हैं?",

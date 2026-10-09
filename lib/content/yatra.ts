@@ -9,7 +9,7 @@ export const yatraPages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["timetable", "howToReach", "faq", "mpTourism"],
+    sources: ["timetable", "howToReach", "faq"],
     related: ["omkareshwar-complete-guide", "omkareshwar-one-day-trip", "omkareshwar-two-day-trip", "omkareshwar-from-indore"],
     en: {
       title: "Omkareshwar Trip – One Night or Two, by the Temple Clock",
@@ -183,7 +183,7 @@ export const yatraPages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["timetable", "parikrama", "faq", "mpTourism"],
+    sources: ["timetable", "parikrama", "faq"],
     related: ["omkareshwar-parikrama", "omkareshwar-trip", "mamleshwar-temple", "hotels-near-omkareshwar-temple"],
     en: {
       title: "Omkareshwar Two Day Trip – Aarti, Mamleshwar & the Walk",
@@ -262,7 +262,7 @@ export const yatraPages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["howToReach", "mpTourism", "faq", "templeWebsite"],
+    sources: ["howToReach", "faq", "templeWebsite"],
     related: ["where-is-omkareshwar", "how-to-reach-omkareshwar", "omkareshwar-from-indore", "omkareshwar-from-khandwa"],
     en: {
       title: "Omkareshwar Distance – Indore, Ujjain, Khandwa & Maheshwar",
@@ -361,7 +361,7 @@ export const yatraPages: PageDef[] = [
     kind: "faq",
     updated,
     verified: updated,
-    sources: ["faq", "timetable", "howToReach", "shighraInfo", "liveDarshan", "mpTourism"],
+    sources: ["faq", "timetable", "howToReach", "shighraInfo", "liveDarshan"],
     related: ["omkareshwar-temple-timings", "where-is-omkareshwar", "omkareshwar-darshan", "how-to-reach-omkareshwar"],
     en: {
       title: "Omkareshwar FAQ – Location, Timings, Darshan & Stay",

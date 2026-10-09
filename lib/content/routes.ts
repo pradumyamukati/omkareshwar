@@ -9,7 +9,7 @@ export const routePages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["howToReach", "templeWebsite", "mpTourism", "timetable"],
+    sources: ["howToReach", "templeWebsite", "timetable"],
     related: ["how-to-reach-omkareshwar", "omkareshwar-one-day-trip", "omkareshwar-temple-timings", "hotels-in-omkareshwar"],
     en: {
       title: "Omkareshwar from Indore – Distance, Road & Darshan",
@@ -104,7 +104,7 @@ export const routePages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["faq", "mpTourism", "timetable", "howToReach"],
+    sources: ["faq", "timetable", "howToReach"],
     related: ["omkareshwar-two-day-trip", "omkareshwar-jyotirlinga", "how-to-reach-omkareshwar", "omkareshwar-from-indore"],
     en: {
       title: "Omkareshwar from Ujjain – 140 km & Two Jyotirlingas",
@@ -199,7 +199,7 @@ export const routePages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["mpTourism", "howToReach", "timetable"],
+    sources: ["howToReach", "timetable"],
     related: ["how-to-reach-omkareshwar", "omkareshwar-from-khandwa", "omkareshwar-two-day-trip", "omkareshwar-distance"],
     en: {
       title: "Omkareshwar from Bhopal – How to Plan the Road",
@@ -286,7 +286,7 @@ export const routePages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["howToReach", "mpTourism", "timetable"],
+    sources: ["howToReach", "timetable"],
     related: ["how-to-reach-omkareshwar", "where-is-omkareshwar", "omkareshwar-from-mumbai", "omkareshwar-darshan"],
     en: {
       title: "Omkareshwar from Khandwa – Junction, Sanawad & the Last Road",
@@ -373,7 +373,7 @@ export const routePages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["howToReach", "mpTourism", "timetable", "faq"],
+    sources: ["howToReach", "timetable", "faq"],
     related: ["omkareshwar-from-khandwa", "how-to-reach-omkareshwar", "omkareshwar-two-day-trip", "omkareshwar-darshan"],
     en: {
       title: "Omkareshwar from Mumbai – Flight, Train & the Last 77 km",
@@ -460,7 +460,7 @@ export const routePages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["howToReach", "mpTourism", "timetable", "vishramalaya"],
+    sources: ["howToReach", "timetable", "vishramalaya"],
     related: ["omkareshwar-from-indore", "how-to-reach-omkareshwar", "omkareshwar-two-day-trip", "hotels-in-omkareshwar"],
     en: {
       title: "Omkareshwar from Delhi – Fly to Indore, Then the River",

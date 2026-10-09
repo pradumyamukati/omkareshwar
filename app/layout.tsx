@@ -24,6 +24,7 @@ const hindi = Noto_Sans_Devanagari({ subsets: ["devanagari"], weight: ["400", "6
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  viewportFit: "cover",
   themeColor: "#ffffff",
 };
 

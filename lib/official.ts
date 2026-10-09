@@ -2,6 +2,17 @@
  * Verified on 5 October 2026 by opening the temple trust and
  * Madhya Pradesh Tourism pages. Do not add a URL that has not been checked.
  */
+/** Printed as text. Never wrap this in an anchor. */
+export const templeSiteText = "https://shriomkareshwar.org/";
+
+export function isTempleSiteUrl(url: string) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "") === "shriomkareshwar.org";
+  } catch {
+    return false;
+  }
+}
+
 export const officialSources = {
   templeWebsite: "https://shriomkareshwar.org/",
   liveDarshan: "https://shriomkareshwar.org/LiveDarshan.aspx",

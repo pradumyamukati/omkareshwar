@@ -287,6 +287,46 @@ export const templeVisitPages: PageDef[] = [
           type: "p",
           text: "The trust describes Shighra as a direct-darshan facility for a fixed slot, because festivals and holidays make the free queue long. The note on the page said booking was open for all slots from Monday to Sunday. Slots shown on the booking form included 7–9 AM, 10 AM–12 PM, 2–4 PM and 6–8 PM. The form is the list that counts. A slot that falls inside bhog or shringar still cannot be used. The FAQ says the ticket is not valid during temple service breaks.",
         },
+        { type: "h2", text: "How to book" },
+        {
+          type: "p",
+          text: "Shighra Darshan can be booked on the official temple website or bought at the temple counter. This guide does not take the payment.",
+        },
+        { type: "h3", text: "On the official website" },
+        {
+          type: "ol",
+          items: [
+            "Open https://shriomkareshwar.org/",
+            "In the booking menu, open Shighra Darshan and press Book Now.",
+            "Choose the darshan date and a two-hour time slot.",
+            "Enter the name and Aadhaar number of each devotee. Aadhaar details cannot be changed after submission, so check them before you send the form.",
+            "Pay the fee. The ticket is ₹300 per person.",
+            "Download or save the e-ticket that arrives by email.",
+          ],
+        },
+        { type: "h3", text: "Rules that apply to the ticket" },
+        {
+          type: "ul",
+          items: [
+            "A wristband is compulsory. An e-ticket alone does not let you in. Collect the band from a named centre such as Bramhapuri Parking Center or Jhula Pul Facility Center.",
+            "Carry a printed ticket and a valid photo identity, Aadhaar, for every devotee.",
+            "Ticket holders are advised not to use the boat route, so the slot is not lost to a delay.",
+            "Do not book tickets for children under 12.",
+            "The ticket is valid only for the booked date and time slot.",
+          ],
+        },
+        { type: "h3", text: "If you are not booking online" },
+        {
+          type: "ul",
+          items: [
+            "The temple counter also sells Shighra Darshan. On peak days — Mondays, Shravan, and Maha Shivratri — those tickets may be gone by 8:00 AM.",
+            "Ordinary darshan is free and does not need a booking.",
+          ],
+        },
+        {
+          type: "p",
+          text: "If the payment succeeds and the ticket does not arrive, reprint it with your mobile number and Order ID, or call the helpline.",
+        },
         { type: "h2", text: "How not to pay the wrong person" },
         {
           type: "ul",
@@ -345,6 +385,46 @@ export const templeVisitPages: PageDef[] = [
         {
           type: "p",
           text: "ट्रस्ट शीघ्र को तय स्लॉट की सीधी दर्शन सुविधा बताता है, क्योंकि पर्व और छुट्टी पर मुफ्त कतार लंबी होती है। पृष्ठ पर लिखा था कि सोमवार से रविवार तक सभी स्लॉट के लिए बुकिंग खुली है। फॉर्म पर स्लॉट सुबह 7–9, सुबह 10–दोपहर 12, दोपहर 2–4 और शाम 6–8 दिखे। जो सूची मायने रखती है वह फॉर्म है। भोग या श्रृंगार के भीतर पड़ा स्लॉट फिर भी नहीं चलता। प्रश्नोत्तर कहता है कि मंदिर की सेवा के विराम में टिकट मान्य नहीं।",
+        },
+        { type: "h2", text: "कैसे बुक करें" },
+        {
+          type: "p",
+          text: "शीघ्र दर्शन आधिकारिक मंदिर वेबसाइट पर बुक हो सकता है, या मंदिर के काउंटर पर खरीदा जा सकता है। यह गाइड भुगतान नहीं लेती।",
+        },
+        { type: "h3", text: "आधिकारिक वेबसाइट पर" },
+        {
+          type: "ol",
+          items: [
+            "https://shriomkareshwar.org/ खोलें।",
+            "बुकिंग मेनू में शीघ्र दर्शन खोलें और Book Now दबाएँ।",
+            "दर्शन की तारीख और दो घंटे का समय चुनें।",
+            "हर श्रद्धालु का नाम और आधार नंबर भरें। जमा करने के बाद आधार नहीं बदलता, इसलिए भेजने से पहले जाँच लें।",
+            "शुल्क भरें। टिकट ₹300 प्रति व्यक्ति है।",
+            "ईमेल से आया ई-टिकट डाउनलोड करें या सहेज लें।",
+          ],
+        },
+        { type: "h3", text: "टिकट के नियम" },
+        {
+          type: "ul",
+          items: [
+            "रिस्टबैंड अनिवार्य है। केवल ई-टिकट से प्रवेश नहीं मिलता। बैंड ब्रह्मपुरी पार्किंग सेंटर या झूला पुल फैसिलिटी सेंटर जैसे तय केंद्र से लें।",
+            "हर श्रद्धालु के लिए छपा टिकट और वैध फोटो पहचान, आधार, साथ रखें।",
+            "टिकट वालों को नाव वाले रास्ते से न जाने की सलाह है, ताकि देरी से स्लॉट न छूटे।",
+            "12 वर्ष से छोटे बच्चों का टिकट न बुक करें।",
+            "टिकट केवल बुक की गई तारीख और समय के लिए मान्य है।",
+          ],
+        },
+        { type: "h3", text: "यदि ऑनलाइन नहीं बुक कर रहे" },
+        {
+          type: "ul",
+          items: [
+            "मंदिर का काउंटर भी शीघ्र दर्शन बेचता है। भीड़ वाले दिन — सोमवार, सावन और महाशिवरात्रि — ये टिकट सुबह 8:00 बजे तक खत्म हो सकते हैं।",
+            "सामान्य दर्शन मुफ्त है और उसके लिए बुकिंग नहीं चाहिए।",
+          ],
+        },
+        {
+          type: "p",
+          text: "यदि भुगतान हो जाए और टिकट न आए, तो मोबाइल नंबर और ऑर्डर आईडी से उसे दोबारा छापें, या हेल्पलाइन पर संपर्क करें।",
         },
         { type: "h2", text: "गलत व्यक्ति को कैसे न दें" },
         {

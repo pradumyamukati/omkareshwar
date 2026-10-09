@@ -1,11 +1,13 @@
 import Link from "next/link";
-import { officialSources, sourceCatalog, type OfficialKey } from "@/lib/official";
+import { isTempleSiteUrl, officialSources, sourceCatalog, templeSiteText, type OfficialKey } from "@/lib/official";
 import { pages } from "@/lib/content";
 import { pathFor } from "@/lib/paths";
 import { verifiedLabel, type Block, type Lang, type PageDef } from "@/lib/types";
 import { pageJsonLd } from "@/lib/seo";
 import { JsonLd } from "./JsonLd";
 import { Photo } from "./Photo";
+import { HotelPicks } from "./HotelPicks";
+import { MortakkaBooking } from "./MortakkaBooking";
 import { ExternalLink, RichText } from "./RichText";
 
 export function Blocks({ blocks, lang }: { blocks: Block[]; lang: Lang }) {
@@ -47,6 +49,8 @@ export function Blocks({ blocks, lang }: { blocks: Block[]; lang: Lang }) {
             </dl>
           );
         }
+        if (block.type === "ride") return <MortakkaBooking key={index} lang={lang} />;
+        if (block.type === "stays") return <HotelPicks key={index} lang={lang} />;
         if (block.type === "table") {
           return (
             <div className="table-wrap" key={index}>
@@ -102,16 +106,23 @@ export function Article({ page, lang }: { page: PageDef; lang: Lang }) {
       </p>
       {page.image ? <Photo id={page.image} lang={lang} priority /> : null}
       <Blocks blocks={copy.blocks} lang={lang} />
-      <section className="sources" aria-labelledby="sources-title">
-        <h2 id="sources-title">{lang === "en" ? "Sources" : "स्रोत"}</h2>
-        <ul>
-          {page.sources.map((key: OfficialKey) => (
-            <li key={key}>
-              <ExternalLink href={officialSources[key]}>{sourceCatalog[key][lang]}</ExternalLink>
-            </li>
-          ))}
-        </ul>
-      </section>
+      {page.sources.some((key: OfficialKey) => key !== "mpTourism") ? (
+        <section className="sources" aria-labelledby="sources-title">
+          <h2 id="sources-title">{lang === "en" ? "Sources" : "स्रोत"}</h2>
+          <ul>
+            {page.sources.some((key: OfficialKey) => key !== "mpTourism" && isTempleSiteUrl(officialSources[key])) ? (
+              <li>{templeSiteText}</li>
+            ) : null}
+            {page.sources
+              .filter((key: OfficialKey) => key !== "mpTourism" && !isTempleSiteUrl(officialSources[key]))
+              .map((key: OfficialKey) => (
+                <li key={key}>
+                  <ExternalLink href={officialSources[key]}>{sourceCatalog[key][lang]}</ExternalLink>
+                </li>
+              ))}
+          </ul>
+        </section>
+      ) : null}
       {copy.faqs.length > 0 ? (
         <section className="faq" aria-labelledby="faq-title">
           <h2 id="faq-title">{lang === "en" ? "Questions" : "प्रश्न"}</h2>

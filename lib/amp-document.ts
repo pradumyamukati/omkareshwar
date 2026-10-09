@@ -1,8 +1,9 @@
 import { getPage } from "./content";
+import { hotelDetailUrl, hotelPicks } from "./hotel-picks";
 import { liveSessions } from "./facts";
 import { media, type MediaKey } from "./media";
 import { footerGroups, nav } from "./nav";
-import { officialSources, sourceCatalog, type OfficialKey } from "./official";
+import { isTempleSiteUrl, officialSources, sourceCatalog, templeSiteText, type OfficialKey } from "./official";
 import { absoluteUrl, pathFor } from "./paths";
 import { independenceNotice, site } from "./site";
 import type { Block, Lang } from "./types";
@@ -73,7 +74,7 @@ function rich(text: string, lang: Lang) {
       html += `<a href="${esc(ampHref(pathFor(lang, match[1])))}">${inline(match[2])}</a>`;
     } else if (match[3] && match[4]) {
       const href = officialSources[match[3] as OfficialKey];
-      html += href
+      html += href && isTempleSiteUrl(href) ? esc(templeSiteText) : href
         ? `<a href="${esc(href)}" target="_blank" rel="nofollow noopener noreferrer">${inline(match[4])}</a>`
         : inline(match[4]);
     }
@@ -118,6 +119,17 @@ function blocks(items: Block[], lang: Lang) {
         return `<dl>${block.items.map((item) => `<dt>${esc(item.label)}</dt><dd>${rich(item.value, lang)}</dd>`).join("")}</dl>`;
       }
       if (block.type === "note") return `<p class="note">${rich(block.text, lang)}</p>`;
+      if (block.type === "ride") {
+        return `<p><a href="${esc(absoluteUrl(pathFor(lang, "omkareshwar-to-mortakka")))}">${lang === "en" ? "Open the booking form" : "बुकिंग फॉर्म खोलें"}</a></p>`;
+      }
+      if (block.type === "stays") {
+        return `<ul>${hotelPicks
+          .map(
+            (stay) =>
+              `<li><a href="${esc(hotelDetailUrl(stay.id))}" target="_blank" rel="nofollow noopener noreferrer">${esc(stay.name)}</a></li>`,
+          )
+          .join("")}</ul>`;
+      }
       const head = block.headers.map((cell) => `<th>${rich(cell, lang)}</th>`).join("");
       const rows = block.rows
         .map((row) => `<tr>${row.map((cell) => `<td>${rich(cell, lang)}</td>`).join("")}</tr>`)
@@ -128,7 +140,6 @@ function blocks(items: Block[], lang: Lang) {
 }
 
 function chrome(lang: Lang, slug: string) {
-  const other = lang === "en" ? "hi" : "en";
   const home = pathFor(lang, "");
   const links = nav
     .map((item) => `<a href="${esc(ampHref(pathFor(lang, item.href)))}">${esc(item[lang])}</a>`)
@@ -137,8 +148,9 @@ function chrome(lang: Lang, slug: string) {
     <div class="row">
       <a class="brand" href="${esc(ampHref(home))}">ॐ ${lang === "en" ? "Omkareshwar" : "ओंकारेश्वर"}</a>
       <div class="tools">
-        <a href="${esc(ampHref(pathFor(other, slug)))}">${lang === "en" ? "हिन्दी" : "EN"}</a>
-        <a class="live" href="${esc(officialSources.liveDarshan)}" target="_blank" rel="nofollow noopener noreferrer">${lang === "en" ? "Live Darshan" : "लाइव दर्शन"}</a>
+        <a href="${esc(ampHref(pathFor("en", slug)))}">English</a>
+        <a href="${esc(ampHref(pathFor("hi", slug)))}">हिन्दी</a>
+        <span>${esc(templeSiteText)}</span>
       </div>
     </div>
     <details>
@@ -158,7 +170,7 @@ function footer(lang: Lang) {
     )
     .join("");
   return `<footer><div class="wrap">
-    <p>${lang === "en" ? "This is not the official Omkareshwar temple website. " : "यह ओंकारेश्वर की आधिकारिक वेबसाइट नहीं है। "}<a href="${esc(officialSources.templeWebsite)}" target="_blank" rel="nofollow noopener noreferrer">${lang === "en" ? "Official site" : "आधिकारिक साइट"}</a></p>
+    <p>${lang === "en" ? "This is not the official Omkareshwar temple website. " : "यह ओंकारेश्वर की आधिकारिक वेबसाइट नहीं है। "}${esc(templeSiteText)}</p>
     <p>${esc(independenceNotice[lang])}</p>
     ${groups}
   </div></footer>`;
@@ -248,12 +260,17 @@ function pageBody(lang: Lang, slug: string) {
         : [],
     )
     .join("");
-  const sources = page.sources
-    .map(
-      (key) =>
-        `<li><a href="${esc(officialSources[key])}" target="_blank" rel="nofollow noopener noreferrer">${esc(sourceCatalog[key][lang])}</a></li>`,
-    )
-    .join("");
+  const listedSources = page.sources.filter((key) => key !== "mpTourism");
+  const templeListed = listedSources.some((key) => isTempleSiteUrl(officialSources[key]));
+  const sources = [
+    templeListed ? `<li>${esc(templeSiteText)}</li>` : "",
+    ...listedSources
+      .filter((key) => !isTempleSiteUrl(officialSources[key]))
+      .map(
+        (key) =>
+          `<li><a href="${esc(officialSources[key])}" target="_blank" rel="nofollow noopener noreferrer">${esc(sourceCatalog[key][lang])}</a></li>`,
+      ),
+  ].join("");
   const faqs = copy.faqs
     .map((item) => `<h3>${esc(item.q)}</h3><p>${rich(item.a, lang)}</p>`)
     .join("");
@@ -263,8 +280,7 @@ function pageBody(lang: Lang, slug: string) {
     <p>${rich(copy.answer, lang)}</p>
     ${page.image ? photo(page.image, lang) : ""}
     ${blocks(copy.blocks, lang)}
-    <h2>${lang === "en" ? "Sources" : "स्रोत"}</h2>
-    <ul>${sources}</ul>
+    ${sources ? `<h2>${lang === "en" ? "Sources" : "स्रोत"}</h2><ul>${sources}</ul>` : ""}
     ${faqs ? `<h2>${lang === "en" ? "Questions" : "प्रश्न"}</h2>${faqs}` : ""}
     ${related ? `<h2>${lang === "en" ? "Related pages" : "संबंधित पृष्ठ"}</h2><ul>${related}</ul>` : ""}
     <p><a href="${esc(absoluteUrl(pathFor(lang, slug)))}">${lang === "en" ? "Full page" : "पूरा पृष्ठ"}</a></p>`;

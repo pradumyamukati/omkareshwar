@@ -9,17 +9,31 @@ export const stayPages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["vishramalaya", "faq", "mpTourism", "timetable"],
+    sources: ["vishramalaya", "faq", "timetable"],
     related: ["hotels-near-omkareshwar-temple", "omkareshwar-dharamshala", "budget-hotels-omkareshwar", "family-hotels-omkareshwar"],
     en: {
       title: "Hotels in Omkareshwar – How to Choose a Room",
       description:
-        "Hotels in Omkareshwar are private stays. The trust’s own lodging is Shri Ji Vishramalaya. This independent guide does not book either.",
+        "Hotels in Omkareshwar are private stays, shown here by name. The trust’s own lodging is Shri Ji Vishramalaya. This guide does not book either.",
       h1: "Hotels in Omkareshwar",
       kicker: "A room, not a temple service",
       answer:
-        "A hotel in Omkareshwar is a private business. It is not the temple, and this website does not sell its rooms. The only lodging the trust describes as its own is Shri Ji Vishramalaya, about 1 km from the temple, booked on the trust’s website. Everything else — lodge, dharamshala, resort — is a separate booking with a separate key.",
+        "A hotel in Omkareshwar is a private business. It is not the temple, and this website does not sell its rooms. The only lodging the trust describes as its own is Shri Ji Vishramalaya, about 1 km from the temple, booked on the trust’s website. The stays below are separate doors. Each name opens that stay’s own page.",
       blocks: [
+        { type: "h2", text: "Rooms people compare for the ghats" },
+        {
+          type: "p",
+          text: "These are private hotels and resorts. A card opens that stay’s own page. This guide does not take a room payment, and a room here is not a temple ticket.",
+        },
+        { type: "stays" },
+        {
+          type: "p",
+          text: "The Shankara View, Hotel Panchavati Palace, Hotel Gurukripa Inn, The Shrine Hotel, Hotel Shri Radhe Krishna and Hotel Royal Inn are the town rooms in that set. They fit a morning when the 4:30 AM aarti should be a walk, or a short crossing from the south bank. Ask which side of the bridge the door is on. A town name is not a ghat address.",
+        },
+        {
+          type: "p",
+          text: "Narmada Hills Resort, MPT Sailani Island Resort and The Grand Omkara Hotel & Resorts trade the lane for space. A garden and a place to leave the car can be the right night for a driver or a family. They are the wrong night for the free queue at opening unless a vehicle is already arranged before dawn. The word island in a resort name does not mean the bed is on Mandhata.",
+        },
         { type: "h2", text: "Three places the bed can be" },
         {
           type: "ul",
@@ -57,12 +71,26 @@ export const stayPages: PageDef[] = [
     hi: {
       title: "ओंकारेश्वर के होटल – कमरा कैसे चुनें",
       description:
-        "ओंकारेश्वर के होटल निजी ठहरना हैं। ट्रस्ट का अपना ठहरना श्री जी विश्रामालय है। यह स्वतंत्र गाइड दोनों की बुकिंग नहीं करती।",
+        "ओंकारेश्वर के होटल निजी ठहरना हैं, और नाम यहाँ दिए हैं। ट्रस्ट का अपना ठहरना श्री जी विश्रामालय है। यह गाइड बुकिंग नहीं करती।",
       h1: "ओंकारेश्वर में होटल",
       kicker: "कमरा, मंदिर की सेवा नहीं",
       answer:
-        "ओंकारेश्वर का होटल निजी व्यापार है। वह मंदिर नहीं है, और यह वेबसाइट उसके कमरे नहीं बेचती। ट्रस्ट जिस ठहरने को अपना बताता है वह श्री जी विश्रामालय है, मंदिर से लगभग 1 किलोमीटर, ट्रस्ट की वेबसाइट पर बुक। बाकी सब — लॉज, धर्मशाला, रिसॉर्ट — अलग बुकिंग और अलग चाबी है।",
+        "ओंकारेश्वर का होटल निजी व्यापार है। वह मंदिर नहीं है, और यह वेबसाइट उसके कमरे नहीं बेचती। ट्रस्ट जिस ठहरने को अपना बताता है वह श्री जी विश्रामालय है, मंदिर से लगभग 1 किलोमीटर, ट्रस्ट की वेबसाइट पर बुक। नीचे दिए ठहराव अलग दरवाज़े हैं। हर नाम अपने पृष्ठ पर खुलता है।",
       blocks: [
+        { type: "h2", text: "घाट के लिए जिन कमरों की तुलना होती है" },
+        {
+          type: "p",
+          text: "ये निजी होटल और रिसॉर्ट हैं। कार्ड उस ठहराव के अपने पृष्ठ पर खुलता है। यह गाइड कमरे का भुगतान नहीं लेती, और यहाँ का कमरा मंदिर का टिकट नहीं है।",
+        },
+        { type: "stays" },
+        {
+          type: "p",
+          text: "The Shankara View, Hotel Panchavati Palace, Hotel Gurukripa Inn, The Shrine Hotel, Hotel Shri Radhe Krishna और Hotel Royal Inn इस सूची के नगर वाले कमरे हैं। ये उस सुबह के लिए हैं जब 4:30 की आरती पैदल हो, या दक्षिणी तट से छोटा पार। पूछें कि दरवाज़ा पुल के किस ओर है। नगर का नाम घाट का पता नहीं होता।",
+        },
+        {
+          type: "p",
+          text: "Narmada Hills Resort, MPT Sailani Island Resort और The Grand Omkara Hotel & Resorts गली के बदले जगह देते हैं। बगीचा और गाड़ी छोड़ने की जगह चालक या परिवार के लिए सही रात हो सकती है। खुलते ही मुफ्त कतार के लिए यह गलत रात है, जब तक भोर से पहले गाड़ी तय न हो। रिसॉर्ट के नाम में द्वीप का मतलब यह नहीं कि बिस्तर मांधाता पर है।",
+        },
         { type: "h2", text: "बिस्तर तीन जगह हो सकता है" },
         {
           type: "ul",
@@ -104,7 +132,7 @@ export const stayPages: PageDef[] = [
     kind: "guide",
     updated,
     verified: updated,
-    sources: ["vishramalaya", "faq", "mpTourism", "timetable"],
+    sources: ["vishramalaya", "faq", "timetable"],
     related: ["hotels-in-omkareshwar", "omkareshwar-dharamshala", "omkareshwar-darshan", "omkareshwar-one-day-trip"],
     en: {
       title: "Hotels near Omkareshwar Temple – Walk, Bridge or Road",

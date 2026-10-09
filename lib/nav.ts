@@ -33,6 +33,7 @@ export const footerGroups = [
     links: [
       ["where-is-omkareshwar", "Where is Omkareshwar", "ओंकारेश्वर कहाँ है"],
       ["how-to-reach-omkareshwar", "How to reach", "कैसे पहुँचें"],
+      ["omkareshwar-to-mortakka", "Omkareshwar to Mortakka", "ओंकारेश्वर से मोर्टकका"],
       ["omkareshwar-from-indore", "From Indore", "इंदौर से"],
       ["omkareshwar-from-ujjain", "From Ujjain", "उज्जैन से"],
       ["omkareshwar-distance", "Distances", "दूरी"],
@@ -57,6 +58,7 @@ export const footerGroups = [
     hi: "ठहरना और नीति",
     links: [
       ["hotels-in-omkareshwar", "Hotels", "होटल"],
+      ["omkareshwar-hotel", "Hotel guide", "होटल गाइड"],
       ["omkareshwar-dharamshala", "Dharamshala", "धर्मशाला"],
       ["latest-omkareshwar-news", "Latest updates", "ताज़ा अपडेट"],
       ["about", "About", "परिचय"],
