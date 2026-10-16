@@ -7,6 +7,7 @@ import { pageJsonLd } from "@/lib/seo";
 import { JsonLd } from "./JsonLd";
 import { Photo } from "./Photo";
 import { HotelPicks } from "./HotelPicks";
+import { CabCall } from "./CabCall";
 import { MortakkaBooking } from "./MortakkaBooking";
 import { ExternalLink, RichText } from "./RichText";
 
@@ -96,6 +97,7 @@ export function Article({ page, lang }: { page: PageDef; lang: Lang }) {
       <JsonLd data={pageJsonLd(page, lang)} />
       <p className="kicker">{copy.kicker}</p>
       <h1>{copy.h1}</h1>
+      {page.slug === "mortakka-to-omkareshwar" ? <CabCall lang={lang} /> : null}
       {page.verified ? (
         <p className="verified">
           {lang === "en" ? "Last verified" : "अंतिम जाँच"}: {verifiedLabel[lang]}

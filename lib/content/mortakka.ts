@@ -274,7 +274,14 @@ export const mortakkaPages: PageDef[] = [
     kind: "guide",
     updated,
     sources: [],
-    related: ["omkareshwar-to-mortakka", "how-to-reach-omkareshwar", "omkareshwar-from-indore", "omkareshwar-temple"],
+    related: [
+      "omkareshwar-to-mortakka",
+      "how-to-reach-omkareshwar",
+      "omkareshwar-distance",
+      "omkareshwar-from-bhopal",
+      "omkareshwar-from-indore",
+      "omkareshwar-temple",
+    ],
     en: {
       title: "Mortakka to Omkareshwar Cab & Bike Booking",
       description:
@@ -282,12 +289,21 @@ export const mortakkaPages: PageDef[] = [
       h1: "Mortakka to Omkareshwar — Cab & Bike Booking",
       kicker: "12 km",
       answer:
-        "Fixed route. 12 km. Ertiga, Swift, or Bike — choose your ride and book in seconds. The same cars and bikes also cover Omkareshwar to Mortakka.",
+        "The Mortakka to Omkareshwar distance is 12 km, the figure the temple trust prints for Mortakka bus stand. Ertiga, Swift, or Bike for that cab. The same cars and bikes also cover Omkareshwar to Mortakka.",
       blocks: [
-        { type: "h2", text: "The short ride into town" },
+        { type: "h2", text: "Mortakka to Omkareshwar distance" },
         {
           type: "p",
-          text: "Mortakka to Omkareshwar is only about 12 kilometers, and Omkareshwar to Mortakka is the same road back. Waiting for a bus, or counting on a train at Mortakka, is not a practical plan. Buses are few, and train services into Mortakka are currently suspended.",
+          text: "The Mortakka to Omkareshwar distance is 12 kilometers. The temple trust prints that figure for Mortakka bus stand, and Omkareshwar to Mortakka is the same road back. A cab or bike takes roughly 25 to 30 minutes when the road is clear. Waiting for a bus, or counting on a train at Mortakka, is not a practical plan. Buses are few, and train services into Mortakka are currently suspended.",
+        },
+        {
+          type: "facts",
+          items: [
+            { label: "Mortakka to Omkareshwar distance", value: "12 km, temple trust, Mortakka bus stand" },
+            { label: "Time by cab or bike", value: "About 25 to 30 minutes" },
+            { label: "Pickup", value: "Mortakka Railway Station or Mortakka Bus Stand" },
+            { label: "Drop", value: "Temple area, a hotel, or Omkareshwar Bus Stand" },
+          ],
         },
         {
           type: "p",
@@ -329,6 +345,24 @@ export const mortakkaPages: PageDef[] = [
         },
         { type: "p", text: "No extra calls to arrange the message. No guesswork about what to write. Inquiry is on WhatsApp only." },
         { type: "ride", direction: "to-omkareshwar" },
+        { type: "h2", text: "Amarkantak to Omkareshwar distance" },
+        {
+          type: "p",
+          text: "Amarkantak to Omkareshwar distance is a longer Narmada road, not the 12 km hop this page books. Amarkantak, in Anuppur district, is where the Narmada is said to rise. Omkareshwar sits downstream, on Mandhata in Khandwa district. The temple trust’s how-to-reach page does not print an Amarkantak kilometre, and this guide will not invent one. Open a map on the morning you leave for the long road and the hours it will take.",
+        },
+        {
+          type: "p",
+          text: "What this page does publish is the last stretch. If the road or a bus brings you into Mortakka, the Mortakka to Omkareshwar distance is 12 km, and the cab or bike above covers it into the temple, a hotel, or Omkareshwar Bus Stand. The same form runs the other way when you leave town. Longer arrivals are set out on [[omkareshwar-distance|Distance from Omkareshwar]] and [[how-to-reach-omkareshwar|How to reach Omkareshwar]].",
+        },
+        { type: "h2", text: "Omkareshwar to Bhopal bus" },
+        {
+          type: "p",
+          text: "An Omkareshwar to Bhopal bus does not start at the temple door. The trust names Mortakka bus stand, 12 km away, as the bus point for Indore, Ujjain, Khargone and Khandwa. Bhopal itself has no kilometre on that page. Travellers who need a bus toward the capital usually take a cab from the temple, a hotel, or the island to Mortakka bus stand, then continue toward Indore or Khandwa and change for Bhopal.",
+        },
+        {
+          type: "p",
+          text: "This page books that 12 km cab, Mortakka to Omkareshwar or back. It does not sell a Bhopal ticket, and it will not print a timetable the trust did not print. The road plan, without a made-up total, is on [[omkareshwar-from-bhopal|Omkareshwar from Bhopal]].",
+        },
         { type: "h2", text: "Why bus and train are a poor fit" },
         {
           type: "p",
@@ -381,8 +415,16 @@ export const mortakkaPages: PageDef[] = [
       ],
       faqs: [
         {
-          q: "How far is Mortakka from Omkareshwar?",
-          a: "About 12 kilometers either way. A cab or bike takes roughly 25 to 30 minutes.",
+          q: "What is the Mortakka to Omkareshwar distance?",
+          a: "12 kilometers, the figure the temple trust prints for Mortakka bus stand. A cab or bike takes roughly 25 to 30 minutes. Omkareshwar to Mortakka is the same road.",
+        },
+        {
+          q: "What is the Amarkantak to Omkareshwar distance?",
+          a: "The temple trust does not print one, so this page does not invent a kilometre. Amarkantak is the Narmada source in Anuppur. Omkareshwar is downstream in Khandwa. The published last stretch, once you are at Mortakka, is 12 km by cab or bike.",
+        },
+        {
+          q: "Is there an Omkareshwar to Bhopal bus?",
+          a: "Not from the temple door. Mortakka bus stand, 12 km away, is the bus point the trust names for Indore, Ujjain, Khargone and Khandwa. A cab from Omkareshwar to that stand is what this page books. Onward buses toward Bhopal are from there. This guide does not print a Bhopal timetable.",
         },
         {
           q: "Is there a bus from Mortakka to Omkareshwar?",
@@ -413,12 +455,21 @@ export const mortakkaPages: PageDef[] = [
       h1: "मोर्टकका से ओंकारेश्वर — कैब और बाइक बुकिंग",
       kicker: "12 किलोमीटर",
       answer:
-        "तय मार्ग। 12 किलोमीटर। एर्टिगा, स्विफ्ट या बाइक — सवारी चुनें और कुछ क्षण में बुक करें। वही गाड़ियाँ ओंकारेश्वर से मोर्टकका भी चलती हैं।",
+        "मोर्टकका से ओंकारेश्वर की दूरी 12 किलोमीटर है, जो मंदिर ट्रस्ट मोर्टकका बस स्टैंड के लिए छापता है। उस कैब के लिए एर्टिगा, स्विफ्ट या बाइक। वही गाड़ियाँ ओंकारेश्वर से मोर्टकका भी चलती हैं।",
       blocks: [
-        { type: "h2", text: "नगर तक की छोटी सवारी" },
+        { type: "h2", text: "मोर्टकका से ओंकारेश्वर की दूरी" },
         {
           type: "p",
-          text: "मोर्टकका से ओंकारेश्वर लगभग 12 किलोमीटर है, और ओंकारेश्वर से मोर्टकका वही सड़क वापस है। बस का इंतज़ार, या मोर्टकका पर ट्रेन की उम्मीद, व्यावहारिक योजना नहीं है। बसें कम हैं, और मोर्टकका तक ट्रेन सेवा अभी बंद है।",
+          text: "मोर्टकका से ओंकारेश्वर की दूरी 12 किलोमीटर है। मंदिर ट्रस्ट यह अंक मोर्टकका बस स्टैंड के लिए छापता है, और ओंकारेश्वर से मोर्टकका वही सड़क वापस है। सड़क साफ हो तो कैब या बाइक से करीब 25 से 30 मिनट लगते हैं। बस का इंतज़ार, या मोर्टकका पर ट्रेन की उम्मीद, व्यावहारिक योजना नहीं है। बसें कम हैं, और मोर्टकका तक ट्रेन सेवा अभी बंद है।",
+        },
+        {
+          type: "facts",
+          items: [
+            { label: "मोर्टकका से ओंकारेश्वर की दूरी", value: "12 किलोमीटर, मंदिर ट्रस्ट, मोर्टकका बस स्टैंड" },
+            { label: "कैब या बाइक से समय", value: "लगभग 25 से 30 मिनट" },
+            { label: "पिकअप", value: "मोर्टकका रेलवे स्टेशन या मोर्टकका बस स्टैंड" },
+            { label: "ड्रॉप", value: "मंदिर क्षेत्र, होटल, या ओंकारेश्वर बस स्टैंड" },
+          ],
         },
         {
           type: "p",
@@ -457,6 +508,24 @@ export const mortakkaPages: PageDef[] = [
         },
         { type: "p", text: "संदेश लिखने के लिए अलग कॉल नहीं। क्या लिखना है, इसका अनुमान नहीं। पूछताछ केवल व्हाट्सऐप पर है।" },
         { type: "ride", direction: "to-omkareshwar" },
+        { type: "h2", text: "अमरकंटक से ओंकारेश्वर की दूरी" },
+        {
+          type: "p",
+          text: "अमरकंटक से ओंकारेश्वर की दूरी लंबी नर्मदा सड़क है, यह पृष्ठ जो 12 किलोमीटर बुक करता है वह नहीं। अमरकंटक, अनुपपुर जिले में, वह स्थान है जहाँ नर्मदा का उदय माना जाता है। ओंकारेश्वर नीचे की ओर है, खंडवा जिले में मांधाता पर। मंदिर ट्रस्ट के कैसे-पहुँचें पृष्ठ पर अमरकंटक का किलोमीटर नहीं है, और यह गाइड अंक नहीं गढ़ेगी। लंबी सड़क और उसके घंटों के लिए निकलने वाली सुबह नक्शा खोलें।",
+        },
+        {
+          type: "p",
+          text: "यह पृष्ठ आखिरी दूरी छापता है। यदि सड़क या बस आपको मोर्टकका तक लाए, तो मोर्टकका से ओंकारेश्वर की दूरी 12 किलोमीटर है, और ऊपर की कैब या बाइक उसे मंदिर, होटल, या ओंकारेश्वर बस स्टैंड तक पूरी करती है। नगर छोड़ते समय वही फॉर्म उल्टी दिशा चलाता है। लंबी पहुँच [[omkareshwar-distance|ओंकारेश्वर से दूरी]] और [[how-to-reach-omkareshwar|कैसे पहुँचें]] पर है।",
+        },
+        { type: "h2", text: "ओंकारेश्वर से भोपाल बस" },
+        {
+          type: "p",
+          text: "ओंकारेश्वर से भोपाल बस मंदिर के दरवाजे से नहीं छूटती। ट्रस्ट मोर्टकका बस स्टैंड को, 12 किलोमीटर दूर, इंदौर, उज्जैन, खरगोन और खंडवा की बसों का पड़ाव बताता है। उस पृष्ठ पर भोपाल का किलोमीटर नहीं है। जिन्हें राजधानी की ओर बस चाहिए, वे आमतौर पर मंदिर, होटल या द्वीप से मोर्टकका बस स्टैंड तक कैब लेते हैं, फिर इंदौर या खंडवा की ओर बढ़ते हैं और भोपाल के लिए बदलते हैं।",
+        },
+        {
+          type: "p",
+          text: "यह पृष्ठ वही 12 किलोमीटर की कैब बुक करता है, मोर्टकका से ओंकारेश्वर या वापस। यह भोपाल का टिकट नहीं बेचता, और ट्रस्ट ने जो समय-सारिणी नहीं छापी उसे यह पृष्ठ नहीं छापेगा। नकली योग के बिना सड़क की योजना [[omkareshwar-from-bhopal|भोपाल से ओंकारेश्वर]] पर है।",
+        },
         { type: "h2", text: "बस और ट्रेन इस मार्ग पर कमजोर विकल्प हैं" },
         {
           type: "p",
@@ -509,8 +578,16 @@ export const mortakkaPages: PageDef[] = [
       ],
       faqs: [
         {
-          q: "मोर्टकका से ओंकारेश्वर कितनी दूर है?",
-          a: "दोनों ओर लगभग 12 किलोमीटर। कैब या बाइक से करीब 25 से 30 मिनट।",
+          q: "मोर्टकका से ओंकारेश्वर की दूरी कितनी है?",
+          a: "12 किलोमीटर, जो मंदिर ट्रस्ट मोर्टकका बस स्टैंड के लिए छापता है। कैब या बाइक से करीब 25 से 30 मिनट। ओंकारेश्वर से मोर्टकका वही सड़क है।",
+        },
+        {
+          q: "अमरकंटक से ओंकारेश्वर की दूरी कितनी है?",
+          a: "मंदिर ट्रस्ट यह अंक नहीं छापता, इसलिए यह पृष्ठ किलोमीटर नहीं गढ़ता। अमरकंटक अनुपपुर में नर्मदा का उद्गम है। ओंकारेश्वर खंडवा में नीचे की ओर है। मोर्टकका पहुँचने के बाद प्रकाशित आखिरी दूरी कैब या बाइक से 12 किलोमीटर है।",
+        },
+        {
+          q: "क्या ओंकारेश्वर से भोपाल बस है?",
+          a: "मंदिर के दरवाजे से नहीं। मोर्टकका बस स्टैंड, 12 किलोमीटर दूर, वह पड़ाव है जिसे ट्रस्ट इंदौर, उज्जैन, खरगोन और खंडवा के लिए नाम देता है। ओंकारेश्वर से उस स्टैंड तक की कैब यह पृष्ठ बुक करता है। भोपाल की ओर आगे की बसें वहाँ से हैं। यह गाइड भोपाल की समय-सारिणी नहीं छापती।",
         },
         {
           q: "मोर्टकका से ओंकारेश्वर बस है क्या?",

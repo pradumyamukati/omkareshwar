@@ -643,6 +643,40 @@ caption { text-align: left; font-size: 0.9rem; color: var(--muted); padding-bott
 .stay-card strong { font-size: 1.05rem; color: #1c1712; }
 .stay-place { color: #6a645c; font-size: 0.92rem; }
 
+.cab-call { margin: 0.15rem 0 1rem; }
+.cab-call a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.8rem;
+  text-decoration: none;
+  background: #fff8f3;
+  border: 1px solid #f0d2b8;
+  border-radius: 14px;
+  padding: 0.8rem 0.95rem;
+  min-height: 52px;
+}
+.cab-call-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #e65100;
+}
+.cab-call-num {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #1c1712;
+  letter-spacing: 0.01em;
+}
+.cab-call-copied {
+  display: block;
+  margin-top: 0.35rem;
+  color: #128c7e;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
 .ride-form {
   max-width: 480px;
   margin: 1.25rem auto 1.75rem;

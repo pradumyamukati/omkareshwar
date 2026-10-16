@@ -29,6 +29,8 @@ details nav{display:grid;padding:.2rem 0 .4rem}
 details nav a{padding:.75rem .2rem;text-decoration:none;color:#1c1712;border-bottom:1px solid #e2d5c3}
 main{padding:1rem;max-width:40rem;margin:0 auto}
 .kicker{color:#8d6b32;letter-spacing:.06em;text-transform:uppercase;font-size:.78rem}
+.cab a{display:inline-flex;align-items:center;gap:.5rem;text-decoration:none;font-weight:700;color:#1c1712;background:#fff8f3;border:1px solid #f0d2b8;border-radius:14px;padding:.7rem .9rem;min-height:48px}
+.cab a span{color:#e65100;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
 .line{color:#6e2433;font-size:1.15rem}
 table{width:100%;border-collapse:collapse}
 th,td{text-align:left;padding:.55rem;border-bottom:1px solid #e2d5c3;vertical-align:top}
@@ -278,6 +280,11 @@ function pageBody(lang: Lang, slug: string) {
   const body = `
     <p class="kicker">${esc(copy.kicker)}</p>
     <h1>${esc(copy.h1)}</h1>
+    ${
+      slug === "mortakka-to-omkareshwar"
+        ? `<p class="cab"><a href="tel:+919685392846"><span>${lang === "en" ? "Call for cab" : "कैब के लिए कॉल"}</span> +91 96853 92846</a></p>`
+        : ""
+    }
     <p>${rich(copy.answer, lang)}</p>
     ${page.image ? photo(page.image, lang) : ""}
     ${blocks(copy.blocks, lang)}
