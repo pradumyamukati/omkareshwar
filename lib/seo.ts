@@ -229,8 +229,11 @@ export function homeJsonLd(lang: Lang) {
       {
         "@type": ["Place", "TouristAttraction"],
         name: "Omkareshwar",
-        alternateName: ["Omkar Mandhata", "Mandhata", "ओंकारेश्वर"],
-        description: site.description[lang],
+        alternateName: lang === "en" ? ["Omkar Mandhata", "Mandhata"] : ["ओंकार पर्वत", "मांधाता"],
+        description:
+          lang === "en"
+            ? "Omkareshwar is the town on Mandhata island in the Narmada, Khandwa district, Madhya Pradesh."
+            : "ओंकारेश्वर नर्मदा के मांधाता द्वीप पर खंडवा जिले, मध्य प्रदेश का नगर है।",
         address: {
           "@type": "PostalAddress",
           addressLocality: "Omkareshwar",
@@ -244,6 +247,43 @@ export function homeJsonLd(lang: Lang) {
           longitude: place.longitude,
         },
         containedInPlace: { "@type": "AdministrativeArea", name: "Khandwa district, Madhya Pradesh" },
+      },
+      {
+        "@type": "HinduTemple",
+        name: lang === "en" ? "Shri Omkareshwar Jyotirlinga Temple" : "श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर",
+        alternateName:
+          lang === "en"
+            ? [
+                "Shri Omkareshwar",
+                "Shri Omkareshwar Jyotirlinga",
+                "Shri Omkareshwar Jyotirlinga Temple Mandhata Madhya Pradesh",
+                "Omkareshwar Temple",
+                "Omkareshwar Temple MP",
+                "Omkareshwar Mandir",
+                "Omkareshwara Temple",
+                "Omkareshwar Jyotirlinga",
+                "Omkareshwar Mahadev",
+                "Omkareshwar Mahadev Mandir",
+                "Shree Omkareshwar Temple",
+              ]
+            : ["ओंकारेश्वर मंदिर", "ओंकारेश्वर महादेव", "ओंकारेश्वर महादेव मंदिर", "श्री ओंकारेश्वर"],
+        description:
+          lang === "en"
+            ? "Shri Omkareshwar Jyotirlinga Temple is one of the twelve Jyotirlingas in India, on Mandhata island in Madhya Pradesh. Mamleshwar Jyotirlinga is the shrine on the south bank."
+            : "श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर भारत के बारह ज्योतिर्लिंगों में से एक है, मध्य प्रदेश के मांधाता द्वीप पर। ममलेश्वर ज्योतिर्लिंग दक्षिणी तट का मंदिर है।",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Omkareshwar",
+          addressRegion: "Madhya Pradesh",
+          postalCode: place.pin,
+          addressCountry: "IN",
+        },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: place.latitude,
+          longitude: place.longitude,
+        },
+        containedInPlace: { "@type": "Place", name: "Mandhata, Omkareshwar, Madhya Pradesh" },
       },
     ],
   };

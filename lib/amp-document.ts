@@ -222,8 +222,8 @@ function homeBody(lang: Lang) {
   const h1 = hi ? "श्री ओंकारेश्वर ज्योतिर्लिंग" : "Shri Omkareshwar Jyotirlinga";
   const line = hi ? "मंदिर, दर्शन और नर्मदा गाइड" : "Temple, Darshan and Narmada Guide";
   const lead = hi
-    ? "नर्मदा के मांधाता द्वीप पर ज्योतिर्लिंग की शोध पर आधारित गाइड। मंदिर के घंटे, लाइव दर्शन, इंदौर की सड़क, और ट्रस्ट की सेवा तथा निजी होटल के कमरे का फर्क।"
-    : "A research-backed guide to the Jyotirlinga on Mandhata island in the Narmada. Temple hours, live darshan, the road from Indore, and the difference between the trust’s services and a private hotel room.";
+    ? "श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर नर्मदा के मांधाता द्वीप पर है, मध्य प्रदेश में। इसे ओंकारेश्वर मंदिर और ओंकारेश्वर महादेव मंदिर भी कहते हैं। यह भारत के बारह ज्योतिर्लिंगों में से एक है। ममलेश्वर ज्योतिर्लिंग दक्षिणी तट पर है।"
+    : "Shri Omkareshwar Jyotirlinga Temple stands on Mandhata island in the Narmada, Madhya Pradesh. People also call it Omkareshwar Temple, Omkareshwar Mandir, Omkareshwar Mahadev Mandir, Shree Omkareshwar Temple, and Omkareshwara Temple. It is one of the twelve Jyotirlingas in India. Mamleshwar Jyotirlinga is the shrine on the south bank.";
   const rows = liveSessions
     .map(([en, hindi, time]) => `<tr><td>${esc(hi ? hindi : en)}</td><td>${esc(time)}</td></tr>`)
     .join("");

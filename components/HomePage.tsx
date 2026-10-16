@@ -13,6 +13,14 @@ import { JsonLd } from "./JsonLd";
 
 const faqs = {
   en: [
+    [
+      "What is Shri Omkareshwar Jyotirlinga Temple?",
+      "Shri Omkareshwar Jyotirlinga Temple is the shrine on Mandhata island in the Narmada, Khandwa district, Madhya Pradesh. The same temple is called Omkareshwar Temple, Omkareshwar Mandir, Omkareshwar Mahadev, Omkareshwar Mahadev Mandir, and Shree Omkareshwar Temple. Omkareshwara Temple is another spelling of that name.",
+    ],
+    [
+      "Is Omkareshwar a Jyotirlinga in India?",
+      "Yes. The temple trust calls Shri Omkareshwar the fourth of the twelve Jyotirlingas in India. Mamleshwar Jyotirlinga is the shrine on the south bank of the Narmada, across from Mandhata.",
+    ],
     ["Where is Omkareshwar?", "On Mandhata island in the Narmada, Khandwa district, Madhya Pradesh, PIN 450554."],
     ["How far is Omkareshwar from Indore?", "About 77 km on the temple trust’s pages, and about 80 km on the Madhya Pradesh Tourism page."],
     ["What are Omkareshwar Temple timings?", "The daily darshan page lists aarti at 4:30 AM, darshan from 5:00 AM, a bhog closure at 12:20 PM, and shayan darshan at 10:00–10:30 PM. Recheck that page; the live page prints a shorter evening."],
@@ -20,6 +28,14 @@ const faqs = {
     ["What is the story of Omkareshwar Jyotirlinga?", "The trust calls it the fourth Jyotirlinga and names the Skanda, Shiva and Vayu Puranas. The island is traditionally compared with the syllable Om. That is religious tradition."],
   ],
   hi: [
+    [
+      "श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर क्या है?",
+      "श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर नर्मदा के मांधाता द्वीप पर है, जिला खंडवा, मध्य प्रदेश। इसी मंदिर को ओंकारेश्वर मंदिर, ओंकारेश्वर महादेव और ओंकारेश्वर महादेव मंदिर भी कहते हैं।",
+    ],
+    [
+      "क्या ओंकारेश्वर भारत के ज्योतिर्लिंगों में है?",
+      "हाँ। मंदिर ट्रस्ट श्री ओंकारेश्वर को भारत के बारह ज्योतिर्लिंगों में चौथा कहता है। ममलेश्वर ज्योतिर्लिंग नर्मदा के दक्षिणी तट पर है, मांधाता के पार।",
+    ],
     ["ओंकारेश्वर कहाँ है?", "नर्मदा के मांधाता द्वीप पर, जिला खंडवा, मध्य प्रदेश, पिन 450554।"],
     ["इंदौर से ओंकारेश्वर कितनी दूर है?", "मंदिर ट्रस्ट के पृष्ठों पर लगभग 77 किलोमीटर, मध्य प्रदेश पर्यटन पर लगभग 80 किलोमीटर।"],
     ["ओंकारेश्वर मंदिर का समय क्या है?", "दैनिक दर्शन पृष्ठ आरती सुबह 4:30, दर्शन सुबह 5:00 से, भोग-बंद दोपहर 12:20, और शयन दर्शन रात 10:00–10:30 लिखता है। उस पृष्ठ को फिर देखें; लाइव पृष्ठ पर शाम छोटी है।"],
@@ -58,8 +74,8 @@ export function HomePage({ lang }: { lang: Lang }) {
           <p className="hero-line">{t("Temple, Darshan and Narmada Guide", "मंदिर, दर्शन और नर्मदा गाइड")}</p>
           <p>
             {t(
-              "A research-backed guide to the Jyotirlinga on Mandhata island in the Narmada. Temple hours, live darshan, and the road from Indore.",
-              "नर्मदा के मांधाता द्वीप पर ज्योतिर्लिंग की शोध पर आधारित गाइड। मंदिर के घंटे, लाइव दर्शन, और इंदौर की सड़क।",
+              "Shri Omkareshwar Jyotirlinga Temple stands on Mandhata island in the Narmada, Madhya Pradesh. People also call it Omkareshwar Temple, Omkareshwar Mandir, Omkareshwar Mahadev, Omkareshwar Mahadev Mandir, Shree Omkareshwar Temple, and Omkareshwara Temple. It is one of the twelve Jyotirlingas in India. This guide covers darshan hours, live darshan, Mamleshwar Jyotirlinga, and the road from Indore.",
+              "श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर नर्मदा के मांधाता द्वीप पर है, मध्य प्रदेश में। इसे ओंकारेश्वर मंदिर, ओंकारेश्वर महादेव और ओंकारेश्वर महादेव मंदिर भी कहते हैं। यह भारत के बारह ज्योतिर्लिंगों में से एक है। इस गाइड में दर्शन के घंटे, लाइव दर्शन, ममलेश्वर ज्योतिर्लिंग, और इंदौर की सड़क है।",
             )}
           </p>
           <p className="tagline">{site.tagline[lang]}</p>
