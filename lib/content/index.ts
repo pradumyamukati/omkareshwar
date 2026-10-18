@@ -2,6 +2,7 @@ import { culturePages } from "./culture";
 import { guidePages } from "./guide";
 import { placePages } from "./places";
 import { policyPages } from "./policy";
+import { cabRoutePages } from "./cab-routes";
 import { mortakkaPages } from "./mortakka";
 import { routePages } from "./routes";
 import { hotelGuidePages } from "./hotel-guide";
@@ -18,6 +19,7 @@ export const pages: PageDef[] = [
   ...travelPages,
   ...routePages,
   ...mortakkaPages,
+  ...cabRoutePages,
   ...placePages,
   ...stayPages,
   ...hotelGuidePages,

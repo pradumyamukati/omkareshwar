@@ -8,6 +8,7 @@ import { JsonLd } from "./JsonLd";
 import { Photo } from "./Photo";
 import { HotelPicks } from "./HotelPicks";
 import { CabCall } from "./CabCall";
+import { CabBooking } from "./CabBooking";
 import { MortakkaBooking } from "./MortakkaBooking";
 import { ExternalLink, RichText } from "./RichText";
 
@@ -51,6 +52,20 @@ export function Blocks({ blocks, lang }: { blocks: Block[]; lang: Lang }) {
           );
         }
         if (block.type === "ride") return <MortakkaBooking key={index} lang={lang} direction={block.direction} />;
+        if (block.type === "cab") {
+          return (
+            <CabBooking
+              key={index}
+              lang={lang}
+              from={block.from}
+              to={block.to}
+              fromHi={block.fromHi}
+              toHi={block.toHi}
+              km={block.km}
+              bike={block.bike}
+            />
+          );
+        }
         if (block.type === "stays") return <HotelPicks key={index} lang={lang} />;
         if (block.type === "table") {
           return (
@@ -97,7 +112,7 @@ export function Article({ page, lang }: { page: PageDef; lang: Lang }) {
       <JsonLd data={pageJsonLd(page, lang)} />
       <p className="kicker">{copy.kicker}</p>
       <h1>{copy.h1}</h1>
-      {page.slug === "mortakka-to-omkareshwar" ? <CabCall lang={lang} /> : null}
+      {page.cab ? <CabCall lang={lang} /> : null}
       {page.verified ? (
         <p className="verified">
           {lang === "en" ? "Last verified" : "अंतिम जाँच"}: {verifiedLabel[lang]}

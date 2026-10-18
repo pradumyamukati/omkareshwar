@@ -12,6 +12,7 @@ export type Block =
   | { type: "table"; caption?: string; headers: string[]; rows: string[][] }
   | { type: "note"; text: string }
   | { type: "ride"; direction?: "to-mortakka" | "to-omkareshwar" }
+  | { type: "cab"; from: string; to: string; fromHi: string; toHi: string; km: number; bike?: boolean }
   | { type: "stays" };
 
 export type Copy = {
@@ -39,6 +40,8 @@ export type PageDef = {
   sources: OfficialKey[];
   related: string[];
   image?: "temple" | "aerial" | "mamleshwar" | "ghat";
+  /** Shows the cab call button for 9685392846. */
+  cab?: boolean;
   en: Copy;
   hi: Copy;
 };

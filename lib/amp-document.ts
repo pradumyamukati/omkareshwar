@@ -125,6 +125,11 @@ function blocks(items: Block[], lang: Lang) {
         const slug = block.direction === "to-omkareshwar" ? "mortakka-to-omkareshwar" : "omkareshwar-to-mortakka";
         return `<p><a href="${esc(absoluteUrl(pathFor(lang, slug)))}">${lang === "en" ? "Open the booking form" : "बुकिंग फॉर्म खोलें"}</a></p>`;
       }
+      if (block.type === "cab") {
+        const from = lang === "en" ? block.from : block.fromHi;
+        const to = lang === "en" ? block.to : block.toHi;
+        return `<p>${esc(from)} → ${esc(to)}, ${block.km} km. <a href="tel:+919685392846">${lang === "en" ? "Call for cab" : "कैब के लिए कॉल"} +91 96853 92846</a></p>`;
+      }
       if (block.type === "stays") {
         return `<ul>${hotelPicks
           .map(
@@ -281,7 +286,7 @@ function pageBody(lang: Lang, slug: string) {
     <p class="kicker">${esc(copy.kicker)}</p>
     <h1>${esc(copy.h1)}</h1>
     ${
-      slug === "mortakka-to-omkareshwar"
+      page.cab
         ? `<p class="cab"><a href="tel:+919685392846"><span>${lang === "en" ? "Call for cab" : "कैब के लिए कॉल"}</span> +91 96853 92846</a></p>`
         : ""
     }

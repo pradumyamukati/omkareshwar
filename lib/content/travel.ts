@@ -236,7 +236,7 @@ export const travelPages: PageDef[] = [
     updated,
     verified: updated,
     sources: ["howToReach", "faq", "timetable"],
-    related: ["where-is-omkareshwar", "omkareshwar-from-indore", "omkareshwar-from-khandwa", "omkareshwar-distance"],
+    related: ["where-is-omkareshwar", "omkareshwar-from-indore", "omkareshwar-from-khandwa", "omkareshwar-distance", "omkareshwar-cab"],
     en: {
       title: "How to Reach Omkareshwar by Road, Rail & Air",
       description:

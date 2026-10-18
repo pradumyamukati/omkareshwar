@@ -35,6 +35,7 @@ export const footerGroups = [
       ["how-to-reach-omkareshwar", "How to reach", "कैसे पहुँचें"],
       ["omkareshwar-to-mortakka", "Omkareshwar to Mortakka", "ओंकारेश्वर से मोर्टकका"],
       ["mortakka-to-omkareshwar", "Mortakka to Omkareshwar", "मोर्टकका से ओंकारेश्वर"],
+      ["omkareshwar-cab", "Cab routes", "कैब मार्ग"],
       ["omkareshwar-from-indore", "From Indore", "इंदौर से"],
       ["omkareshwar-from-ujjain", "From Ujjain", "उज्जैन से"],
       ["omkareshwar-distance", "Distances", "दूरी"],

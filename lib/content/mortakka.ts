@@ -7,17 +7,18 @@ export const mortakkaPages: PageDef[] = [
     slug: "omkareshwar-to-mortakka",
     cluster: "travel",
     kind: "guide",
+    cab: true,
     updated,
     sources: [],
     related: ["mortakka-to-omkareshwar", "how-to-reach-omkareshwar", "omkareshwar-from-indore", "omkareshwar-temple"],
     en: {
-      title: "Omkareshwar to Mortakka Cab & Bike Booking",
+      title: "Omkareshwar to Mortakka Cab, Bus & train flight Booking",
       description:
         "Book a cab or bike from Omkareshwar to Mortakka. Ertiga, Swift, and Bike for this fixed 12 km route. Fill the form and send it on WhatsApp.",
-      h1: "Omkareshwar to Mortakka — Cab & Bike Booking",
+      h1: "Omkareshwar to Mortakka Cab, Bus & train flight Booking",
       kicker: "12 km",
       answer:
-        "Fixed route. 12 km. Ertiga, Swift, or Bike — choose your ride and book in seconds. The same cars and bikes also cover Mortakka to Omkareshwar.",
+        "Fixed route. 12 km. Ertiga, Swift, or Bike — choose your ride and book in seconds. The same cars and bikes also cover Mortakka to Omkareshwar. The nearest flight is Indore airport. Bus and train on this 12 km stretch are a poor fit.",
       blocks: [
         { type: "h2", text: "Your last leg, made easy" },
         {
@@ -141,13 +142,13 @@ export const mortakkaPages: PageDef[] = [
       ],
     },
     hi: {
-      title: "ओंकारेश्वर से मोर्टकका कैब और बाइक बुकिंग",
+      title: "ओंकारेश्वर से मोर्टकका कैब, बस, ट्रेन और फ्लाइट बुकिंग",
       description:
         "ओंकारेश्वर से मोर्टकका कैब या बाइक बुक करें। एर्टिगा, स्विफ्ट और बाइक, तय 12 किलोमीटर। फॉर्म भरें और व्हाट्सऐप पर भेजें।",
-      h1: "ओंकारेश्वर से मोर्टकका — कैब और बाइक बुकिंग",
+      h1: "ओंकारेश्वर से मोर्टकका कैब, बस, ट्रेन और फ्लाइट बुकिंग",
       kicker: "12 किलोमीटर",
       answer:
-        "तय मार्ग। 12 किलोमीटर। एर्टिगा, स्विफ्ट या बाइक — सवारी चुनें और कुछ क्षण में बुक करें। वही गाड़ियाँ मोर्टकका से ओंकारेश्वर भी चलती हैं।",
+        "तय मार्ग। 12 किलोमीटर। एर्टिगा, स्विफ्ट या बाइक — सवारी चुनें और कुछ क्षण में बुक करें। वही गाड़ियाँ मोर्टकका से ओंकारेश्वर भी चलती हैं। निकटतम फ्लाइट इंदौर हवाई अड्डे की है। इस 12 किलोमीटर पर बस और ट्रेन कमजोर विकल्प हैं।",
       blocks: [
         { type: "h2", text: "आखिरी दूरी आसान" },
         {
@@ -272,6 +273,7 @@ export const mortakkaPages: PageDef[] = [
     slug: "mortakka-to-omkareshwar",
     cluster: "travel",
     kind: "guide",
+    cab: true,
     updated,
     sources: [],
     related: [
@@ -283,13 +285,13 @@ export const mortakkaPages: PageDef[] = [
       "omkareshwar-temple",
     ],
     en: {
-      title: "Mortakka to Omkareshwar Cab & Bike Booking",
+      title: "Mortakka to Omkareshwar Cab, Bus & train flight Booking",
       description:
         "Book a cab or bike from Mortakka to Omkareshwar. Ertiga, Swift, and Bike for this fixed 12 km route. Fill the form and send it on WhatsApp.",
-      h1: "Mortakka to Omkareshwar — Cab & Bike Booking",
+      h1: "Mortakka to Omkareshwar Cab, Bus & train flight Booking",
       kicker: "12 km",
       answer:
-        "The Mortakka to Omkareshwar distance is 12 km, the figure the temple trust prints for Mortakka bus stand. Ertiga, Swift, or Bike for that cab. The same cars and bikes also cover Omkareshwar to Mortakka.",
+        "The Mortakka to Omkareshwar distance is 12 km, the figure the temple trust prints for Mortakka bus stand. Ertiga, Swift, or Bike for that cab. The same cars and bikes also cover Omkareshwar to Mortakka. The nearest flight is Indore airport. Bus and train on this 12 km stretch are a poor fit.",
       blocks: [
         { type: "h2", text: "Mortakka to Omkareshwar distance" },
         {
@@ -449,13 +451,13 @@ export const mortakkaPages: PageDef[] = [
       ],
     },
     hi: {
-      title: "मोर्टकका से ओंकारेश्वर कैब और बाइक बुकिंग",
+      title: "मोर्टकका से ओंकारेश्वर कैब, बस, ट्रेन और फ्लाइट बुकिंग",
       description:
         "मोर्टकका से ओंकारेश्वर कैब या बाइक बुक करें। एर्टिगा, स्विफ्ट और बाइक, तय 12 किलोमीटर। फॉर्म भरें और व्हाट्सऐप पर भेजें।",
-      h1: "मोर्टकका से ओंकारेश्वर — कैब और बाइक बुकिंग",
+      h1: "मोर्टकका से ओंकारेश्वर कैब, बस, ट्रेन और फ्लाइट बुकिंग",
       kicker: "12 किलोमीटर",
       answer:
-        "मोर्टकका से ओंकारेश्वर की दूरी 12 किलोमीटर है, जो मंदिर ट्रस्ट मोर्टकका बस स्टैंड के लिए छापता है। उस कैब के लिए एर्टिगा, स्विफ्ट या बाइक। वही गाड़ियाँ ओंकारेश्वर से मोर्टकका भी चलती हैं।",
+        "मोर्टकका से ओंकारेश्वर की दूरी 12 किलोमीटर है, जो मंदिर ट्रस्ट मोर्टकका बस स्टैंड के लिए छापता है। उस कैब के लिए एर्टिगा, स्विफ्ट या बाइक। वही गाड़ियाँ ओंकारेश्वर से मोर्टकका भी चलती हैं। निकटतम फ्लाइट इंदौर हवाई अड्डे की है। इस 12 किलोमीटर पर बस और ट्रेन कमजोर विकल्प हैं।",
       blocks: [
         { type: "h2", text: "मोर्टकका से ओंकारेश्वर की दूरी" },
         {
