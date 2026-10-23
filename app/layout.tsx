@@ -48,7 +48,22 @@ export const metadata: Metadata = {
       ? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION }
       : undefined,
   },
+  other: {
+    "google-adsense-account": "ca-pub-6232734901275608",
+  },
 };
+
+function AdSense() {
+  return (
+    <Script
+      id="adsense"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6232734901275608"
+      crossOrigin="anonymous"
+      strategy="beforeInteractive"
+    />
+  );
+}
 
 function Analytics() {
   const id = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-JZTKS2G7PS";
@@ -75,6 +90,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <Header />
         <main>{children}</main>
         <Footer />
+        <AdSense />
         <Analytics />
       </body>
     </html>
