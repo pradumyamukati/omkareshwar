@@ -97,7 +97,7 @@ export const mortakkaPages: PageDef[] = [
         { type: "h2", text: "Your destination" },
         {
           type: "p",
-          text: "Omkareshwar holds one of the twelve Jyotirlingas of Shiva. The town sits on Mandhata island in the Narmada, traditionally compared with the syllable Om. Pilgrims come for [[omkareshwar-darshan|darshan]], the [[narmada-ghat-omkareshwar|Narmada ghats]] and aarti, and the [[omkareshwar-parikrama|parikrama]].",
+          text: "[[home|Shri Omkareshwar Jyotirlinga Temple]] holds one of the twelve Jyotirlingas of Shiva. The town sits on Mandhata island in the Narmada, traditionally compared with the syllable Om. Pilgrims come for [[omkareshwar-darshan|darshan]], the [[narmada-ghat-omkareshwar|Narmada ghats]] and aarti, and the [[omkareshwar-parikrama|parikrama]].",
         },
         {
           type: "ul",
@@ -224,7 +224,7 @@ export const mortakkaPages: PageDef[] = [
         { type: "h2", text: "गंतव्य" },
         {
           type: "p",
-          text: "ओंकारेश्वर में शिव के बारह ज्योतिर्लिंगों में से एक है। नगर नर्मदा में मांधाता द्वीप पर है, जिसे ॐ के आकार से जोड़ा जाता है। यात्री [[omkareshwar-darshan|दर्शन]], [[narmada-ghat-omkareshwar|नर्मदा घाट]] और आरती, तथा [[omkareshwar-parikrama|परिक्रमा]] के लिए आते हैं।",
+          text: "[[home|श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर]] शिव के बारह ज्योतिर्लिंगों में से एक है। नगर नर्मदा में मांधाता द्वीप पर है, जिसे ॐ के आकार से जोड़ा जाता है। यात्री [[omkareshwar-darshan|दर्शन]], [[narmada-ghat-omkareshwar|नर्मदा घाट]] और आरती, तथा [[omkareshwar-parikrama|परिक्रमा]] के लिए आते हैं।",
         },
         {
           type: "ul",
@@ -309,7 +309,7 @@ export const mortakkaPages: PageDef[] = [
         },
         {
           type: "p",
-          text: "An auto, cab, or bike covers this short stretch when you land at Mortakka and want to reach the temple. That is the ride this page books. The other direction is on [[omkareshwar-to-mortakka|Omkareshwar to Mortakka]].",
+          text: "An auto, cab, or bike covers this short stretch when you land at Mortakka and want to reach [[home|Omkareshwar]]. That is the ride this page books. The other direction is on [[omkareshwar-to-mortakka|Omkareshwar to Mortakka]].",
         },
         {
           type: "ul",
@@ -398,7 +398,7 @@ export const mortakkaPages: PageDef[] = [
         { type: "h2", text: "Your destination" },
         {
           type: "p",
-          text: "Omkareshwar holds one of the twelve Jyotirlingas of Shiva. The town sits on Mandhata island in the Narmada, traditionally compared with the syllable Om. Pilgrims come for [[omkareshwar-darshan|darshan]], the [[narmada-ghat-omkareshwar|Narmada ghats]] and aarti, and the [[omkareshwar-parikrama|parikrama]].",
+          text: "[[home|Shri Omkareshwar Jyotirlinga Temple]] holds one of the twelve Jyotirlingas of Shiva. The town sits on Mandhata island in the Narmada, traditionally compared with the syllable Om. Pilgrims come for [[omkareshwar-darshan|darshan]], the [[narmada-ghat-omkareshwar|Narmada ghats]] and aarti, and the [[omkareshwar-parikrama|parikrama]].",
         },
         {
           type: "ul",
@@ -475,7 +475,7 @@ export const mortakkaPages: PageDef[] = [
         },
         {
           type: "p",
-          text: "मोर्टकका पहुँचकर मंदिर जाना हो तो यह छोटी दूरी ऑटो, कैब या बाइक से पूरी होती है। यह पृष्ठ उसी सवारी को बुक करता है। उल्टी दिशा [[omkareshwar-to-mortakka|ओंकारेश्वर से मोर्टकका]] पर है।",
+          text: "मोर्टकका पहुँचकर [[home|ओंकारेश्वर]] जाना हो तो यह छोटी दूरी ऑटो, कैब या बाइक से पूरी होती है। यह पृष्ठ उसी सवारी को बुक करता है। उल्टी दिशा [[omkareshwar-to-mortakka|ओंकारेश्वर से मोर्टकका]] पर है।",
         },
         {
           type: "ul",
@@ -561,7 +561,7 @@ export const mortakkaPages: PageDef[] = [
         { type: "h2", text: "गंतव्य" },
         {
           type: "p",
-          text: "ओंकारेश्वर में शिव के बारह ज्योतिर्लिंगों में से एक है। नगर नर्मदा में मांधाता द्वीप पर है, जिसे ॐ के आकार से जोड़ा जाता है। यात्री [[omkareshwar-darshan|दर्शन]], [[narmada-ghat-omkareshwar|नर्मदा घाट]] और आरती, तथा [[omkareshwar-parikrama|परिक्रमा]] के लिए आते हैं।",
+          text: "[[home|श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर]] शिव के बारह ज्योतिर्लिंगों में से एक है। नगर नर्मदा में मांधाता द्वीप पर है, जिसे ॐ के आकार से जोड़ा जाता है। यात्री [[omkareshwar-darshan|दर्शन]], [[narmada-ghat-omkareshwar|नर्मदा घाट]] और आरती, तथा [[omkareshwar-parikrama|परिक्रमा]] के लिए आते हैं।",
         },
         {
           type: "ul",

@@ -34,7 +34,7 @@ export const templePages: PageDef[] = [
         { type: "h2", text: "What “Jyotirlinga” means on this island" },
         {
           type: "p",
-          text: "A Jyotirlinga is a shrine where Shiva is worshipped as a self-manifest column of light. India has a received list of twelve. The trust’s own homepage says Omkareshwar is the fourth, on the northern bank of the Narmada, and the only one of the twelve along that northern shore. This website repeats that claim as the trust’s statement. It is a religious identification, not a surveyor’s measurement.",
+          text: "A Jyotirlinga is a shrine where Shiva is worshipped as a self-manifest column of light. India has a received list of twelve. The trust’s own homepage says [[home|Omkareshwar Jyotirlinga]] is the fourth, on the northern bank of the Narmada, and the only one of the twelve along that northern shore. This website repeats that claim as the trust’s statement. It is a religious identification, not a surveyor’s measurement.",
         },
         {
           type: "p",
@@ -97,7 +97,7 @@ export const templePages: PageDef[] = [
         { type: "h2", text: "इस द्वीप पर ज्योतिर्लिंग का अर्थ" },
         {
           type: "p",
-          text: "ज्योतिर्लिंग वह स्थान है जहाँ शिव को स्वयंप्रकट ज्योति के रूप में पूजा जाता है। बारह नामों की परंपरा प्रचलित है। ट्रस्ट के मुखपृष्ठ पर ओंकारेश्वर को चौथा कहा गया है, नर्मदा के उत्तरी तट पर, और कहा गया है कि बारहों में यही एकमात्र ज्योतिर्लिंग उस उत्तरी तट पर है। यह धार्मिक पहचान है। इसे नाप-तौल का दावा न समझें।",
+          text: "ज्योतिर्लिंग वह स्थान है जहाँ शिव को स्वयंप्रकट ज्योति के रूप में पूजा जाता है। बारह नामों की परंपरा प्रचलित है। ट्रस्ट के मुखपृष्ठ पर [[home|ओंकारेश्वर ज्योतिर्लिंग]] को चौथा कहा गया है, नर्मदा के उत्तरी तट पर, और कहा गया है कि बारहों में यही एकमात्र ज्योतिर्लिंग उस उत्तरी तट पर है। यह धार्मिक पहचान है। इसे नाप-तौल का दावा न समझें।",
         },
         {
           type: "p",
@@ -170,7 +170,7 @@ export const templePages: PageDef[] = [
         { type: "h2", text: "What you are walking into" },
         {
           type: "p",
-          text: "Madhya Pradesh Tourism describes the main shrine as a north-Indian temple with a stone shikhara, a sanctum in an older manner of building, and an assembly hall it puts at 14 feet high on 60 pillars, within a five-storey complex. Deities it names inside that complex include Omkareshwar, Mahakaleshwar, Siddhanath and Gupteshwar. Treat the storey count and the pillar count as the tourism department’s description of the complex. The crowd in the lane will not feel like an architecture tour.",
+          text: "Madhya Pradesh Tourism describes the main shrine as a north-Indian temple with a stone shikhara, a sanctum in an older manner of building, and an assembly hall it puts at 14 feet high on 60 pillars, within a five-storey complex. Deities it names inside that complex include Omkareshwar, Mahakaleshwar, Siddhanath and Gupteshwar. Treat the storey count and the pillar count as the tourism department’s description of the complex. The crowd in the lane of [[home|Omkareshwar Temple Jyotirlinga]] will not feel like an architecture tour.",
         },
         {
           type: "p",
@@ -234,7 +234,7 @@ export const templePages: PageDef[] = [
         { type: "h2", text: "अंदर क्या है" },
         {
           type: "p",
-          text: "मध्य प्रदेश पर्यटन मुख्य मंदिर को उत्तर भारतीय शिखर वाला बताता है, गर्भगृह को पुरानी निर्माण-शैली का, और सभा मंडप को 60 स्तंभों पर 14 फुट ऊँचा, पाँच मंजिला परिसर के भीतर। परिसर में ओंकारेश्वर, महाकालेश्वर, सिद्धनाथ और गुप्तेश्वर का नाम है। मंजिल और स्तंभ की गिनती पर्यटन विभाग का विवरण है। गली की भीड़ वास्तु-भ्रमण जैसी नहीं लगेगी।",
+          text: "मध्य प्रदेश पर्यटन मुख्य मंदिर को उत्तर भारतीय शिखर वाला बताता है, गर्भगृह को पुरानी निर्माण-शैली का, और सभा मंडप को 60 स्तंभों पर 14 फुट ऊँचा, पाँच मंजिला परिसर के भीतर। परिसर में ओंकारेश्वर, महाकालेश्वर, सिद्धनाथ और गुप्तेश्वर का नाम है। मंजिल और स्तंभ की गिनती पर्यटन विभाग का विवरण है। [[home|ओंकारेश्वर मंदिर ज्योतिर्लिंग]] की गली की भीड़ वास्तु-भ्रमण जैसी नहीं लगेगी।",
         },
         {
           type: "p",

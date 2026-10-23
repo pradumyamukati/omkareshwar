@@ -23,7 +23,7 @@ export const stayPages: PageDef[] = [
         { type: "h2", text: "Rooms people compare for the ghats" },
         {
           type: "p",
-          text: "These are private hotels and resorts. A card opens that stay’s own page. This guide does not take a room payment, and a room here is not a temple ticket.",
+          text: "These are private hotels near [[home|Shri Omkareshwar Jyotirlinga Temple]]. A card opens that stay’s own page. This guide does not take a room payment, and a room here is not a temple ticket.",
         },
         { type: "stays" },
         {
@@ -80,7 +80,7 @@ export const stayPages: PageDef[] = [
         { type: "h2", text: "घाट के लिए जिन कमरों की तुलना होती है" },
         {
           type: "p",
-          text: "ये निजी होटल और रिसॉर्ट हैं। कार्ड उस ठहराव के अपने पृष्ठ पर खुलता है। यह गाइड कमरे का भुगतान नहीं लेती, और यहाँ का कमरा मंदिर का टिकट नहीं है।",
+          text: "ये [[home|श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर]] के पास निजी होटल और रिसॉर्ट हैं। कार्ड उस ठहराव के अपने पृष्ठ पर खुलता है। यह गाइड कमरे का भुगतान नहीं लेती, और यहाँ का कमरा मंदिर का टिकट नहीं है।",
         },
         { type: "stays" },
         {
@@ -156,7 +156,7 @@ export const stayPages: PageDef[] = [
         },
         {
           type: "p",
-          text: "Vishramalaya is about 1 km in the trust’s description, so even the temple’s own stay is not the shoe stand. “One kilometre” is a short ride and a real walk with luggage and elders. Put it in the plan as a walk, not as “at the temple”.",
+          text: "Vishramalaya is about 1 km from [[home|Omkareshwar Temple]] in the trust’s description, so even the temple’s own stay is not the shoe stand. “One kilometre” is a short ride and a real walk with luggage and elders. Put it in the plan as a walk, not as “at the temple”.",
         },
         {
           type: "note",
@@ -200,7 +200,7 @@ export const stayPages: PageDef[] = [
         },
         {
           type: "p",
-          text: "विश्रामालय ट्रस्ट के वर्णन में लगभग 1 किलोमीटर है, इसलिए मंदिर का अपना ठहरना भी जूता-घर नहीं है। “एक किलोमीटर” सामान और बुजुर्गों के साथ छोटी सवारी भी है और असली चाल भी। योजना में उसे चाल मानें, “मंदिर पर” नहीं।",
+          text: "ट्रस्ट के वर्णन में विश्रामालय [[home|ओंकारेश्वर मंदिर]] से लगभग 1 किलोमीटर है, इसलिए मंदिर का अपना ठहरना भी जूता-घर नहीं है। “एक किलोमीटर” सामान और बुजुर्गों के साथ छोटी सवारी भी है और असली चाल भी। योजना में उसे चाल मानें, “मंदिर पर” नहीं।",
         },
         {
           type: "note",
@@ -253,7 +253,7 @@ export const stayPages: PageDef[] = [
         { type: "h2", text: "How to book the trust’s bed" },
         {
           type: "p",
-          text: "Open {{vishramalaya|the Vishramalaya page}} on shriomkareshwar.org. If the form is closed or full, it is full. Call the helpline +91 8989998686 between 8 AM and 8 PM if the page and the payment disagree. Do not send identity documents to a number that is not that helpline.",
+          text: "A bed in [[home|Omkareshwar]] starts on {{vishramalaya|the Vishramalaya page}} at shriomkareshwar.org. If the form is closed or full, it is full. Call the helpline +91 8989998686 between 8 AM and 8 PM if the page and the payment disagree. Do not send identity documents to a number that is not that helpline.",
         },
         { type: "h2", text: "Food beside the bed" },
         {
@@ -298,7 +298,7 @@ export const stayPages: PageDef[] = [
         { type: "h2", text: "ट्रस्ट का बिस्तर कैसे बुक करें" },
         {
           type: "p",
-          text: "shriomkareshwar.org पर {{vishramalaya|विश्रामालय पृष्ठ}} खोलें। फॉर्म बंद या भरा हो तो भरा है। पृष्ठ और भुगतान में फर्क हो तो सुबह 8 से रात 8 के बीच +91 8989998686 पर कॉल करें। पहचान पत्र उस नंबर पर न भेजें जो यह हेल्पलाइन नहीं।",
+          text: "[[home|ओंकारेश्वर]] में बिस्तर shriomkareshwar.org पर {{vishramalaya|विश्रामालय पृष्ठ}} से शुरू होता है। फॉर्म बंद या भरा हो तो भरा है। पृष्ठ और भुगतान में फर्क हो तो सुबह 8 से रात 8 के बीच +91 8989998686 पर कॉल करें। पहचान पत्र उस नंबर पर न भेजें जो यह हेल्पलाइन नहीं।",
         },
         { type: "h2", text: "बिस्तर के पास भोजन" },
         {
@@ -341,7 +341,7 @@ export const stayPages: PageDef[] = [
         { type: "h2", text: "Spend the money on the walk" },
         {
           type: "p",
-          text: "The costly mistake is not a fan that rattles. It is a room that looked thrifty at noon and is a dark highway at 4:10 AM, with no auto and a sanctum that opened at 5:00. Pay a little more for the bank you can walk, or pay for the auto at the same time as the room. Do not pay a stranger for “budget VIP darshan”. The free queue is already the budget darshan. Shighra, if you add it, is ₹300 a person on the trust’s page, not a room discount.",
+          text: "The costly mistake near [[home|Omkareshwar]] is not a fan that rattles. It is a room that looked thrifty at noon and is a dark highway at 4:10 AM, with no auto and a sanctum that opened at 5:00. Pay a little more for the bank you can walk, or pay for the auto at the same time as the room. Do not pay a stranger for “budget VIP darshan”. The free queue is already the budget darshan. Shighra, if you add it, is ₹300 a person on the trust’s page, not a room discount.",
         },
         { type: "h2", text: "What to check in a simple room" },
         {
@@ -382,7 +382,7 @@ export const stayPages: PageDef[] = [
         { type: "h2", text: "पैसे चाल पर खर्च करें" },
         {
           type: "p",
-          text: "महँगी भूल खड़खड़ाता पंखा नहीं है। वह कमरा है जो दोपहर को किफायती लगा और सुबह 4:10 को अँधेरा राजमार्ग है, ऑटो नहीं, और गर्भगृह 5:00 बजे खुल चुका। जिस तट पर चल सकें उसके लिए थोड़ा अधिक दें, या कमरे के साथ ऑटो का दाम एक साथ दें। किसी अजनबी को “सस्ता वीआईपी दर्शन” न दें। मुफ्त कतार पहले से किफायती दर्शन है। शीघ्र जोड़ें तो ट्रस्ट के पृष्ठ पर ₹300 प्रति व्यक्ति है, कमरे की छूट नहीं।",
+          text: "[[home|ओंकारेश्वर]] के पास महँगी भूल खड़खड़ाता पंखा नहीं है। वह कमरा है जो दोपहर को किफायती लगा और सुबह 4:10 को अँधेरा राजमार्ग है, ऑटो नहीं, और गर्भगृह 5:00 बजे खुल चुका। जिस तट पर चल सकें उसके लिए थोड़ा अधिक दें, या कमरे के साथ ऑटो का दाम एक साथ दें। किसी अजनबी को “सस्ता वीआईपी दर्शन” न दें। मुफ्त कतार पहले से किफायती दर्शन है। शीघ्र जोड़ें तो ट्रस्ट के पृष्ठ पर ₹300 प्रति व्यक्ति है, कमरे की छूट नहीं।",
         },
         { type: "h2", text: "सादे कमरे में क्या देखें" },
         {
@@ -432,7 +432,7 @@ export const stayPages: PageDef[] = [
         { type: "h2", text: "Split the day so nobody is heroic" },
         {
           type: "p",
-          text: "The 4:30 AM aarti is beautiful and it is early. Elders who slept across the bridge will feel the hour in their knees before they feel it as worship. Either sleep within a walk, or choose madhyanha darshan from 1:15 PM and protect the morning. The closure at 12:20 is the trap for families who sightsee first and pray second. Eat after darshan, or eat at Omkar Prasadalaya once it opens at 10, not in the last twenty minutes of the morning block.",
+          text: "The 4:30 AM aarti at [[home|Omkareshwar Mandir]] is beautiful and it is early. Elders who slept across the bridge will feel the hour in their knees before they feel it as worship. Either sleep within a walk, or choose madhyanha darshan from 1:15 PM and protect the morning. The closure at 12:20 is the trap for families who sightsee first and pray second. Eat after darshan, or eat at Omkar Prasadalaya once it opens at 10, not in the last twenty minutes of the morning block.",
         },
         { type: "h2", text: "Children in the queue" },
         {
@@ -471,7 +471,7 @@ export const stayPages: PageDef[] = [
         { type: "h2", text: "दिन बाँटें ताकि कोई वीरता न करे" },
         {
           type: "p",
-          text: "सुबह 4:30 की आरती सुंदर है और जल्दी है। जो बुजुर्ग पुल के पार सोए, वे पूजा से पहले घुटनों में घंटा महसूस करेंगे। या पैदल दूरी पर सोएँ, या दोपहर 1:15 का मध्याह्न दर्शन चुनें और सुबह को बचाएँ। 12:20 का बंद उन परिवारों का फंदा है जो पहले घूमते हैं और फिर प्रार्थना करते हैं। दर्शन के बाद खाएँ, या सुबह 10 बजे खुलने के बाद ओंकार प्रसादालय में, सुबह के खंड के आखिरी बीस मिनट में नहीं।",
+          text: "[[home|ओंकारेश्वर मंदिर]] की सुबह 4:30 की आरती सुंदर है और जल्दी है। जो बुजुर्ग पुल के पार सोए, वे पूजा से पहले घुटनों में घंटा महसूस करेंगे। या पैदल दूरी पर सोएँ, या दोपहर 1:15 का मध्याह्न दर्शन चुनें और सुबह को बचाएँ। 12:20 का बंद उन परिवारों का फंदा है जो पहले घूमते हैं और फिर प्रार्थना करते हैं। दर्शन के बाद खाएँ, या सुबह 10 बजे खुलने के बाद ओंकार प्रसादालय में, सुबह के खंड के आखिरी बीस मिनट में नहीं।",
         },
         { type: "h2", text: "कतार में बच्चे" },
         {

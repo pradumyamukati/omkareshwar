@@ -27,7 +27,7 @@ export const culturePages: PageDef[] = [
         { type: "h2", text: "The living temple is not a ruin" },
         {
           type: "p",
-          text: "The Jyotirlinga you queue for is a working temple. Its shikhara and its crowd are of the present. Pieces of older building sit inside a complex that state tourism describes as five storeys, with a pillared hall. Calling the whole complex “an 11th-century building” because a hill shrine nearby is 11th-century would be a blur. Keep the dates on the buildings they were written for.",
+          text: "[[home|Shri Omkareshwar Jyotirlinga Temple]] is the working temple you queue for. Its shikhara and its crowd are of the present. Pieces of older building sit inside a complex that state tourism describes as five storeys, with a pillared hall. Calling the whole complex “an 11th-century building” because a hill shrine nearby is 11th-century would be a blur. Keep the dates on the buildings they were written for.",
         },
         { type: "h2", text: "Shankaracharya’s association" },
         {
@@ -71,7 +71,7 @@ export const culturePages: PageDef[] = [
         { type: "h2", text: "जीवित मंदिर अवशेष नहीं है" },
         {
           type: "p",
-          text: "जिस ज्योतिर्लिंग की कतार में आप खड़े हैं वह चालू मंदिर है। उसका शिखर और उसकी भीड़ वर्तमान की है। पुरानी रचना के अंश उस परिसर में हैं जिसे राज्य पर्यटन पाँच मंजिल और स्तंभों वाला हॉल बताता है। पास के पहाड़ी मंदिर के 11वीं सदी होने से पूरे परिसर को “11वीं सदी की इमारत” कहना धुँध है। तिथि उसी भवन पर रखें जिसके लिए लिखी गई।",
+          text: "[[home|श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर]] वह चालू मंदिर है जिसकी कतार में आप खड़े हैं। उसका शिखर और उसकी भीड़ वर्तमान की है। पुरानी रचना के अंश उस परिसर में हैं जिसे राज्य पर्यटन पाँच मंजिल और स्तंभों वाला हॉल बताता है। पास के पहाड़ी मंदिर के 11वीं सदी होने से पूरे परिसर को “11वीं सदी की इमारत” कहना धुँध है। तिथि उसी भवन पर रखें जिसके लिए लिखी गई।",
         },
         { type: "h2", text: "शंकराचार्य का संबंध" },
         {
@@ -118,7 +118,7 @@ export const culturePages: PageDef[] = [
         { type: "h2", text: "The shape of the island" },
         {
           type: "p",
-          text: "Traditional accounts describe Mandhata as an island the Narmada holds in the form of the syllable Om. The town takes its name from that comparison: Omkareshwar, lord of the Om. You can see the river split around the hill without needing the story. The story is what devotees add when they say the shape is not an accident.",
+          text: "Traditional accounts describe Mandhata as an island the Narmada holds in the form of the syllable Om. The town takes its name from that comparison: [[home|Omkareshwar Jyotirlinga]], lord of the Om. You can see the river split around the hill without needing the story. The story is what devotees add when they say the shape is not an accident.",
         },
         { type: "h2", text: "Two shrines, one telling" },
         {
@@ -163,7 +163,7 @@ export const culturePages: PageDef[] = [
         { type: "h2", text: "द्वीप की आकृति" },
         {
           type: "p",
-          text: "पारंपरिक वर्णन मांधाता को ऐसा द्वीप बताते हैं जिसे नर्मदा ॐ के रूप में थामे है। नगर का नाम उसी तुलना से है: ओंकारेश्वर, ॐ के ईश्वर। कथा के बिना भी देखा जा सकता है कि नदी पहाड़ी के दो ओर बँटती है। कथा वह है जो श्रद्धालु जोड़ते हैं जब कहते हैं कि आकृति संयोग नहीं।",
+          text: "पारंपरिक वर्णन मांधाता को ऐसा द्वीप बताते हैं जिसे नर्मदा ॐ के रूप में थामे है। नगर का नाम उसी तुलना से है: [[home|ओंकारेश्वर ज्योतिर्लिंग]], ॐ के ईश्वर। कथा के बिना भी देखा जा सकता है कि नदी पहाड़ी के दो ओर बँटती है। कथा वह है जो श्रद्धालु जोड़ते हैं जब कहते हैं कि आकृति संयोग नहीं।",
         },
         { type: "h2", text: "दो मंदिर, एक कथन" },
         {
@@ -217,7 +217,7 @@ export const culturePages: PageDef[] = [
         { type: "h2", text: "Darshan is looking, not holding" },
         {
           type: "p",
-          text: "People arrive with the habit of another Shiva temple, where a priest placed their hand or let them pour water. This railing does not continue that habit. The trust is explicit about the main linga. Offerings such as bilva, flowers and coconut may also be stopped before the garbhagriha. The schedules page says so. A coconut broken in the wrong place slows the line and does not improve the worship.",
+          text: "People arrive at [[home|Omkareshwar Mahadev]] with the habit of another Shiva temple, where a priest placed their hand or let them pour water. This railing does not continue that habit. The trust is explicit about the main linga. Offerings such as bilva, flowers and coconut may also be stopped before the garbhagriha. The schedules page says so. A coconut broken in the wrong place slows the line and does not improve the worship.",
         },
         { type: "h2", text: "Abhishek, if you want the rite" },
         {
@@ -256,7 +256,7 @@ export const culturePages: PageDef[] = [
         { type: "h2", text: "दर्शन देखना है, पकड़ना नहीं" },
         {
           type: "p",
-          text: "लोग दूसरे शिव मंदिर की आदत लेकर आते हैं, जहाँ पुजारी ने हाथ रखवाया या जल डलवाया। यह रेलिंग वह आदत जारी नहीं रखती। मुख्य लिंग के बारे में ट्रस्ट स्पष्ट है। बिल्वपत्र, फूल और नारियल भी गर्भगृह से पहले रोके जा सकते हैं। दिनचर्या पृष्ठ यही कहता है। गलत जगह फूटा नारियल पंक्ति धीमी करता है और पूजा बेहतर नहीं करता।",
+          text: "लोग [[home|ओंकारेश्वर महादेव]] पर दूसरे शिव मंदिर की आदत लेकर आते हैं, जहाँ पुजारी ने हाथ रखवाया या जल डलवाया। यह रेलिंग वह आदत जारी नहीं रखती। मुख्य लिंग के बारे में ट्रस्ट स्पष्ट है। बिल्वपत्र, फूल और नारियल भी गर्भगृह से पहले रोके जा सकते हैं। दिनचर्या पृष्ठ यही कहता है। गलत जगह फूटा नारियल पंक्ति धीमी करता है और पूजा बेहतर नहीं करता।",
         },
         { type: "h2", text: "अभिषेक, यदि विधि चाहिए" },
         {
@@ -315,7 +315,7 @@ export const culturePages: PageDef[] = [
         { type: "h2", text: "Mondays outside Shravan" },
         {
           type: "p",
-          text: "Shiva’s weekday is already enough to fill the lane. The Somvar sawari starts at Koti Tirth Ghat every Monday, according to the FAQ, and the royal form belongs to Shravan. You do not need a fairground to have a hard morning. You need a bed you can leave in the dark, or a willingness to take the afternoon block.",
+          text: "Shiva’s weekday is already enough to fill the lane at [[home|Omkareshwar]]. The Somvar sawari starts at Koti Tirth Ghat every Monday, according to the FAQ, and the royal form belongs to Shravan. You do not need a fairground to have a hard morning. You need a bed you can leave in the dark, or a willingness to take the afternoon block.",
         },
         {
           type: "p",
@@ -360,7 +360,7 @@ export const culturePages: PageDef[] = [
         { type: "h2", text: "सावन के बाहर के सोमवार" },
         {
           type: "p",
-          text: "शिव का वार अपने आप गली भरने को काफी है। प्रश्नोत्तर के अनुसार सोमवार सवारी हर सोमवार कोटी तीर्थ घाट से शुरू होती है, और राजसी रूप सावन का है। कठिन सुबह के लिए मेले की जरूरत नहीं। जरूरत उस बिस्तर की है जिसे अँधेरे में छोड़ सकें, या दोपहर का खंड लेने की तैयारी।",
+          text: "शिव का वार अपने आप [[home|ओंकारेश्वर]] की गली भरने को काफी है। प्रश्नोत्तर के अनुसार सोमवार सवारी हर सोमवार कोटी तीर्थ घाट से शुरू होती है, और राजसी रूप सावन का है। कठिन सुबह के लिए मेले की जरूरत नहीं। जरूरत उस बिस्तर की है जिसे अँधेरे में छोड़ सकें, या दोपहर का खंड लेने की तैयारी।",
         },
         {
           type: "p",
@@ -413,7 +413,7 @@ export const culturePages: PageDef[] = [
         },
         {
           type: "p",
-          text: "The religious meaning is Shiva’s night, kept in the tradition that also tells the [[omkareshwar-jyotirlinga-story|story of the linga]]. The practical meaning is a town with more people than beds. Both are true. Only the second one will strand you.",
+          text: "The religious meaning at [[home|Omkareshwar]] is Shiva’s night, kept in the tradition that also tells the [[omkareshwar-jyotirlinga-story|story of the linga]]. The practical meaning is a town with more people than beds. Both are true. Only the second one will strand you.",
         },
       ],
       faqs: [
@@ -453,7 +453,7 @@ export const culturePages: PageDef[] = [
         },
         {
           type: "p",
-          text: "धार्मिक अर्थ शिव की रात है, उसी परंपरा में जो [[omkareshwar-jyotirlinga-story|लिंग की कथा]] कहती है। व्यावहारिक अर्थ एक ऐसा नगर है जिसमें बिस्तरों से अधिक लोग हैं। दोनों सच हैं। फँसाएगा दूसरा।",
+          text: "[[home|ओंकारेश्वर]] पर धार्मिक अर्थ शिव की रात है, उसी परंपरा में जो [[omkareshwar-jyotirlinga-story|लिंग की कथा]] कहती है। व्यावहारिक अर्थ एक ऐसा नगर है जिसमें बिस्तरों से अधिक लोग हैं। दोनों सच हैं। फँसाएगा दूसरा।",
         },
       ],
       faqs: [

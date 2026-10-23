@@ -23,7 +23,7 @@ export const hotelGuidePages: PageDef[] = [
         { type: "h2", text: "Finding a peaceful stay by the sacred river" },
         {
           type: "p",
-          text: "Accommodation in Omkareshwar runs from pilgrim dormitories at a few dozen rupees a night to mid-range hotels with a balcony toward the river. Travelers on different budgets can find a bed. The market is also like the river: under a calm surface the current changes. The gap between a glowing review and a harsh one is often wider than the change in the Narmada’s depth.",
+          text: "Accommodation in [[home|Omkareshwar]] runs from pilgrim dormitories at a few dozen rupees a night to mid-range hotels with a balcony toward the river. Travelers on different budgets can find a bed. The market is also like the river: under a calm surface the current changes. The gap between a glowing review and a harsh one is often wider than the change in the Narmada’s depth.",
         },
         { type: "h2", text: "Location determines the experience" },
         {
@@ -109,7 +109,7 @@ export const hotelGuidePages: PageDef[] = [
         { type: "h2", text: "पवित्र नदी के किनारे शांत ठहराव" },
         {
           type: "p",
-          text: "ओंकारेश्वर में ठहराव कुछ दर्जन रुपये की धर्मशाला से लेकर नदी की ओर बालकनी वाले मध्यम होटलों तक है। अलग बजट का यात्री बिस्तर पा सकता है। यह बाज़ार नदी जैसा है: शांत सतह के नीचे धार बदलती है। एक चमकती समीक्षा और एक कड़ी शिकायत के बीच का फासला अक्सर नर्मदा की गहराई के बदलाव से बड़ा होता है।",
+          text: "[[home|ओंकारेश्वर]] में ठहराव कुछ दर्जन रुपये की धर्मशाला से लेकर नदी की ओर बालकनी वाले मध्यम होटलों तक है। अलग बजट का यात्री बिस्तर पा सकता है। यह बाज़ार नदी जैसा है: शांत सतह के नीचे धार बदलती है। एक चमकती समीक्षा और एक कड़ी शिकायत के बीच का फासला अक्सर नर्मदा की गहराई के बदलाव से बड़ा होता है।",
         },
         { type: "h2", text: "अनुभव जगह तय करती है" },
         {

@@ -88,7 +88,7 @@ for (const lang of ["en", "hi"] as const) {
     const link = /\[\[([^|\]]+)\|/g;
     let match: RegExpExecArray | null;
     while ((match = link.exec(blob))) {
-      if (!slugs.has(match[1])) fail(`Broken internal link [[${match[1]}]] on ${page.slug}`);
+      if (match[1] !== "home" && !slugs.has(match[1])) fail(`Broken internal link [[${match[1]}]] on ${page.slug}`);
     }
     const ext = /\{\{([a-zA-Z0-9]+)\|/g;
     while ((match = ext.exec(blob))) {

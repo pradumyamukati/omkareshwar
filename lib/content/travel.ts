@@ -42,7 +42,7 @@ export const travelPages: PageDef[] = [
         { type: "h2", text: "Geographical Location and How to Reach" },
         {
           type: "p",
-          text: "Omkareshwar's geographical location makes it an easily accessible pilgrimage destination. It is situated approximately 77 to 80 kilometers from Indore, a major city in Madhya Pradesh. Travelers have several options to reach here.",
+          text: "The [[home|Omkareshwar location]] is Mandhata island in the Narmada, which makes the town an accessible pilgrimage destination. It is situated approximately 77 to 80 kilometers from Indore, a major city in Madhya Pradesh. Travelers have several options to reach here.",
         },
         { type: "h3", text: "By Air" },
         {
@@ -150,7 +150,7 @@ export const travelPages: PageDef[] = [
         { type: "h2", text: "भौगोलिक स्थिति और कैसे पहुँचें" },
         {
           type: "p",
-          text: "ओंकारेश्वर की भौगोलिक स्थिति इसे आसानी से पहुँचने वाला तीर्थ बनाती है। यह मध्य प्रदेश के बड़े नगर इंदौर से लगभग 77 से 80 किलोमीटर है। यात्रियों के पास यहाँ पहुँचने के कई रास्ते हैं।",
+          text: "[[home|ओंकारेश्वर का स्थान]] मांधाता द्वीप है, इसलिए यह आसानी से पहुँचने वाला तीर्थ है। यह मध्य प्रदेश के बड़े नगर इंदौर से लगभग 77 से 80 किलोमीटर है। यात्रियों के पास यहाँ पहुँचने के कई रास्ते हैं।",
         },
         { type: "h3", text: "हवाई मार्ग" },
         {
@@ -270,7 +270,7 @@ export const travelPages: PageDef[] = [
         { type: "h2", text: "After you arrive" },
         {
           type: "p",
-          text: "The last kilometre is the bridge and the shoe stand, not the district border. Build the [[omkareshwar-temple-timings|darshan clock]] into the arrival. A noon landing from Indore can walk straight into the midday bhog closure at 12:20 PM. The trust’s FAQ says buses from Ujjain via Indore run until 7 PM or later. That is a published hint about evening buses, not a timetable of a named depot.",
+          text: "The last kilometre into [[home|Omkareshwar]] is the bridge and the shoe stand, not the district border. Build the [[omkareshwar-temple-timings|darshan clock]] into the arrival. A noon landing from Indore can walk straight into the midday bhog closure at 12:20 PM. The trust’s FAQ says buses from Ujjain via Indore run until 7 PM or later. That is a published hint about evening buses, not a timetable of a named depot.",
         },
       ],
       faqs: [
@@ -321,7 +321,7 @@ export const travelPages: PageDef[] = [
         { type: "h2", text: "पहुँचने के बाद" },
         {
           type: "p",
-          text: "आखिरी किलोमीटर पुल और जूता-घर है, जिले की सीमा नहीं। आगमन में [[omkareshwar-temple-timings|दर्शन की घड़ी]] जोड़ें। इंदौर से दोपहर की सवारी सीधे 12:20 के मध्याह्न भोग में चल सकती है। ट्रस्ट का प्रश्नोत्तर कहता है कि उज्जैन से इंदौर होकर बसें शाम 7 बजे या उसके बाद तक मिलती हैं। यह शाम की बसों का संकेत है, किसी डिपो की समय-सारिणी नहीं।",
+          text: "[[home|ओंकारेश्वर]] का आखिरी किलोमीटर पुल और जूता-घर है, जिले की सीमा नहीं। आगमन में [[omkareshwar-temple-timings|दर्शन की घड़ी]] जोड़ें। इंदौर से दोपहर की सवारी सीधे 12:20 के मध्याह्न भोग में चल सकती है। ट्रस्ट का प्रश्नोत्तर कहता है कि उज्जैन से इंदौर होकर बसें शाम 7 बजे या उसके बाद तक मिलती हैं। यह शाम की बसों का संकेत है, किसी डिपो की समय-सारिणी नहीं।",
         },
       ],
       faqs: [

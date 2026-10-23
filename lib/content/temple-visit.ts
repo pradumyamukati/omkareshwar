@@ -23,7 +23,7 @@ export const templeVisitPages: PageDef[] = [
         { type: "h2", text: "Two ways in, one sanctum" },
         {
           type: "p",
-          text: "The trust’s FAQ is plain: booking is not required for normal darshan, and Shighra tickets are optional. The second queue exists so that a festival crowd can be shortened for people who pay. It does not replace the free queue, and it does not open the sanctum while aarti or shringar is on. The Shighra page says a ticket works once, only in the booked slot, and not during a service break.",
+          text: "At [[home|Shri Omkareshwar Jyotirlinga Temple]], the trust’s FAQ is plain: booking is not required for normal darshan, and Shighra tickets are optional. The second queue exists so that a festival crowd can be shortened for people who pay. It does not replace the free queue, and it does not open the sanctum while aarti or shringar is on. The Shighra page says a ticket works once, only in the booked slot, and not during a service break.",
         },
         {
           type: "p",
@@ -77,7 +77,7 @@ export const templeVisitPages: PageDef[] = [
         { type: "h2", text: "एक गर्भगृह, दो रास्ते" },
         {
           type: "p",
-          text: "ट्रस्ट का प्रश्नोत्तर साफ है: सामान्य दर्शन के लिए बुकिंग जरूरी नहीं, शीघ्र टिकट वैकल्पिक है। दूसरी कतार इसलिए है कि भीड़ में कुछ लोग भुगतान कर समय घटा सकें। वह मुफ्त कतार की जगह नहीं लेती, और आरती या श्रृंगार के दौरान गर्भगृह नहीं खोलती। शीघ्र पृष्ठ कहता है कि टिकट एक बार, केवल बुक किए स्लॉट में, और सेवा-विराम में नहीं चलता।",
+          text: "[[home|श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर]] पर ट्रस्ट का प्रश्नोत्तर साफ है: सामान्य दर्शन के लिए बुकिंग जरूरी नहीं, शीघ्र टिकट वैकल्पिक है। दूसरी कतार इसलिए है कि भीड़ में कुछ लोग भुगतान कर समय घटा सकें। वह मुफ्त कतार की जगह नहीं लेती, और आरती या श्रृंगार के दौरान गर्भगृह नहीं खोलती। शीघ्र पृष्ठ कहता है कि टिकट एक बार, केवल बुक किए स्लॉट में, और सेवा-विराम में नहीं चलता।",
         },
         {
           type: "p",
@@ -154,7 +154,7 @@ export const templeVisitPages: PageDef[] = [
         },
         {
           type: "p",
-          text: "The same page says darshan stays closed before 5:00 AM, after 10:30 PM, and during aarti and shringar. It also says the hours can change on special occasions. That last sentence is the one to remember in Shravan and on Mahashivratri.",
+          text: "The same page says darshan at [[home|Omkareshwar Mandir]] stays closed before 5:00 AM, after 10:30 PM, and during aarti and shringar. It also says the hours can change on special occasions. That last sentence is the one to remember in Shravan and on Mahashivratri.",
         },
         { type: "h2", text: "Why two official clocks exist" },
         {
@@ -217,7 +217,7 @@ export const templeVisitPages: PageDef[] = [
         },
         {
           type: "p",
-          text: "वही पृष्ठ कहता है कि दर्शन सुबह 5:00 से पहले, रात 10:30 के बाद, और आरती तथा श्रृंगार के दौरान बंद रहता है। विशेष अवसर पर समय बदल सकता है। सावन और महाशिवरात्रि में यही वाक्य याद रखना है।",
+          text: "वही पृष्ठ कहता है कि [[home|ओंकारेश्वर मंदिर]] पर दर्शन सुबह 5:00 से पहले, रात 10:30 के बाद, और आरती तथा श्रृंगार के दौरान बंद रहता है। विशेष अवसर पर समय बदल सकता है। सावन और महाशिवरात्रि में यही वाक्य याद रखना है।",
         },
         { type: "h2", text: "आधिकारिक घड़ियाँ दो क्यों हैं" },
         {
@@ -285,7 +285,7 @@ export const templeVisitPages: PageDef[] = [
         { type: "h2", text: "What the money is for" },
         {
           type: "p",
-          text: "The trust describes Shighra as a direct-darshan facility for a fixed slot, because festivals and holidays make the free queue long. The note on the page said booking was open for all slots from Monday to Sunday. Slots shown on the booking form included 7–9 AM, 10 AM–12 PM, 2–4 PM and 6–8 PM. The form is the list that counts. A slot that falls inside bhog or shringar still cannot be used. The FAQ says the ticket is not valid during temple service breaks.",
+          text: "The trust describes Shighra at [[home|Omkareshwar]] as a direct-darshan facility for a fixed slot, because festivals and holidays make the free queue long. The note on the page said booking was open for all slots from Monday to Sunday. Slots shown on the booking form included 7–9 AM, 10 AM–12 PM, 2–4 PM and 6–8 PM. The form is the list that counts. A slot that falls inside bhog or shringar still cannot be used. The FAQ says the ticket is not valid during temple service breaks.",
         },
         { type: "h2", text: "How to book" },
         {
@@ -384,7 +384,7 @@ export const templeVisitPages: PageDef[] = [
         { type: "h2", text: "पैसे किस काम के हैं" },
         {
           type: "p",
-          text: "ट्रस्ट शीघ्र को तय स्लॉट की सीधी दर्शन सुविधा बताता है, क्योंकि पर्व और छुट्टी पर मुफ्त कतार लंबी होती है। पृष्ठ पर लिखा था कि सोमवार से रविवार तक सभी स्लॉट के लिए बुकिंग खुली है। फॉर्म पर स्लॉट सुबह 7–9, सुबह 10–दोपहर 12, दोपहर 2–4 और शाम 6–8 दिखे। जो सूची मायने रखती है वह फॉर्म है। भोग या श्रृंगार के भीतर पड़ा स्लॉट फिर भी नहीं चलता। प्रश्नोत्तर कहता है कि मंदिर की सेवा के विराम में टिकट मान्य नहीं।",
+          text: "ट्रस्ट [[home|ओंकारेश्वर]] पर शीघ्र को तय स्लॉट की सीधी दर्शन सुविधा बताता है, क्योंकि पर्व और छुट्टी पर मुफ्त कतार लंबी होती है। पृष्ठ पर लिखा था कि सोमवार से रविवार तक सभी स्लॉट के लिए बुकिंग खुली है। फॉर्म पर स्लॉट सुबह 7–9, सुबह 10–दोपहर 12, दोपहर 2–4 और शाम 6–8 दिखे। जो सूची मायने रखती है वह फॉर्म है। भोग या श्रृंगार के भीतर पड़ा स्लॉट फिर भी नहीं चलता। प्रश्नोत्तर कहता है कि मंदिर की सेवा के विराम में टिकट मान्य नहीं।",
         },
         { type: "h2", text: "कैसे बुक करें" },
         {

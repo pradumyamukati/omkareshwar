@@ -2,8 +2,9 @@ import type { Lang } from "./types";
 import { site } from "./site";
 
 export function pathFor(lang: Lang, slug: string) {
-  if (lang === "en") return slug ? `/${slug}` : "/";
-  return slug ? `/hi/${slug}` : "/hi";
+  const page = slug === "home" ? "" : slug;
+  if (lang === "en") return page ? `/${page}` : "/";
+  return page ? `/hi/${page}` : "/hi";
 }
 
 export function absoluteUrl(pathname: string) {

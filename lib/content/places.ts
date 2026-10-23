@@ -24,7 +24,7 @@ export const placePages: PageDef[] = [
         { type: "h2", text: "Start with the two doors" },
         {
           type: "p",
-          text: "If the family can do only two things, do [[omkareshwar-jyotirlinga|Omkareshwar]] and [[mamleshwar-temple|Mamleshwar]]. State tourism says legend treats them as one presence. Everything else is a widening of that yatra, not a replacement. The sangam, where the Narmada meets the local Kaveri, is the third name on the trust’s own short list.",
+          text: "If the family can do only two things, begin at [[home|Omkareshwar]], then see the [[omkareshwar-jyotirlinga|Jyotirlinga]] and [[mamleshwar-temple|Mamleshwar]]. State tourism says legend treats them as one presence. Everything else is a widening of that yatra, not a replacement. The sangam, where the Narmada meets the local Kaveri, is the third name on the trust’s own short list.",
         },
         { type: "h2", text: "Along the walk and beyond it" },
         {
@@ -74,7 +74,7 @@ export const placePages: PageDef[] = [
         { type: "h2", text: "दो द्वारों से शुरू करें" },
         {
           type: "p",
-          text: "परिवार केवल दो काम कर सके तो [[omkareshwar-jyotirlinga|ओंकारेश्वर]] और [[mamleshwar-temple|ममलेश्वर]] करे। राज्य पर्यटन कहता है कि मान्यता इन्हें एक उपस्थिति मानती है। बाकी सब इसी यात्रा का विस्तार है, विकल्प नहीं। संगम, जहाँ नर्मदा स्थानीय कावेरी से मिलती है, ट्रस्ट की छोटी सूची का तीसरा नाम है।",
+          text: "परिवार केवल दो काम कर सके तो [[home|ओंकारेश्वर]] से शुरू करे, फिर [[omkareshwar-jyotirlinga|ज्योतिर्लिंग]] और [[mamleshwar-temple|ममलेश्वर]] देखे। राज्य पर्यटन कहता है कि मान्यता इन्हें एक उपस्थिति मानती है। बाकी सब इसी यात्रा का विस्तार है, विकल्प नहीं। संगम, जहाँ नर्मदा स्थानीय कावेरी से मिलती है, ट्रस्ट की छोटी सूची का तीसरा नाम है।",
         },
         { type: "h2", text: "रास्ते पर और उसके आगे" },
         {
@@ -134,7 +134,7 @@ export const placePages: PageDef[] = [
         { type: "h2", text: "Why people cross" },
         {
           type: "p",
-          text: "A visit that stops on the island and never looks south has done the famous half. The trust’s FAQ names Mamleshwar beside the Jyotirlinga, the sangam and the parikrama. The bridge state tourism describes, Mamleshwar Setu, is the 270-foot hanging bridge that makes the crossing obvious. Godarpura is the south-bank settlement you are standing in once you have crossed.",
+          text: "A visit to [[home|Shri Omkareshwar Jyotirlinga Temple]] that stops on the island and never looks south has done the famous half. The trust’s FAQ names Mamleshwar beside the Jyotirlinga, the sangam and the parikrama. The bridge state tourism describes, Mamleshwar Setu, is the 270-foot hanging bridge that makes the crossing obvious. Godarpura is the south-bank settlement you are standing in once you have crossed.",
         },
         {
           type: "p",
@@ -177,7 +177,7 @@ export const placePages: PageDef[] = [
         { type: "h2", text: "लोग पार क्यों जाते हैं" },
         {
           type: "p",
-          text: "जो यात्रा द्वीप पर रुककर दक्षिण न देखे, उसने प्रसिद्ध आधा किया। ट्रस्ट का प्रश्नोत्तर ममलेश्वर को ज्योतिर्लिंग, संगम और परिक्रमा के साथ गिनाता है। राज्य पर्यटन जिस पुल का वर्णन करता है, ममलेश्वर सेतु, वही 270 फुट का झूला पुल है जिससे पार जाना साफ दिखता है। गोदरपुरा वह दक्षिणी बस्ती है जहाँ पार करने के बाद आप खड़े होते हैं।",
+          text: "[[home|श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर]] की जो यात्रा द्वीप पर रुककर दक्षिण न देखे, उसने प्रसिद्ध आधा किया। ट्रस्ट का प्रश्नोत्तर ममलेश्वर को ज्योतिर्लिंग, संगम और परिक्रमा के साथ गिनाता है। राज्य पर्यटन जिस पुल का वर्णन करता है, ममलेश्वर सेतु, वही 270 फुट का झूला पुल है जिससे पार जाना साफ दिखता है। गोदरपुरा वह दक्षिणी बस्ती है जहाँ पार करने के बाद आप खड़े होते हैं।",
         },
         {
           type: "p",
@@ -229,7 +229,7 @@ export const placePages: PageDef[] = [
         { type: "h2", text: "What the trust says you are doing" },
         {
           type: "p",
-          text: "The parikrama page says people walk around Bhagwan Omkareshwar and Mandhata mountain with Narmada water, for a wish. The path is approximately 7 km. That is the figure to plan with. A “small evening stroll” is a different walk. Seven kilometres on a hill, in Shravan, with a vow, is a morning of its own. Do it in a day that is not also trying to catch both aartis and a train.",
+          text: "The parikrama page says people walk around [[home|Omkareshwar]] and Mandhata mountain with Narmada water, for a wish. The path is approximately 7 km. That is the figure to plan with. A “small evening stroll” is a different walk. Seven kilometres on a hill, in Shravan, with a vow, is a morning of its own. Do it in a day that is not also trying to catch both aartis and a train.",
         },
         { type: "h2", text: "What you can expect to pass" },
         {
@@ -273,7 +273,7 @@ export const placePages: PageDef[] = [
         { type: "h2", text: "ट्रस्ट कहता है आप क्या कर रहे हैं" },
         {
           type: "p",
-          text: "परिक्रमा पृष्ठ कहता है कि लोग भगवान ओंकारेश्वर और मांधाता पर्वत की परिक्रमा नर्मदा जल के साथ, मनौती लेकर करते हैं। पथ लगभग 7 किलोमीटर है। योजना इसी अंक से बनाएँ। “शाम की छोटी सैर” दूसरी चाल है। पहाड़ी पर सात किलोमीटर, सावन में, व्रत के साथ, अपने आप में एक सुबह है। उसे उस दिन न रखें जिसमें दोनों आरती और एक रेल भी पकड़नी हो।",
+          text: "परिक्रमा पृष्ठ कहता है कि लोग [[home|ओंकारेश्वर]] और मांधाता पर्वत की परिक्रमा नर्मदा जल के साथ, मनौती लेकर करते हैं। पथ लगभग 7 किलोमीटर है। योजना इसी अंक से बनाएँ। “शाम की छोटी सैर” दूसरी चाल है। पहाड़ी पर सात किलोमीटर, सावन में, व्रत के साथ, अपने आप में एक सुबह है। उसे उस दिन न रखें जिसमें दोनों आरती और एक रेल भी पकड़नी हो।",
         },
         { type: "h2", text: "रास्ते में क्या मिल सकता है" },
         {
@@ -327,7 +327,7 @@ export const placePages: PageDef[] = [
         { type: "h2", text: "The Sacred Geography of the Ghats" },
         {
           type: "p",
-          text: "Omkareshwar's Narmada Ghats are distributed across both the island of Mandhata and the mainland banks. The principal ghats include Abhay Ghat, Navin Ghat, Nagar Ghat, Gomukh Ghat, Kotitirth Ghat, Brahmapuri Ghat, Kevalram Ghat, Omkar Math Ghat, Bichhalia Ghat, Chakratirth Ghat, Barfani Ghat, and the Sangam Ghat at the confluence of the Narmada and Kaveri rivers. Each ghat carries its own mythological significance and serves distinct functions within the pilgrimage circuit.",
+          text: "The ghats of [[home|Omkareshwar]] are distributed across both the island of Mandhata and the mainland banks. The principal ghats include Abhay Ghat, Navin Ghat, Nagar Ghat, Gomukh Ghat, Kotitirth Ghat, Brahmapuri Ghat, Kevalram Ghat, Omkar Math Ghat, Bichhalia Ghat, Chakratirth Ghat, Barfani Ghat, and the Sangam Ghat at the confluence of the Narmada and Kaveri rivers. Each ghat carries its own mythological significance and serves distinct functions within the pilgrimage circuit.",
         },
         {
           type: "p",
@@ -414,7 +414,7 @@ export const placePages: PageDef[] = [
         { type: "h2", text: "घाटों की पवित्र भूगोल" },
         {
           type: "p",
-          text: "ओंकारेश्वर के नर्मदा घाट मांधाता द्वीप और मुख्य भूमि, दोनों तटों पर हैं। प्रमुख घाटों में अभय घाट, नवीन घाट, नगर घाट, गोमुख घाट, कोटीतीर्थ घाट, ब्रह्मपुरी घाट, केवलराम घाट, ओंकार मठ घाट, बिछलिया घाट, चक्रतीर्थ घाट, बर्फानी घाट, और नर्मदा-कावेरी संगम का संगम घाट शामिल हैं। हर घाट की अपनी कथा है और तीर्थ-मार्ग में उसका अपना काम है।",
+          text: "[[home|ओंकारेश्वर]] के नर्मदा घाट मांधाता द्वीप और मुख्य भूमि, दोनों तटों पर हैं। प्रमुख घाटों में अभय घाट, नवीन घाट, नगर घाट, गोमुख घाट, कोटीतीर्थ घाट, ब्रह्मपुरी घाट, केवलराम घाट, ओंकार मठ घाट, बिछलिया घाट, चक्रतीर्थ घाट, बर्फानी घाट, और नर्मदा-कावेरी संगम का संगम घाट शामिल हैं। हर घाट की अपनी कथा है और तीर्थ-मार्ग में उसका अपना काम है।",
         },
         {
           type: "p",
@@ -509,7 +509,7 @@ export const placePages: PageDef[] = [
         { type: "h2", text: "See it as part of the walk" },
         {
           type: "p",
-          text: "State tourism says Siddhanath stands nearly at the end of the Omkareshwar parikrama, on a plinth whose sides carry elephants in different postures. That is the reason to include it: the walk already passes it. A separate taxi “to a ruin” without the path misses the point the trust is making when it folds Siddhanath into the 7 km circuit.",
+          text: "State tourism says Siddhanath stands nearly at the end of the [[home|Omkareshwar]] parikrama, on a plinth whose sides carry elephants in different postures. That is the reason to include it: the walk already passes it. A separate taxi “to a ruin” without the path misses the point the trust is making when it folds Siddhanath into the 7 km circuit.",
         },
         {
           type: "p",
@@ -547,7 +547,7 @@ export const placePages: PageDef[] = [
         { type: "h2", text: "इसे चाल का हिस्सा मानकर देखें" },
         {
           type: "p",
-          text: "राज्य पर्यटन कहता है कि सिद्धनाथ ओंकारेश्वर परिक्रमा के लगभग अंत में है, उस पीठ पर जिसके किनारे अलग-अलग मुद्राओं में हाथी हैं। इसे शामिल करने का कारण यही है: चाल वैसे ही वहाँ से गुजरती है। पथ के बिना “अवशेष तक टैक्सी” ट्रस्ट के उस मतलब को छोड़ देती है जिसमें सिद्धनाथ 7 किलोमीटर के घेरे में है।",
+          text: "राज्य पर्यटन कहता है कि सिद्धनाथ [[home|ओंकारेश्वर]] परिक्रमा के लगभग अंत में है, उस पीठ पर जिसके किनारे अलग-अलग मुद्राओं में हाथी हैं। इसे शामिल करने का कारण यही है: चाल वैसे ही वहाँ से गुजरती है। पथ के बिना “अवशेष तक टैक्सी” ट्रस्ट के उस मतलब को छोड़ देती है जिसमें सिद्धनाथ 7 किलोमीटर के घेरे में है।",
         },
         {
           type: "p",
@@ -593,7 +593,7 @@ export const placePages: PageDef[] = [
         { type: "h2", text: "A different kind of silence" },
         {
           type: "p",
-          text: "The Jyotirlinga is crowded because it is the living door of the yatra. Gauri Somnath is visited because the building itself is the record. State tourism compares the carving with Khajuraho and says the Marathas later rebuilt parts of it. Those are the tourism department’s sentences. They are enough to tell you this is not a stall on the bridge. They are not a licence to climb what a guard has closed.",
+          text: "[[home|Shri Omkareshwar Jyotirlinga Temple]] is crowded because it is the living door of the yatra. Gauri Somnath is visited because the building itself is the record. State tourism compares the carving with Khajuraho and says the Marathas later rebuilt parts of it. Those are the tourism department’s sentences. They are enough to tell you this is not a stall on the bridge. They are not a licence to climb what a guard has closed.",
         },
         {
           type: "p",
@@ -631,7 +631,7 @@ export const placePages: PageDef[] = [
         { type: "h2", text: "दूसरी तरह की शांति" },
         {
           type: "p",
-          text: "ज्योतिर्लिंग भीड़ वाला है क्योंकि वह यात्रा का जीवित द्वार है। गौरी सोमनाथ इसलिए देखा जाता है कि भवन स्वयं रिकॉर्ड है। राज्य पर्यटन नक्काशी की तुलना खजुराहो से करता है और कहता है कि मराठों ने बाद में अंश फिर बनाए। ये पर्यटन विभाग के वाक्य हैं। इनसे पता चलता है कि यह पुल की दुकान नहीं। इनसे यह अनुमति नहीं मिलती कि पहरेदार ने जो बंद किया हो उस पर चढ़ें।",
+          text: "[[home|श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर]] भीड़ वाला है क्योंकि वह यात्रा का जीवित द्वार है। गौरी सोमनाथ इसलिए देखा जाता है कि भवन स्वयं रिकॉर्ड है। राज्य पर्यटन नक्काशी की तुलना खजुराहो से करता है और कहता है कि मराठों ने बाद में अंश फिर बनाए। ये पर्यटन विभाग के वाक्य हैं। इनसे पता चलता है कि यह पुल की दुकान नहीं। इनसे यह अनुमति नहीं मिलती कि पहरेदार ने जो बंद किया हो उस पर चढ़ें।",
         },
         {
           type: "p",

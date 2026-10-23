@@ -31,7 +31,7 @@ export const guidePages: PageDef[] = [
         { type: "h2", text: "What Omkareshwar is" },
         {
           type: "p",
-          text: "**Omkareshwar** is a temple town on **Mandhata** island in the **Narmada**, in Khandwa district of Madhya Pradesh, PIN 450554. The Shri Omkareshwar Mandir Trust calls the shrine the fourth of the twelve **Jyotirlingas**. The name means lord of Om. Madhya Pradesh Tourism says the island’s outline is compared with the syllable ॐ, which is why the town, the hill and the linga share one name. People come for a family **darshan**, a solo yatra, a weekend from Indore, or a quieter retreat. The island gives you the sanctum, the river and the walk. It does not give you a second city.",
+          text: "[[home|**Omkareshwar**]] is a temple town on **Mandhata** island in the **Narmada**, in Khandwa district of Madhya Pradesh, PIN 450554. The trust calls [[home|Shri Omkareshwar Jyotirlinga Temple]] the fourth of the twelve **Jyotirlingas**. The name means lord of Om. Madhya Pradesh Tourism says the island’s outline is compared with the syllable ॐ, which is why the town, the hill and the linga share one name. People come for a family **darshan**, a solo yatra, a weekend from Indore, or a quieter retreat. The island gives you the sanctum, the river and the walk. It does not give you a second city.",
         },
         { type: "h2", text: "Two darshan, one yatra" },
         {
@@ -147,7 +147,7 @@ export const guidePages: PageDef[] = [
         { type: "h2", text: "ओंकारेश्वर क्या है" },
         {
           type: "p",
-          text: "**ओंकारेश्वर** **नर्मदा** के **मांधाता** द्वीप पर मंदिर-नगर है, मध्य प्रदेश का खंडवा जिला, पिन 450554। श्री ओंकारेश्वर मंदिर ट्रस्ट इसे बारह **ज्योतिर्लिंगों** में चौथा कहता है। नाम का अर्थ ॐ के स्वामी से है। मध्य प्रदेश पर्यटन कहता है कि द्वीप की आकृति ॐ से मिलती है, इसलिए नगर, पहाड़ी और लिंग एक नाम रखते हैं। लोग परिवार के **दर्शन**, अकेले तीर्थ, इंदौर से सप्ताहांत, या शांत प्रवास के लिए आते हैं। द्वीप गर्भगृह, नदी और चाल देता है। दूसरा शहर नहीं देता।",
+          text: "[[home|**ओंकारेश्वर**]] **नर्मदा** के **मांधाता** द्वीप पर मंदिर-नगर है, मध्य प्रदेश का खंडवा जिला, पिन 450554। ट्रस्ट [[home|श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर]] को बारह **ज्योतिर्लिंगों** में चौथा कहता है। नाम का अर्थ ॐ के स्वामी से है। मध्य प्रदेश पर्यटन कहता है कि द्वीप की आकृति ॐ से मिलती है, इसलिए नगर, पहाड़ी और लिंग एक नाम रखते हैं। लोग परिवार के **दर्शन**, अकेले तीर्थ, इंदौर से सप्ताहांत, या शांत प्रवास के लिए आते हैं। द्वीप गर्भगृह, नदी और चाल देता है। दूसरा शहर नहीं देता।",
         },
         { type: "h2", text: "दो दर्शन, एक यात्रा" },
         {

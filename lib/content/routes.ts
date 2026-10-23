@@ -23,7 +23,7 @@ export const routePages: PageDef[] = [
         { type: "h2", text: "Leave against the temple clock, not against breakfast" },
         {
           type: "p",
-          text: "Mangal darshan runs from 5:00 AM. A family that wants that hour sleeps in Omkareshwar, not in Indore. A family that leaves Indore after a late breakfast can still make madhyanha darshan, which the daily page lists from 1:15 PM, provided they are not still on the bridge at 12:20 when bhog closes the sanctum. The road is the easy half. The queue is the half that does not shrink because Indore is close.",
+          text: "The [[home|Omkareshwar Indore]] road is this one. Mangal darshan runs from 5:00 AM. A family that wants that hour sleeps in the temple town, not in Indore. A family that leaves Indore after a late breakfast can still make madhyanha darshan, which the daily page lists from 1:15 PM, provided they are not still on the bridge at 12:20 when bhog closes the sanctum. The road is the easy half. The queue is the half that does not shrink because Indore is close.",
         },
         {
           type: "p",
@@ -66,7 +66,7 @@ export const routePages: PageDef[] = [
         { type: "h2", text: "नाश्ते से नहीं, मंदिर की घड़ी से निकलें" },
         {
           type: "p",
-          text: "मंगल दर्शन सुबह 5:00 बजे से है। जिसे वह घंटा चाहिए वह इंदौर में नहीं, ओंकारेश्वर में सोए। जो इंदौर से देर नाश्ते के बाद निकले, वह मध्याह्न दर्शन पा सकता है, जो दैनिक पृष्ठ पर दोपहर 1:15 से है, बशर्ते 12:20 के भोग में पुल पर ही न खड़ा हो। सड़क आसान आधा है। कतार उस पास से नहीं घटती कि इंदौर करीब है।",
+          text: "[[home|ओंकारेश्वर इंदौर]] की सड़क यही है। मंगल दर्शन सुबह 5:00 बजे से है। जिसे वह घंटा चाहिए वह इंदौर में नहीं, मंदिर नगर में सोए। जो इंदौर से देर नाश्ते के बाद निकले, वह मध्याह्न दर्शन पा सकता है, जो दैनिक पृष्ठ पर दोपहर 1:15 से है, बशर्ते 12:20 के भोग में पुल पर ही न खड़ा हो। सड़क आसान आधा है। कतार उस पास से नहीं घटती कि इंदौर करीब है।",
         },
         {
           type: "p",
@@ -118,7 +118,7 @@ export const routePages: PageDef[] = [
         { type: "h2", text: "Do not fold the two mornings together" },
         {
           type: "p",
-          text: "Ujjain’s bhasma aarti is Ujjain’s rite. Omkareshwar’s mangal aarti is 4:30 AM on the daily page here, followed by darshan from 5:00. A plan that “covers both Jyotirlingas before lunch” is a plan that misses one of them. The trust’s FAQ says you can travel between the towns by car or bus, and that buses via Indore run until 7 PM or later. It does not publish a minute-by-minute coach chart.",
+          text: "The [[home|Ujjain to Omkareshwar distance]] on the trust’s FAQ is 140 km. Ujjain’s bhasma aarti is Ujjain’s rite. Omkareshwar’s mangal aarti is 4:30 AM on the daily page here, followed by darshan from 5:00. A plan that “covers both Jyotirlingas before lunch” is a plan that misses one of them. The trust’s FAQ says you can travel between the towns by car or bus, and that buses via Indore run until 7 PM or later. It does not publish a minute-by-minute coach chart.",
         },
         {
           type: "p",
@@ -161,7 +161,7 @@ export const routePages: PageDef[] = [
         { type: "h2", text: "दोनों सुबह एक में न समेटें" },
         {
           type: "p",
-          text: "उज्जैन की भस्म आरती उज्जैन की विधि है। यहाँ की मंगला आरती दैनिक पृष्ठ पर सुबह 4:30 है, दर्शन 5:00 से। “दोपहर के भोजन से पहले दोनों ज्योतिर्लिंग” वाली योजना एक को छोड़ देती है। ट्रस्ट का प्रश्नोत्तर कार या बस से यात्रा कहता है, और इंदौर होकर बसें शाम 7 या उसके बाद तक। मिनट-मिनट का कोच चार्ट नहीं छापता।",
+          text: "ट्रस्ट के प्रश्नोत्तर पर [[home|उज्जैन से ओंकारेश्वर की दूरी]] 140 किलोमीटर है। उज्जैन की भस्म आरती उज्जैन की विधि है। यहाँ की मंगला आरती दैनिक पृष्ठ पर सुबह 4:30 है, दर्शन 5:00 से। “दोपहर के भोजन से पहले दोनों ज्योतिर्लिंग” वाली योजना एक को छोड़ देती है। ट्रस्ट का प्रश्नोत्तर कार या बस से यात्रा कहता है, और इंदौर होकर बसें शाम 7 या उसके बाद तक। मिनट-मिनट का कोच चार्ट नहीं छापता।",
         },
         {
           type: "p",
@@ -213,7 +213,7 @@ export const routePages: PageDef[] = [
         { type: "h2", text: "Two honest ways to finish" },
         {
           type: "p",
-          text: "One way is the road all the way, checked on a map the day you leave. The other is a train to Khandwa Junction, which the trust places 72 km from Omkareshwar, or to Sanawad, which it places 12 km away. Indore airport is the air gateway if you are comparing flights, at 77 km on the trust’s table. Raja Bhoj Airport in Bhopal does not remove that last road. It only changes where the road begins.",
+          text: "One way to [[home|Shri Omkareshwar Jyotirlinga Temple]] is the road all the way, checked on a map the day you leave. The other is a train to Khandwa Junction, which the trust places 72 km from Omkareshwar, or to Sanawad, which it places 12 km away. Indore airport is the air gateway if you are comparing flights, at 77 km on the trust’s table. Raja Bhoj Airport in Bhopal does not remove that last road. It only changes where the road begins.",
         },
         {
           type: "p",
@@ -252,7 +252,7 @@ export const routePages: PageDef[] = [
         { type: "h2", text: "पूरी करने के दो ईमानदार तरीके" },
         {
           type: "p",
-          text: "एक तरीका पूरी सड़क है, निकलने वाले दिन नक्शे पर जाँची हुई। दूसरा खंडवा जंक्शन तक रेल है, जिसे ट्रस्ट 72 किलोमीटर रखता है, या सनावद तक, जिसे वह 12 किलोमीटर रखता है। उड़ानों की तुलना में हवाई द्वार इंदौर है, ट्रस्ट की तालिका पर 77 किलोमीटर। भोपाल का राजा भोज हवाई अड्डा वह आखिरी सड़क नहीं हटाता। केवल सड़क की शुरुआत बदलता है।",
+          text: "[[home|श्री ओंकारेश्वर ज्योतिर्लिंग मंदिर]] तक एक तरीका पूरी सड़क है, निकलने वाले दिन नक्शे पर जाँची हुई। दूसरा खंडवा जंक्शन तक रेल है, जिसे ट्रस्ट 72 किलोमीटर रखता है, या सनावद तक, जिसे वह 12 किलोमीटर रखता है। उड़ानों की तुलना में हवाई द्वार इंदौर है, ट्रस्ट की तालिका पर 77 किलोमीटर। भोपाल का राजा भोज हवाई अड्डा वह आखिरी सड़क नहीं हटाता। केवल सड़क की शुरुआत बदलता है।",
         },
         {
           type: "p",
@@ -309,7 +309,7 @@ export const routePages: PageDef[] = [
         { type: "h2", text: "The hour you lose in town" },
         {
           type: "p",
-          text: "Khandwa city has food and a station forecourt. It does not have the Jyotirlinga. Eating there and then discovering the 12:20 PM closure on Mandhata is a common way to miss madhyanha darshan. If the train arrives late morning, decide before lunch whether you are eating in Khandwa or on the island. The [[omkareshwar-temple-timings|timetable]] is short enough to read on the platform.",
+          text: "Khandwa city has food and a station forecourt. It does not have [[home|Omkareshwar Mandir]]. Eating there and then discovering the 12:20 PM closure on Mandhata is a common way to miss madhyanha darshan. If the train arrives late morning, decide before lunch whether you are eating in Khandwa or on the island. The [[omkareshwar-temple-timings|timetable]] is short enough to read on the platform.",
         },
       ],
       faqs: [
@@ -348,7 +348,7 @@ export const routePages: PageDef[] = [
         { type: "h2", text: "शहर में जो घंटा खोता है" },
         {
           type: "p",
-          text: "खंडवा शहर में खाना है और स्टेशन का चौक है। ज्योतिर्लिंग नहीं है। वहीं खाकर मांधाता पर दोपहर 12:20 का बंद देखना मध्याह्न दर्शन चूकने का आम तरीका है। रेल देर सुबह पहुँचे तो भोजन से पहले तय करें कि खाना खंडवा में है या द्वीप पर। [[omkareshwar-temple-timings|समय सारिणी]] प्लेटफॉर्म पर पढ़ी जा सके उतनी छोटी है।",
+          text: "खंडवा शहर में खाना है और स्टेशन का चौक है। [[home|ओंकारेश्वर मंदिर]] नहीं है। वहीं खाकर मांधाता पर दोपहर 12:20 का बंद देखना मध्याह्न दर्शन चूकने का आम तरीका है। रेल देर सुबह पहुँचे तो भोजन से पहले तय करें कि खाना खंडवा में है या द्वीप पर। [[omkareshwar-temple-timings|समय सारिणी]] प्लेटफॉर्म पर पढ़ी जा सके उतनी छोटी है।",
         },
       ],
       faqs: [
@@ -387,7 +387,7 @@ export const routePages: PageDef[] = [
         { type: "h2", text: "The flight that still ends in a queue" },
         {
           type: "p",
-          text: "Devi Ahilyabai Holkar Airport is the airport the trust names, with flights it describes as serving Delhi, Mumbai and other cities. Landing does not put you on Mandhata. You still have the airport transfer, and you still have the [[omkareshwar-temple-timings|bhog closure at 12:20 PM]]. An afternoon flight that is “only 77 km from the temple” can miss every open block if the road and the queue are treated as a formality.",
+          text: "Devi Ahilyabai Holkar Airport is the airport the trust names, with flights it describes as serving Delhi, Mumbai and other cities. Landing does not put you at [[home|Omkareshwar Temple]]. You still have the airport transfer, and you still have the [[omkareshwar-temple-timings|bhog closure at 12:20 PM]]. An afternoon flight that is “only 77 km from the temple” can miss every open block if the road and the queue are treated as a formality.",
         },
         { type: "h2", text: "The train that needs the right station" },
         {
@@ -426,7 +426,7 @@ export const routePages: PageDef[] = [
         { type: "h2", text: "वह उड़ान जो फिर भी कतार पर खत्म होती है" },
         {
           type: "p",
-          text: "देवी अहिल्याबाई होल्कर हवाई अड्डा वही है जिसे ट्रस्ट नाम देता है, और लिखता है कि दिल्ली, मुंबई तथा अन्य शहरों की उड़ानें हैं। उतरना मांधाता पर खड़ा करना नहीं है। हवाई अड्डे से सड़क बाकी है, और [[omkareshwar-temple-timings|दोपहर 12:20 का भोग]] बाकी है। “मंदिर से केवल 77 किलोमीटर” वाली दोपहर की उड़ान हर खुला खंड चूक सकती है, यदि सड़क और कतार को औपचारिकता मान लिया जाए।",
+          text: "देवी अहिल्याबाई होल्कर हवाई अड्डा वही है जिसे ट्रस्ट नाम देता है, और लिखता है कि दिल्ली, मुंबई तथा अन्य शहरों की उड़ानें हैं। उतरना [[home|ओंकारेश्वर मंदिर]] पर खड़ा करना नहीं है। हवाई अड्डे से सड़क बाकी है, और [[omkareshwar-temple-timings|दोपहर 12:20 का भोग]] बाकी है। “मंदिर से केवल 77 किलोमीटर” वाली दोपहर की उड़ान हर खुला खंड चूक सकती है, यदि सड़क और कतार को औपचारिकता मान लिया जाए।",
         },
         { type: "h2", text: "वह रेल जिसे सही स्टेशन चाहिए" },
         {
@@ -474,7 +474,7 @@ export const routePages: PageDef[] = [
         { type: "h2", text: "Why the flight is usually the kind choice" },
         {
           type: "p",
-          text: "The trust’s airport line says regular flights connect Indore with Delhi, Mumbai and other cities. That is the sentence that matters. After landing you are in the same position as an [[omkareshwar-from-indore|Indore traveller]], with one difference: your body has already spent the morning in the air. Do not book a Shighra slot that expires while you are still in the arrivals hall. Buy it, if you buy it, when the road time is real.",
+          text: "The flight still ends at [[home|Omkareshwar Mahadev]] on the Narmada, not in Delhi. The trust’s airport line says regular flights connect Indore with Delhi, Mumbai and other cities. That is the sentence that matters. After landing you are in the same position as an [[omkareshwar-from-indore|Indore traveller]], with one difference: your body has already spent the morning in the air. Do not book a Shighra slot that expires while you are still in the arrivals hall. Buy it, if you buy it, when the road time is real.",
         },
         { type: "h2", text: "The train is slower and sometimes kinder" },
         {
@@ -513,7 +513,7 @@ export const routePages: PageDef[] = [
         { type: "h2", text: "उड़ान अक्सर नरमी वाला चुनाव क्यों है" },
         {
           type: "p",
-          text: "ट्रस्ट की हवाई-अड्डा पंक्ति कहती है कि इंदौर दिल्ली, मुंबई और अन्य शहरों से नियमित उड़ानों से जुड़ा है। मायने यही वाक्य रखता है। उतरने के बाद आप [[omkareshwar-from-indore|इंदौर के यात्री]] की स्थिति में हैं, एक फर्क के साथ: शरीर सुबह हवा में बिता चुका है। ऐसा शीघ्र स्लॉट न खरीदें जो आगमन हॉल में ही खत्म हो जाए। खरीदें तो तब, जब सड़क का समय सच हो।",
+          text: "उड़ान फिर भी नर्मदा पर [[home|ओंकारेश्वर महादेव]] पर खत्म होती है, दिल्ली में नहीं। ट्रस्ट की हवाई-अड्डा पंक्ति कहती है कि इंदौर दिल्ली, मुंबई और अन्य शहरों से नियमित उड़ानों से जुड़ा है। मायने यही वाक्य रखता है। उतरने के बाद आप [[omkareshwar-from-indore|इंदौर के यात्री]] की स्थिति में हैं, एक फर्क के साथ: शरीर सुबह हवा में बिता चुका है। ऐसा शीघ्र स्लॉट न खरीदें जो आगमन हॉल में ही खत्म हो जाए। खरीदें तो तब, जब सड़क का समय सच हो।",
         },
         { type: "h2", text: "रेल धीमी है और कभी-कभी आसान" },
         {

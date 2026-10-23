@@ -32,7 +32,7 @@ export const yatraPages: PageDef[] = [
         },
         {
           type: "p",
-          text: "The homepage planner is the same idea with buttons: starting city, length, and who is travelling. The buttons do not book anything. They show a plan you can still read with JavaScript turned off.",
+          text: "The [[home|Omkareshwar]] planner on the homepage is the same idea with buttons: starting city, length, and who is travelling. The buttons do not book anything. They show a plan you can still read with JavaScript turned off.",
         },
       ],
       faqs: [
@@ -71,7 +71,7 @@ export const yatraPages: PageDef[] = [
         },
         {
           type: "p",
-          text: "मुखपृष्ठ का योजनाकार वही विचार बटन के साथ है: आरंभ शहर, अवधि, और साथ कौन है। बटन कुछ बुक नहीं करते। जावास्क्रिप्ट बंद हो तब भी योजना पढ़ी जा सकती है।",
+          text: "मुखपृष्ठ पर [[home|ओंकारेश्वर]] का योजनाकार वही विचार बटन के साथ है: आरंभ शहर, अवधि, और साथ कौन है। बटन कुछ बुक नहीं करते। जावास्क्रिप्ट बंद हो तब भी योजना पढ़ी जा सकती है।",
         },
       ],
       faqs: [
@@ -119,7 +119,7 @@ export const yatraPages: PageDef[] = [
         },
         {
           type: "p",
-          text: "Families with elders should treat this as one standing queue plus a car, not as a walking tour of the hill. The [[family-hotels-omkareshwar|family page]] explains the children-under-12 rule if someone mentions a VIP add-on.",
+          text: "Families with elders at [[home|Omkareshwar]] should treat this as one standing queue plus a car, not as a walking tour of the hill. The [[family-hotels-omkareshwar|family page]] explains the children-under-12 rule if someone mentions a VIP add-on.",
         },
       ],
       faqs: [
@@ -158,7 +158,7 @@ export const yatraPages: PageDef[] = [
         },
         {
           type: "p",
-          text: "बुजुर्गों वाले परिवार इसे एक खड़ी कतार और एक कार मानें, पहाड़ी का पैदल भ्रमण नहीं। कोई वीआईपी जोड़ की बात करे तो [[family-hotels-omkareshwar|परिवार पृष्ठ]] 12 वर्ष से छोटे बच्चों का नियम समझाता है।",
+          text: "[[home|ओंकारेश्वर]] में बुजुर्गों वाले परिवार इसे एक खड़ी कतार और एक कार मानें, पहाड़ी का पैदल भ्रमण नहीं। कोई वीआईपी जोड़ की बात करे तो [[family-hotels-omkareshwar|परिवार पृष्ठ]] 12 वर्ष से छोटे बच्चों का नियम समझाता है।",
         },
       ],
       faqs: [
@@ -197,7 +197,7 @@ export const yatraPages: PageDef[] = [
         { type: "h2", text: "Day one" },
         {
           type: "p",
-          text: "Reach in daylight. Do not spend the daylight on a highway lunch that collides with 12:20. Take darshan, see the ghat you will use tomorrow, and confirm the room’s walking minutes before dark. If Shighra is wanted for the morning, buy it on the official page while the slot is still a slot you can walk to.",
+          text: "Reach [[home|Omkareshwar]] in daylight. Do not spend the daylight on a highway lunch that collides with 12:20. Take darshan, see the ghat you will use tomorrow, and confirm the room’s walking minutes before dark. If Shighra is wanted for the morning, buy it on the official page while the slot is still a slot you can walk to.",
         },
         { type: "h2", text: "Day two" },
         {
@@ -232,7 +232,7 @@ export const yatraPages: PageDef[] = [
         { type: "h2", text: "पहला दिन" },
         {
           type: "p",
-          text: "उजाले में पहुँचें। उजाला उस राजमार्ग के भोजन में न खोएँ जो 12:20 से टकराए। दर्शन करें, कल वाला घाट देख लें, और अँधेरे से पहले कमरे के पैदल मिनट पक्के कर लें। सुबह के लिए शीघ्र चाहिए तो आधिकारिक पृष्ठ पर तब खरीदें जब स्लॉट अभी भी वह स्लॉट हो जिस तक चलकर पहुँच सकते हैं।",
+          text: "उजाले में [[home|ओंकारेश्वर]] पहुँचें। उजाला उस राजमार्ग के भोजन में न खोएँ जो 12:20 से टकराए। दर्शन करें, कल वाला घाट देख लें, और अँधेरे से पहले कमरे के पैदल मिनट पक्के कर लें। सुबह के लिए शीघ्र चाहिए तो आधिकारिक पृष्ठ पर तब खरीदें जब स्लॉट अभी भी वह स्लॉट हो जिस तक चलकर पहुँच सकते हैं।",
         },
         { type: "h2", text: "दूसरा दिन" },
         {
@@ -291,7 +291,7 @@ export const yatraPages: PageDef[] = [
         },
         {
           type: "p",
-          text: "Bhopal, Mumbai and Delhi do not have a figure on those pages. The [[omkareshwar-from-bhopal|Bhopal]], [[omkareshwar-from-mumbai|Mumbai]] and [[omkareshwar-from-delhi|Delhi]] pages explain the route without a fake total. A map on the morning you travel is the right instrument for minutes. A blog that prints “exactly 139 km” and “exactly 257 km” is not more careful than the two official pages that already disagree by a few kilometres.",
+          text: "The [[home|Omkareshwar to Ujjain distance]] in that table is 140 km. Bhopal, Mumbai and Delhi do not have a figure on those pages. The [[omkareshwar-from-bhopal|Bhopal]], [[omkareshwar-from-mumbai|Mumbai]] and [[omkareshwar-from-delhi|Delhi]] pages explain the route without a fake total. A map on the morning you travel is the right instrument for minutes. A blog that prints “exactly 139 km” and “exactly 257 km” is not more careful than the two official pages that already disagree by a few kilometres.",
         },
       ],
       faqs: [
@@ -336,7 +336,7 @@ export const yatraPages: PageDef[] = [
         },
         {
           type: "p",
-          text: "भोपाल, मुंबई और दिल्ली का अंक उन पृष्ठों पर नहीं है। [[omkareshwar-from-bhopal|भोपाल]], [[omkareshwar-from-mumbai|मुंबई]] और [[omkareshwar-from-delhi|दिल्ली]] पृष्ठ नकली योग के बिना रास्ता बताते हैं। मिनट के लिए जाने वाली सुबह का नक्शा सही औजार है। जो ब्लॉग “बिल्कुल 139” और “बिल्कुल 257” छापे, वह उन दो आधिकारिक पृष्ठों से अधिक सावधान नहीं जो कुछ किलोमीटर से पहले ही अलग हैं।",
+          text: "उस तालिका में [[home|ओंकारेश्वर से उज्जैन की दूरी]] 140 किलोमीटर है। भोपाल, मुंबई और दिल्ली का अंक उन पृष्ठों पर नहीं है। [[omkareshwar-from-bhopal|भोपाल]], [[omkareshwar-from-mumbai|मुंबई]] और [[omkareshwar-from-delhi|दिल्ली]] पृष्ठ नकली योग के बिना रास्ता बताते हैं। मिनट के लिए जाने वाली सुबह का नक्शा सही औजार है। जो ब्लॉग “बिल्कुल 139” और “बिल्कुल 257” छापे, वह उन दो आधिकारिक पृष्ठों से अधिक सावधान नहीं जो कुछ किलोमीटर से पहले ही अलग हैं।",
         },
       ],
       faqs: [
@@ -374,7 +374,7 @@ export const yatraPages: PageDef[] = [
       blocks: [
         {
           type: "p",
-          text: "The questions below are the ones people bring to a search box. Each answer is the short form of a page on this site. Where a number can move, the sentence says who printed it and when we read it: 5 October 2026.",
+          text: "The questions below are the ones people bring when they look up the [[home|Omkareshwar location]]. Each answer is the short form of a page on this site. Where a number can move, the sentence says who printed it and when we read it: 5 October 2026.",
         },
       ],
       faqs: [
@@ -427,7 +427,7 @@ export const yatraPages: PageDef[] = [
       blocks: [
         {
           type: "p",
-          text: "नीचे वे प्रश्न हैं जो लोग खोज पट्टी में लाते हैं। हर उत्तर इस साइट के किसी पृष्ठ का छोटा रूप है। जहाँ अंक हिल सकता है, वाक्य बताता है किसने छापा और हमने कब पढ़ा: 5 अक्टूबर 2026।",
+          text: "नीचे वे प्रश्न हैं जो लोग [[home|ओंकारेश्वर का स्थान]] खोजते हुए लाते हैं। हर उत्तर इस साइट के किसी पृष्ठ का छोटा रूप है। जहाँ अंक हिल सकता है, वाक्य बताता है किसने छापा और हमने कब पढ़ा: 5 अक्टूबर 2026।",
         },
       ],
       faqs: [
@@ -501,7 +501,7 @@ export const yatraPages: PageDef[] = [
         { type: "h2", text: "Headlines we will not date" },
         {
           type: "p",
-          text: "The trust’s news page, when read the same day, showed items about a plantation tender, a time-slot system for special darshan, and an LED wall. The page did not show publication dates next to those lines in the text we could read. They are recorded here only as “present on the official news page on 5 October 2026”. They are not reported as events of that day.",
+          text: "News of [[home|Omkareshwar]] on the trust’s news page, when read the same day, showed items about a plantation tender, a time-slot system for special darshan, and an LED wall. The page did not show publication dates next to those lines in the text we could read. They are recorded here only as “present on the official news page on 5 October 2026”. They are not reported as events of that day.",
         },
         {
           type: "note",
@@ -546,7 +546,7 @@ export const yatraPages: PageDef[] = [
         { type: "h2", text: "जिन सुर्खियों की तिथि हम नहीं लिखेंगे" },
         {
           type: "p",
-          text: "ट्रस्ट का समाचार पृष्ठ उसी दिन पढ़ने पर वृक्षारोपण निविदा, विशेष दर्शन की समय-स्लॉट व्यवस्था, और एलईडी दीवार की पंक्तियाँ दिखाता था। जो पाठ हम पढ़ सके, उसमें इन पंक्तियों के पास प्रकाशन-तिथि नहीं थी। यहाँ वे केवल इस रूप में हैं: “5 अक्टूबर 2026 को आधिकारिक समाचार पृष्ठ पर मौजूद”। उन्हें उस दिन की घटना नहीं बताया गया।",
+          text: "[[home|ओंकारेश्वर]] का समाचार, ट्रस्ट के पृष्ठ पर उसी दिन पढ़ने पर, वृक्षारोपण निविदा, विशेष दर्शन की समय-स्लॉट व्यवस्था, और एलईडी दीवार की पंक्तियाँ दिखाता था। जो पाठ हम पढ़ सके, उसमें इन पंक्तियों के पास प्रकाशन-तिथि नहीं थी। यहाँ वे केवल इस रूप में हैं: “5 अक्टूबर 2026 को आधिकारिक समाचार पृष्ठ पर मौजूद”। उन्हें उस दिन की घटना नहीं बताया गया।",
         },
         {
           type: "note",

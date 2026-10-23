@@ -306,24 +306,24 @@ function flightHi(seed: Seed) {
 
 function endEn(seed: Seed) {
   if (seed.toEn !== "Omkareshwar") {
-    return `This page is the cab from ${seed.fromEn} to ${seed.toEn}. If the trip is darshan, the hours are on [[omkareshwar-temple-timings|temple timings]] and the queue is on [[omkareshwar-darshan|darshan]].`;
+    return `This page is the cab from ${seed.fromEn} to ${seed.toEn}. The town guide is [[home|Omkareshwar]]. If the trip is darshan, the hours are on [[omkareshwar-temple-timings|temple timings]] and the queue is on [[omkareshwar-darshan|darshan]].`;
   }
   const clock = "Darshan on the trust’s daily page opens at 5:00 AM after the 4:30 aarti. The sanctum closes for bhog from 12:20 to 1:15. Hours are on [[omkareshwar-temple-timings|temple timings]].";
   if (seed.km > 180) {
-    return `${clock} Plan to sleep in Omkareshwar. A same-day return spends the visit on the highway. Stays are on [[hotels-in-omkareshwar|hotels in Omkareshwar]].`;
+    return `${clock} Plan to sleep in [[home|Omkareshwar]]. A same-day return spends the visit on the highway. Stays are on [[hotels-in-omkareshwar|hotels in Omkareshwar]].`;
   }
-  return `${clock} A same-day return can work if you leave ${seed.fromEn} early and keep the stop short.`;
+  return `${clock} A same-day return can work if you leave ${seed.fromEn} early and keep the stop in [[home|Omkareshwar]] short.`;
 }
 
 function endHi(seed: Seed) {
   if (seed.toEn !== "Omkareshwar") {
-    return `यह पृष्ठ ${seed.fromHi} से ${seed.toHi} की कैब है। यदि यात्रा दर्शन की है, तो घंटे [[omkareshwar-temple-timings|मंदिर के समय]] पर हैं और कतार [[omkareshwar-darshan|दर्शन]] पर।`;
+    return `यह पृष्ठ ${seed.fromHi} से ${seed.toHi} की कैब है। नगर की गाइड [[home|ओंकारेश्वर]] है। यदि यात्रा दर्शन की है, तो घंटे [[omkareshwar-temple-timings|मंदिर के समय]] पर हैं और कतार [[omkareshwar-darshan|दर्शन]] पर।`;
   }
   const clock = "ट्रस्ट के दैनिक पृष्ठ पर दर्शन सुबह 5:00 बजे खुलता है, 4:30 की आरती के बाद। गर्भगृह भोग के लिए 12:20 से 1:15 बंद रहता है। घंटे [[omkareshwar-temple-timings|मंदिर के समय]] पर हैं।";
   if (seed.km > 180) {
-    return `${clock} ओंकारेश्वर में सोने की योजना बनाएँ। उसी दिन लौटना यात्रा को राजमार्ग पर खर्च कर देता है। ठहरना [[hotels-in-omkareshwar|ओंकारेश्वर के होटल]] पर है।`;
+    return `${clock} [[home|ओंकारेश्वर]] में सोने की योजना बनाएँ। उसी दिन लौटना यात्रा को राजमार्ग पर खर्च कर देता है। ठहरना [[hotels-in-omkareshwar|ओंकारेश्वर के होटल]] पर है।`;
   }
-  return `${clock} उसी दिन लौटना तब बनता है जब ${seed.fromHi} से जल्दी निकलें और पड़ाव छोटा रखें।`;
+  return `${clock} उसी दिन लौटना तब बनता है जब ${seed.fromHi} से जल्दी निकलें और [[home|ओंकारेश्वर]] का पड़ाव छोटा रखें।`;
 }
 
 function pageFor(seed: Seed, neighbor?: string): PageDef {
@@ -554,8 +554,8 @@ function hubBlocks(lang: "en" | "hi"): Block[] {
       type: "p",
       text:
         lang === "en"
-          ? `Every road below ends with a cab you can confirm on ${phone}. Bus, train and flight are the other ways to reach the road. The form on each page sends the cab request on WhatsApp. It does not sell a rail ticket or an air ticket.`
-          : `नीचे की हर सड़क उस कैब पर खत्म होती है जिसे ${phone} पर पक्का कर सकते हैं। बस, ट्रेन और फ्लाइट सड़क तक पहुँचने के दूसरे रास्ते हैं। हर पृष्ठ का फॉर्म कैब का अनुरोध व्हाट्सऐप पर भेजता है। वह रेल टिकट या हवाई टिकट नहीं बेचता।`,
+          ? `Every road below ends with a cab you can confirm on ${phone}, bound for [[home|Omkareshwar]]. Bus, train and flight are the other ways to reach the road. The form on each page sends the cab request on WhatsApp. It does not sell a rail ticket or an air ticket.`
+          : `नीचे की हर सड़क उस कैब पर खत्म होती है जिसे ${phone} पर पक्का कर सकते हैं, मंजिल [[home|ओंकारेश्वर]] है। बस, ट्रेन और फ्लाइट सड़क तक पहुँचने के दूसरे रास्ते हैं। हर पृष्ठ का फॉर्म कैब का अनुरोध व्हाट्सऐप पर भेजता है। वह रेल टिकट या हवाई टिकट नहीं बेचता।`,
     },
   ];
   for (const group of groups) {
