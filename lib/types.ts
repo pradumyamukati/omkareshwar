@@ -1,5 +1,7 @@
 import type { OfficialKey } from "./official";
 
+export type { OfficialKey };
+
 export type Lang = "en" | "hi";
 
 export type Block =
